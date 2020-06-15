@@ -9,7 +9,9 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
 </head>
-<div class="side-bar">
+<div class="mobile-side-bar-bg">
+    </div>
+<div class="mobile-side-bar">
     <div class="menu-box-1">
         <ul>
             <li><a href="#">Home</a></li>
@@ -26,12 +28,15 @@
 </div>
 <body>
 <div class="mobile-top-bar visible-sm-down flex">
-        <a href="#" class="btn-toggle-mobile-side-bar flex-as-c">
+<a href="#" onclick="return false;" class="btn-toggle-mobile-side-bar flex-as-c">
             <div></div>
             <div></div>
             <div></div>
         </a>
     </div>
+
+  
+
     <div class="top-bar visible-md-up">
         <div class="con height-100p flex">
             <a href="/" class="logo flex flex-ai-c">

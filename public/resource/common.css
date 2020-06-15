@@ -248,6 +248,8 @@ label[for] {
     }
 }
 
+
+
 .btn-toggle-mobile-side-bar {
     width: 30px;
     height: 30px;
@@ -261,7 +263,7 @@ label[for] {
     width: 100%;
     height: 20%;
     background-color: ivory;
-    transition: top .3s .3s, transform .3s, opacity .2s .3s;
+    transition: top .15s .15s, transform .15s, opacity .15s .15s;
 }
 
 .btn-toggle-mobile-side-bar>div:nth-child(2) {
@@ -274,7 +276,7 @@ label[for] {
 
 .btn-toggle-mobile-side-bar.active>div {
     top: 40%;
-    transition: top .3s, transform .3s .3s, opacity .2s 0s;
+    transition: top .15s .15s, transform .15s, opacity .15s .0s;
 }
 
 .btn-toggle-mobile-side-bar.active>div:nth-child(1) {
@@ -290,6 +292,12 @@ label[for] {
 }
 
 /* 커스텀 */
+@media (max-width:799px) {
+  body {
+      padding-top:50px;
+  }
+}
+
 .con {
     max-width: 800px;
 }
@@ -347,13 +355,17 @@ label[for] {
 .mobile-top-bar {
   height: 75px;
   background-color:palevioletred;
+  position: fixed;
+  top:0;
+  left:0;
+  width:100%;
 }
 
 .mobile-top-bar .btn-toggle-mobile-side-bar {
   margin:0 15px;
 }
 
-.side-bar{
+.mobile-side-bar{
   position: fixed;
   top:75px;
   left: -300px;
@@ -362,11 +374,27 @@ label[for] {
   background-color: palevioletred;
   transition :left 0.3s;
 }
-.side-bar.active {
+.mobile-side-bar.active {
   left:0;
 }
 
-.side-bar > .menu-box-1 >ul ul{
+.mobile-side-bar-bg {
+  position: fixed;
+  top:75px;
+  left:0;
+  right:0;
+  bottom:0;
+  background-color:rgba(0,0,0,0);
+  visibility: hidden;
+  transition: background-color 0.3s;
+}
+
+.mobile-side-bar-bg.active {
+  visibility: visible;
+  background-color:rgba(0,0,0,.7);
+}
+
+.mobile-side-bar > .menu-box-1 >ul ul{
   display: none;
   background-color: palevioletred;
   position: absolute;
@@ -375,19 +403,19 @@ label[for] {
   border: 2px solid deeppink;
   
 }
-.side-bar > .menu-box-1 >ul>li>ul>li>a{
+.mobile-side-bar > .menu-box-1 >ul>li>ul>li>a{
   background-color:white;
   color: deeppink;
 
 
 } 
 
-.side-bar >.menu-box-1 ul > li:hover >ul {
+.mobile-side-bar >.menu-box-1 ul > li:hover >ul {
   display: block;
 
 }
 
-.side-bar >.menu-box-1 ul >li >a {
+.mobile-side-bar >.menu-box-1 ul >li >a {
   display: block;
   padding:10px;
   white-space: nowrap;
@@ -396,13 +424,13 @@ label[for] {
   font-size: 1.2rem;
 }
 
-.side-bar >.menu-box-1 ul >li:hover {
+.mobile-side-bar >.menu-box-1 ul >li:hover {
   background-color: deeppink;
 }
-.side-bar >.menu-box-1 ul > li {
+.mobile-side-bar >.menu-box-1 ul > li {
   position: relative;
 }
-.side-bar >.menu-box-1>ul>li>ul>li:hover>a{
+.mobile-side-bar >.menu-box-1>ul>li>ul>li:hover>a{
   color: white;
   background-color: deeppink;
 }
