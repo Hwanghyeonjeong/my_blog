@@ -305,6 +305,10 @@ label[for] {
     .visible-md-up {
         display: none;
     }
+    .slider {
+        display: none;
+    }
+
 }
 
 @media (min-width:800px) {
