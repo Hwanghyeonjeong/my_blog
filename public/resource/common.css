@@ -264,6 +264,10 @@ label[for] {
     display: flex;
     justify-content: flex-end;
 }
+*>.flex-jc-s {
+    display: flex;
+    justify-content: flex-start;
+}
 
 *>.flex-jc-c {
     display: flex;
@@ -315,7 +319,7 @@ label[for] {
     width: 30px;
     height: 30px;
     position: relative;
-    
+
 }
 
 .btn-toggle-mobile-side-bar>div {
@@ -324,11 +328,10 @@ label[for] {
     left: 0;
     width: 100%;
     height: 20%;
-    
     transition: top .15s .15s, transform .15s, opacity .15s .15s;
     left: 10%;
     right: auto;
-    border:  1px solid white;
+    border: 1px solid white;
 }
 
 .btn-toggle-mobile-side-bar>div:nth-child(2) {
@@ -364,13 +367,13 @@ label[for] {
 }
 
 .con {
-    max-width: 800px;
+    max-width: 1440px;
 }
 
 /* 탑바 시작 */
 .top-bar {
     background-color: black;
-    color: ivory;
+    color: white;
     height: 75px;
 }
 
@@ -385,7 +388,8 @@ label[for] {
 
 .top-bar .menu-box-1 ul>li>a {
     font-weight: bold;
-    font-size: 20px;
+    font-size: 17px;
+    padding: 0 34px;
 }
 
 .top-bar .menu-box-1>ul>li:hover>a {
@@ -403,6 +407,7 @@ label[for] {
     color: deeppink;
     border: 2px solid deeppink;
     border-top: 0;
+    z-index: 1;
 }
 
 .top-bar .menu-box-1>ul>li:hover>ul {
@@ -436,51 +441,38 @@ label[for] {
     margin: 0 15px;
 }
 
-.mobile-side-bar>.menu-box-1>ul>li:first-child{
-    
-    margin-top:30%;
-    
+.mobile-side-bar>.menu-box-1>ul>li:first-child {
+
+    margin-top: 30%;
+
 }
+
 
 .mobile-side-bar {
     position: fixed;
     top: 75px;
-    width:100%;
+    width: 100%;
     bottom: 0;
     background-color: black;
-    display: none;
+    visibility: none;
+    opacity: 0;
+    transition: opacity .3s, visibility .3s;
 }
 
 .mobile-side-bar.active {
-    display: block;
-}
-
-.mobile-side-bar-bg {
-    position: fixed;
-    top: 75px;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: rgba(0, 0, 0, 0);
-    visibility: hidden;
-    transition: background-color 0.3s;
-}
-
-.mobile-side-bar-bg.active {
     visibility: visible;
-    background-color: rgba(0, 0, 0, .7);
+    opacity: 1;
 }
 
 .mobile-side-bar .menu-box-1>ul ul {
     display: none;
     background-color: black;
     padding-left: 20px;
-
 }
 
 .mobile-side-bar>.menu-box-1>ul>li>ul>li>a {
-    
-    text-shadow: -1px 0 rgba(255,255,255,0.3), 0px 1px rgba(255,255,255,0.3), 1px 0 rgba(255,255,255,0.3), 0px -1px rgba(255,255,255,0.3) ;
+
+    text-shadow: -1px 0 rgba(255, 255, 255, 0.3), 0px 1px rgba(255, 255, 255, 0.3), 1px 0 rgba(255, 255, 255, 0.3), 0px -1px rgba(255, 255, 255, 0.3);
     text-align: center;
     font-size: 1.2rem;
 
@@ -489,7 +481,7 @@ label[for] {
 
 .mobile-side-bar .menu-box-1 ul>li>a:not(:only-child)::after {
     content: "+";
-    
+
 }
 
 .mobile-side-bar .menu-box-1 ul>li.active>a:not(:only-child)::after {
@@ -497,7 +489,7 @@ label[for] {
 }
 
 .mobile-side-bar .menu-box-1 ul>li.active>a:not(:only-child) {
-   
+
     color: white;
 }
 
@@ -508,8 +500,8 @@ label[for] {
 .mobile-side-bar>.menu-box-1 ul>li>a {
     display: block;
     padding: 3px;
-    
-    text-shadow: -1px 0 rgba(255,255,255,0.3), 0px 1px rgba(255,255,255,0.3), 1px 0 rgba(255,255,255,0.3), 0px -1px rgba(255,255,255,0.3) ;
+
+    text-shadow: -1px 0 rgba(255, 255, 255, 0.3), 0px 1px rgba(255, 255, 255, 0.3), 1px 0 rgba(255, 255, 255, 0.3), 0px -1px rgba(255, 255, 255, 0.3);
     font-weight: 700;
     font-size: 3rem;
     text-align: center;
@@ -532,3 +524,52 @@ label[for] {
         overflow-y: hidden;
     }
 }
+.logo{
+    width:170px;
+}
+  
+  .slider {
+    height:70vh;
+    
+    position:relative;
+  }
+  
+  .slider > .side-bars > div {
+    position:absolute;
+    top:0;
+    left:0;
+    top:50%;
+    transform:translateY(-50%);
+
+    cursor:pointer;
+  }
+  
+  .slider > .side-bars > div:last-child {
+    right:0;
+    left:auto;
+  }
+  
+  .slider > .side-bars > div > span {
+    font-size:2rem;
+    font-weight:bold;
+    padding:20px 20px;
+    display:block;
+  }
+  
+  .slider > .side-bars > div:active {
+    transform:translateY(-40%);
+  }
+  
+  .slider > .slides > div {
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    transition:opacity 1s;
+    opacity:0;
+  }
+  
+  .slider > .slides > div.active {
+    opacity:1;
+  }
