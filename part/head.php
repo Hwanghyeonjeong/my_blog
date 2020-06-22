@@ -158,7 +158,7 @@
             </a>
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-jc-s flex-ai-c height-100p">
-                    <li class="height-100p flex-ai-c"><a href="/" class="height-100p  flex-ai-c">Home</a></li>
+                    <li class="height-100p flex-ai-c"><a href="/"   flex-ai-c">Home</a></li>
                     <li class="height-100p flex-ai-c"><a href="/list.php" class="height-100p  flex-ai-c"
                             >Articles</a>
                     </li>
