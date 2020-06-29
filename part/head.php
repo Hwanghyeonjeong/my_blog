@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>블로그</title>
-    
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
     <link rel="stylesheet" href="/resource/index.css">
@@ -158,40 +158,57 @@
             </a>
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-jc-s flex-ai-c height-100p">
-                    <li class="height-100p flex-ai-c"><a href="/"   flex-ai-c">Home</a></li>
-                    <li class="height-100p flex-ai-c"><a href="/list.php" class="height-100p  flex-ai-c"
-                            >Articles</a>
-                    </li>
-                    <li class="height-100p flex-ai-c"><a href="/aboutMe.php" class="height-100p  flex-ai-c"">About
-                            Me</a>
-                    </li>
-                    <li class="height-100p flex-ai-c">
-                        <a href="#" class="height-100p  flex-ai-c">SNS</a>
-                        <ul>
 
-                            <li>
-                                <a href="https://ko-kr.facebook.com/" target="_blank">
-                                    FACEBOOK
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.instagram.com/?hl=ko" target="_blank">
-                                    INSTAGRAM
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://www.youtube.com/?gl=KR&hl=ko" target="_blank">
-                                    YOUTUBE
-                                </a>
-                            </li>
-                            <li>
-                                <a href="https://github.com" target="_blank">
-                                    GITHUB
-                                </a>
-                            </li>
-                        </ul>
+                    <li class="height-100p flex-ai-c"><a href="/aboutMe.php" class="height-100p  flex-ai-c"">About
+                            </a>
+                    </li>
+                    <li class=" height-100p flex-ai-c">
+                            <a href="list.php" class="height-100p  flex-ai-c">LIST</a>
+                            <ul>
+
+                                <li>
+                                    <a href="https://ko-kr.facebook.com/" target="_blank">
+                                        FACEBOOK
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.instagram.com/?hl=ko" target="_blank">
+                                        INSTAGRAM
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://www.youtube.com/?gl=KR&hl=ko" target="_blank">
+                                        YOUTUBE
+                                    </a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com" target="_blank">
+                                        GITHUB
+                                    </a>
+                                </li>
+
+                            </ul>
+                    </li>
+                    <li class="height-100p flex-ai-c"><a href="#" class="height-100p  flex-ai-c write"><img
+                                src="../resource/img/write.png" alt="" width="200"></a>
                     </li>
                 </ul>
             </nav>
         </div>
+    </div>
+    <div class="sns con">
+        <ul class="flex">
+            <li><a href="#"><img src="../resource/img/git.png" alt="" width="200"></a></li>
+            <li><a href="#"><img src="../resource/img/face.png" alt="" width="200"></a></li>
+            <li><a href="#"><img src="../resource/img/you.png" alt="" width="200"></a></li>
+            <li><a href="#"><img src="../resource/img/insta.png" alt="" width="200"></a></li>
+        </ul>
+    </div>
+    <div class="recent-post-box con">
+        <ul class="flex">
+            <li><a href="#"><img src="../resource/img/1.jpg" alt="" width="200"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+            <li><a href="#"></a></li>
+        </ul>
     </div>
