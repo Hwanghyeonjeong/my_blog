@@ -547,7 +547,7 @@ label[for] {
   .slider {
     height:100vh;
     position:relative;
-    z-index: -100;
+  
   }
   
   .slider > .side-bars > div {
@@ -637,6 +637,29 @@ label[for] {
     
 }
 
-.recent-post-box>ul{
-    background-color: black;
+.recent-post-box {
+    top:-250px;
+    left:0;
+    width:100%;
+    height: 250px;
+    position: relative;
+  
+    
+}
+
+.recent-post-box>ul>li>a>.img-box{
+    width:313px;
+    height: 223px;
+}
+.recent-post-box>ul>li:nth-child(1)>a>.img-box>img{
+    margin-left: 10%;   
+}
+.recent-post-box>ul>li:nth-child(2)>a>.img-box>img{
+    margin-left: 50%;   
+}
+.recent-post-box>ul>li:nth-child(3)>a>.img-box>img{
+    margin-left: 90%;   
+}
+.recent-post-box>ul>li:nth-child(4)>a>.img-box>img{
+    margin-left: 120%;   
 }

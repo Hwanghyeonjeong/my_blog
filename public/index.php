@@ -18,6 +18,15 @@ include "../part/head.php";
   </div>
 </div>
 
+<div class="recent-post-box">
+        <ul class="flex">
+            <li><a href="#"><div class="img-box"><img src="../resource/img/1.jpg" alt="" width="313" height="223"></div></a></li>
+            <li><a href="#"><div class="img-box"><img src="../resource/img/2.jpg" alt="" width="313" height="223"></div></a></li>
+            <li><a href="#"><div class="img-box"><img src="../resource/img/3.jpg" alt="" width="313" height="223"></div></a></li>
+            <li><a href="#"><div class="img-box"><img src="../resource/img/4.jpg" alt="" width="313" height="223"></div></a></li>
+        </ul>
+    </div>
+
 <div class="p-box">
     <a href="#" class="ava"><img src="../resource/img/img-1.png" alt="" width="200"></a>    
 </div>

@@ -204,11 +204,3 @@
             <li><a href="#"><img src="../resource/img/insta.png" alt="" width="200"></a></li>
         </ul>
     </div>
-    <div class="recent-post-box con">
-        <ul class="flex">
-            <li><a href="#"><img src="../resource/img/1.jpg" alt="" width="200"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>
-    </div>
