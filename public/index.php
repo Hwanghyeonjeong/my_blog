@@ -8,6 +8,12 @@ include "../part/head.php";
     <div style="background-image:url(https://cdn.pixabay.com/photo/2016/04/18/16/22/watercolour-1336856_960_720.jpg);"></div>
     <div class="active" style="background-image:url(https://cdn.pixabay.com/photo/2016/08/10/18/41/cosmos-1584034_960_720.jpg)"></div>
   </div>
+
+
+
+
+
+
   <div class="side-bars">
     <div>
     <i class="fa fa-chevron-left" aria-hidden="true"></i>
@@ -19,11 +25,12 @@ include "../part/head.php";
 </div>
 
 <div class="recent-post-box">
-        <ul class="flex">
-            <li><a href="#"><div class="img-box"><img src="../resource/img/1.jpg" alt="" width="313" height="223"></div></a></li>
-            <li><a href="#"><div class="img-box"><img src="../resource/img/2.jpg" alt="" width="313" height="223"></div></a></li>
-            <li><a href="#"><div class="img-box"><img src="../resource/img/3.jpg" alt="" width="313" height="223"></div></a></li>
-            <li><a href="#"><div class="img-box"><img src="../resource/img/4.jpg" alt="" width="313" height="223"></div></a></li>
+        <ul class="flex flex-jc-sa">
+            <li class="flex"><div class="p flex-jc-c flex-ai-c"><a href="#">제목</a><p>와라라라ㅓ아ㅓㄹ어ㅑㄹ나ㅓㅏ어너랴ㅓ야ㅓ랴넝란아ㅓ라ㅓ나</p></div></li>
+            <li class="flex"><div class="p flex-jc-c flex-ai-c"><a href="#">제목</a><p>와라라라ㅓ아ㅓㄹ어ㅑㄹ나ㅓㅏ어너랴ㅓ야ㅓ랴넝란아ㅓ라ㅓ나</p></div></li>
+            <li class="flex"><div class="p flex-jc-c flex-ai-c"><a href="#">제목</a><p>와라라라ㅓ아ㅓㄹ어ㅑㄹ나ㅓㅏ어너랴ㅓ야ㅓ랴넝란아ㅓ라ㅓ나</p></div></li>
+            <li class="flex"><div class="p flex-jc-c flex-ai-c"><a href="#">제목</a><p>와라라라ㅓ아ㅓㄹ어ㅑㄹ나ㅓㅏ어너랴ㅓ야ㅓ랴넝란아ㅓ라ㅓ나</p></div></li>
+            <li class="flex"><div class="p flex-jc-c flex-ai-c"><a href="#">제목</a><p>와라라라ㅓ아ㅓㄹ어ㅑㄹ나ㅓㅏ어너랴ㅓ야ㅓ랴넝란아ㅓ라ㅓ나</p></div></li>
         </ul>
     </div>
 
