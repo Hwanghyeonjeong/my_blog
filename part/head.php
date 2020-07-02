@@ -8,34 +8,25 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
-    <link rel="stylesheet" href="/resource/index.css">
-    <link rel="stylesheet" href="/resource/index.php">
-
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
-    <script src="/resource/index.js"></script>
+    
 </head>
 
 <div class="mobile-side-bar visible-sm-down">
     <div class="menu-box-1">
         <ul>
-            <li><a href="#">Home</a></li>
+            <li><a href="#">HOME</a></li>
+           
+            <li><a href="#">ABOUT</a></li>
             <li>
-                <a href="#">Articles</a>
-                <ul>
-                    <li><a href="#">Notice</a></li>
-                    <li><a href="#">Fee</a></li>
-                </ul>
+                <a href="#">LIST</a>
             </li>
-            <li><a href="#">About</a></li>
             <li><a href="#">SNS</a>
                 <ul>
                     <li><a href="https://ko-kr.facebook.com/">FACEBOOK</a></li>
                     <li><a href="#">INSTAGRAM</a>
-                        <ul>
-                            <li><a href="#">Private</a></li>
-                            <li><a href="#">Public</a></li>
-                        </ul>
                     </li>
                     <li><a href="https://github.com">GITHUB</a></li>
                     <li><a href="https://www.youtube.com/?gl=KR&hl=ko">YOUTUBE</a></li>
@@ -62,26 +53,6 @@
                 <svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 283.46 283.46"
                     style="enable-background:new 0 0 283.46 283.46;" xml:space="preserve">
-                    <style type="text/css">
-                        .st0 {
-                            fill: #FFFFFF;
-                        }
-
-                        .st1 {
-                            fill: none;
-                            stroke: #FFFFFF;
-                            stroke-width: 21;
-                            stroke-miterlimit: 10;
-                        }
-
-                        .st2 {
-                            fill: none;
-                            stroke: #FFFFFF;
-                            stroke-width: 21;
-                            stroke-linecap: round;
-                            stroke-miterlimit: 10;
-                        }
-                    </style>
                     <g>
                         <path class="st0" d="M-595.55-526.59c0.18,0,0.27,0,0.27,0h69.87c-7.94,16.45-4.65,37.55-4.65,37.55
                          c7.16,39.29,40.06,50.52,40.06,50.52c2.13,44.52,41.42,54.32,41.42,54.32v124.9h-41.42v-84.58l-40.26,20.13
@@ -159,7 +130,7 @@
             <nav class="menu-box-1 flex flex-1-0-0">
                 <ul class="flex flex-jc-s flex-ai-c height-100p">
 
-                    <li class="height-100p flex-ai-c"><a href="/aboutMe.php" class="height-100p  flex-ai-c"">About
+                    <li class="height-100p flex-ai-c"><a href="/about.php" class="height-100p  flex-ai-c"">About
                             </a>
                     </li>
                     <li class=" height-100p flex-ai-c">
@@ -196,11 +167,11 @@
             </nav>
         </div>
     </div>
-    <div class="sns con">
+    <div class="sns">
         <ul class="flex">
-            <li><a href="#"><img src="../resource/img/git.png" alt="" width="200"></a></li>
-            <li><a href="#"><img src="../resource/img/face.png" alt="" width="200"></a></li>
-            <li><a href="#"><img src="../resource/img/you.png" alt="" width="200"></a></li>
-            <li><a href="#"><img src="../resource/img/insta.png" alt="" width="200"></a></li>
+            <li><a href="https://github.com" target="_blank"><img src="../resource/img/git.png" alt="" width="200"></a></li>
+            <li><a  href="https://ko-kr.facebook.com/" target="_blank"><img src="../resource/img/face.png" alt="" width="200"></a></li>
+            <li><a href="https://www.youtube.com/?gl=KR&hl=ko" target="_blank"><img src="../resource/img/you.png" alt="" width="200"></a></li>
+            <li><a href="https://www.instagram.com/?hl=ko" target="_blank"><img src="../resource/img/insta.png" alt="" width="200"></a></li>
         </ul>
     </div>

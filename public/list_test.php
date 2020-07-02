@@ -30,6 +30,12 @@ while ( true ) {
     $articleRows[] = $row;
 }
 ?>
+
+<link rel="stylesheet" href="resource/list_test.css">
+
+<div class="sun-1"></div>
+<div class="sun-2"></div>
+
 <h1>카테고리 : <?=$cateItemName?></h1>
 <?php foreach ( $articleRows as $article ) { ?>
 <div>

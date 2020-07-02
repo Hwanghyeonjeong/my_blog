@@ -1,6 +1,7 @@
 <?php
 include "../part/head.php";
 
+
 // 전화번호 세팅
 $dbHost = "site9.blog.oa.gg";
 $dbPort = 3306;
@@ -49,9 +50,12 @@ while ( true ) {
 
 
 ?>
+<link rel="stylesheet" href="resource/list.css">
 
 
 
+<div class="sun-1"></div>
+<div class="sun-2"></div>
 
 
 <h1 class="con"><?=$cateItemName?> 게시물 리스트</h1>
