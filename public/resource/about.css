@@ -1,7 +1,11 @@
+
+/* 폰트적용 */
+
+
 .top-bar {
      text-shadow: -2px 0 rgba(0, 0, 0), 0px 2px rgba(0, 0, 0), 1px 0 rgba(0, 0, 0, 0.5), 0px -1px rgba(0, 0, 0, 0.5);
-     background-color: red;
-     margin-left: 10%;
+
+    
   
 }
 .top-bar .logo .st0 {
@@ -47,7 +51,7 @@
     height:2px;
     background-color: black;
     margin-left: 5%;
-    position: absolute;
+    position: fixed;
     margin-top:-14%;
     opacity :.1;
 }
@@ -57,7 +61,7 @@
     background-color: black;
     opacity :.1;
     margin-left: 25%;
-    position: absolute;
+    position:fixed;
     margin-top:-14%;
 }
 
@@ -106,4 +110,19 @@ h1 {
 		width: 100%;
 	}
 	
+}
+
+.pro{
+    margin-top:10%;
+    line-height: 35px;;
+    font-size: 1.3rem;
+}
+.web{
+    font-size: 1.1rem;
+    color:#949494;
+}
+.icon{
+    margin-top:3%;
+    line-height: 45px;
+
 }

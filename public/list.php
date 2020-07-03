@@ -52,23 +52,13 @@ while ( true ) {
 ?>
 <link rel="stylesheet" href="resource/list.css">
 
-
-
 <div class="sun-1"></div>
 <div class="sun-2"></div>
 
 
-<h1 class="con"><?=$cateItemName?> 게시물 리스트</h1>
 
-<style>
-.list-box-1 > ul > li > a > img {
-    width:150px;
-}
 
-.list-box-1 > ul > li {
-    margin-top:15px;
-}
-</style>
+<h1 class="con cate"><?=$cateItemName?></h1>
 
 <?php if ( empty($rows) ) { ?>
 <div class="con">
@@ -76,17 +66,13 @@ while ( true ) {
 </div>
 <?php } else { ?>
 <div class="list-box-1 con">
-    <ul>
+    <ul class="flex flex-row-wrap">
         <?php foreach ( $rows as $row ) { ?>
         <li>
-            <a class="flex" href="/detail.php?id=<?=$row['id']?>">
-                <img src="<?=$row['thumbImgUrl']?>" alt="">
-                <div>
-                    <?=$row['title']?>
-                    <br>
-                    <?=$row['body']?>
-                    <?=$row['summary']?>
-                </div>
+            <a href="/detail.php?id=<?=$row['id']?>">
+                <div class="img-box" style="background-image:url(<?=$row['thumbImgUrl']?>);"></div>
+                <div class="title"><?=$row['title']?></div>
+                <div class="summary"><?=$row['summary']?></div>
             </a>
         </li>
         <?php } ?>

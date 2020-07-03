@@ -36,6 +36,14 @@ $row = mysqli_fetch_assoc($rs);
 <!-- 토스트 UI 에디터, CSS 코어 -->
 <link rel="stylesheet" href="https://uicdn.toast.com/editor/latest/toastui-editor.min.css" />
 
+
+<link rel="stylesheet" href="resource/detail.css">
+
+<div class="sun-1"></div>
+<div class="sun-2"></div>
+
+
+<div class="detail">
 <div class="con">
     <a href="#" onclick="history.back();">[뒤로가기]</a>
     <a href="/list.php">[리스트]</a>
@@ -66,6 +74,7 @@ var editor1 = new toastui.Editor({
   plugins: [toastui.Editor.plugin.codeSyntaxHighlight]
 });
 </script>
+</div>
 
 <?php
 include "../part/foot.php";
