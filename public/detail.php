@@ -59,7 +59,7 @@ $row = mysqli_fetch_assoc($rs);
 <div class="con">
     작성자 : 황현정
 </div>
-<div class="con" style="display:none;" id="origin1"><?=$row['body']?></div>
+<script class="con" style="display:none;" id="origin1"><?=$row['body']?></script>
 <div class="con" id="viewer1">
     
 </div>

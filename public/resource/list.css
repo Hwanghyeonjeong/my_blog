@@ -57,10 +57,11 @@
 
 
 .cate {
-    margin-top: 5%;
-    background-color: red;
-    border: 10px solid blue;
+    margin-top: 4%;
+    padding: 10px;
     display: inline-block;
+    margin-left:27%;
+    font-size: 25px;
 
 }
 

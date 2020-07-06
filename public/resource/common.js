@@ -38,3 +38,7 @@ $(function () {
     $('.mobile-side-bar .menu-box-1 >ul >li:last-child').click();
 });
 
+
+
+
+
