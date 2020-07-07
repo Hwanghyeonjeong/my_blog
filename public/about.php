@@ -5,11 +5,11 @@ include "../part/head.php"
 
 
 <div class="p-box con">
-	<a href="#" class="ava"><img src="../resource/img/img-1.png" alt="" width="300"></a>
+	<a href="#" class="ava"><img src="../resource/img/img-6.png" alt="" width="300"></a>
 </div>
 
 <div class="about title-container con">
-	<h1>ABOUT <br>ME</h1>
+	<h1>ABOUT ME</h1>
 </div>
 
 

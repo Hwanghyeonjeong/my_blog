@@ -8,17 +8,17 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="/resource/common.css">
-    
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script src="/resource/common.js"></script>
-    
+
 </head>
 
 <div class="mobile-side-bar visible-sm-down">
     <div class="menu-box-1">
         <ul>
             <li><a href="#">HOME</a></li>
-           
+
             <li><a href="#">ABOUT</a></li>
             <li>
                 <a href="#">LIST</a>
@@ -45,10 +45,24 @@
         </a>
     </div>
 
+    <nav class="left-menu-box-1 flex flex-1-0-0 flex-as-c">
+        <ul class="flex flex-di-co flex-ai-c height-100p">
 
+            <li class="height-100p flex-ai-c"><a href="/about.php" class="height-100p  flex-ai-c"">About
+                    </a>
+            </li>
+            <li class=" height-100p flex-ai-c">
+                    <a href="list.php" class="height-100p  flex-ai-c">LIST</a>
+                    
+            </li>
+            <li class="height-100p flex-ai-c"><a href="#" class="height-100p  flex-ai-c write"><img
+                        src="../resource/img/pen.png" alt="" width="200"></a>
+            </li>
+        </ul>
+    </nav>
 
-    <div class="top-bar visible-md-up">
-        <div class="height-100p flex">
+    <div class="top-bar visible-md-up ">
+        <div class="height-100p flex flex-di-co">
             <a href="/" class="logo flex flex-ai-c">
                 <svg version="1.1" class="logo" xmlns="http://www.w3.org/2000/svg"
                     xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 283.46 283.46"
@@ -127,21 +141,5 @@
                     </g>
                 </svg>
             </a>
-            <nav class="menu-box-1 flex flex-1-0-0">
-                <ul class="flex flex-jc-s flex-ai-c height-100p">
-
-                    <li class="height-100p flex-ai-c"><a href="/about.php" class="height-100p  flex-ai-c"">About
-                            </a>
-                    </li>
-                    <li class=" height-100p flex-ai-c">
-                            <a href="list.php" class="height-100p  flex-ai-c">LIST</a>
-                           
-                    </li>
-                    <li class="height-100p flex-ai-c"><a href="#" class="height-100p  flex-ai-c write"><img
-                                src="../resource/img/write.png" alt="" width="200"></a>
-                    </li>
-                </ul>
-            </nav>
         </div>
     </div>
-   

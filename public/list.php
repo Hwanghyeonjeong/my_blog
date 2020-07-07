@@ -15,25 +15,37 @@ $dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CON
 // 전화연결이 성공했다면 이 부분 실행됨
 
 if ( isset($_GET['cateItemId']) == false ) {
-    $_GET['cateItemId'] = 1;
+    $_GET['cateItemId'] = 0;
 }
 
 $cateItemId = $_GET['cateItemId'];
 
-$sql = "
-SELECT name
-FROM cateItem
-WHERE id = '{$cateItemId}'
-";
-$rs = mysqli_query($dbConn, $sql);
-$row = mysqli_fetch_assoc($rs);
-$cateItemName = $row['name'];
+$cateItemName = '전체';
+
+if ( $cateItemId != 0 ) {
+    $sql = "
+    SELECT name
+    FROM cateItem
+    WHERE id = '{$cateItemId}'
+    ";
+    $rs = mysqli_query($dbConn, $sql);
+    $row = mysqli_fetch_assoc($rs);
+    $cateItemName = $row['name'];
+}
 
 // 상대방에게 할말 적기
 $sql = "
 SELECT *
 FROM article
-WHERE cateItemId = '{$cateItemId}'
+";
+
+if ( $cateItemId != 0 ) {
+    $sql .= "
+    WHERE cateItemId = '{$cateItemId}'
+    ";
+}
+
+$sql .= "
 ORDER BY id DESC
 ";
 
@@ -48,17 +60,34 @@ while ( true ) {
     $rows[] = $row;
 }
 
+$sql = "
+SELECT *
+FROM cateItem
+ORDER BY id ASC
+";
 
+// 말하고 응답받기
+$rs = mysqli_query($dbConn, $sql);
+$cateItems = [];
+while ( true ) {
+    $row = mysqli_fetch_assoc($rs);
+    if ( $row == null ) {
+        break;
+    }
+    $cateItems[] = $row;
+}
 ?>
 <link rel="stylesheet" href="resource/list.css">
 
-<div class="sun-1"></div>
-<div class="sun-2"></div>
-
-
-
-
-<h1 class="con cate"><?=$cateItemName?></h1>
+<div class="cate">
+    <ul>
+        <li>CATEGORY</li>
+        <li class="<?=$cateItemId == 0 ? "active" : ""?>"><a href="/list.php">TOTAL</a></li>
+        <?php foreach ( $cateItems as $cateItem ) { ?>
+        <li class="<?=$cateItemId == $cateItem['id'] ? "active" : ""?>"><a href="/list.php?cateItemId=<?=$cateItem['id']?>"><?=$cateItem['name']?></a></li>
+        <?php } ?>
+    </ul>
+</div>
 
 <?php if ( empty($rows) ) { ?>
 <div class="con">
@@ -81,4 +110,4 @@ while ( true ) {
 <?php } ?>
 <?php
 include "../part/foot.php";
-?> 
+?>

@@ -262,6 +262,11 @@ label[for] {
 *>.flex-grow-1 {
     flex-grow: 1;
 }
+*>.flex-di-co {
+    display: flex;
+    flex-direction: column;
+}
+
 
 *>.flex-jc-end {
     display: flex;
@@ -396,85 +401,100 @@ label[for] {
 /* 탑바 시작 */
 .top-bar {
 
-    color: white;
+    color: black;
     height: 75px;
     position: fixed;
     top: 0;
-    left: 0;
+    left: 6%;
     z-index: 300;
+    
 }
 
 .top-bar .logo {
-    padding: 0 50px;
     font-size: 2rem;
-
+    margin-top:10px;
+    width:120px;
+    
 }
 
 .top-bar .logo .st0 {
-    fill: #FFFFFF;
+    fill: #000000;
 }
 
 .top-bar .logo .st1 {
     fill: none;
-    stroke: #FFFFFF;
+    stroke: #000000;
     stroke-width: 21;
     stroke-miterlimit: 10;
 }
 
 .top-bar .logo .st2 {
     fill: none;
-    stroke: #FFFFFF;
+    stroke: #000000;
     stroke-width: 21;
     stroke-linecap: round;
     stroke-miterlimit: 10;
 }
-
-.top-bar .menu-box-1>ul>li {
-    position: relative;
+.left-menu-box-1{
+    left:4%;
+    position: absolute;
+    top: 17%;
 }
 
-.top-bar .menu-box-1 ul>li>a {
-    font-weight: 500;
-    font-size: 22px;
+.left-menu-box-1>ul>li {
+    margin:5% 0;
+    margin-left: 0;
+    margin-right: auto;
+
+}
+
+.left-menu-box-1 ul>li>a {
+    font-weight: 900;
+    font-size: 6rem;
     padding: 0 34px;
     transition: .3s;
     -webkit-transform: scale(1);
     transform: scale(1);
+    z-index: 2;
 }
 
-.top-bar .menu-box-1>ul>li:hover>a {
+.left-menu-box-1>ul>li:hover>a {
     -webkit-transform: scale(1.3);
     transform: scale(1.3);
 
 }
+.left-menu-box-1>ul>li:nth-child(3)>a>img {
+    width: 100px;
 
-.top-bar .menu-box-1>ul ul {
+    
+
+}
+
+.left-menu-box-1>ul ul {
     display: none;
     position: absolute;
     top: 100%;
     left: -2px;
     width: 100%;
-
-
     border-top: 0;
     z-index: 1;
 }
 
-.top-bar .menu-box-1>ul>li:hover>ul {
+.left-menu-box-1>ul>li:hover>ul {
     display: block;
 }
 
-.top-bar .menu-box-1>ul ul>li>a {
+.left-menu-box-1>ul ul>li>a {
     display: block;
     text-align: center;
     padding: 20px 0;
-    text-shadow: -.3px 0 rgba(255, 255, 255, 0.3), 0px .3px rgba(255, 255, 255, 0.3), .3px 0 rgba(255, 255, 255, 0.3), 0px -.3px rgba(255, 255, 255, 0.3);
+   
     color: rgba(0, 0, 0, 0);
     -webkit-transform: scale(1);
     transform: scale(1);
 }
 
-.top-bar .menu-box-1>ul ul>li:hover>a {
+.left-menu-box-1>ul ul>li:hover>a {
     color: white;
     -webkit-transform: scale(1.1);
     transform: scale(1.1);
@@ -583,10 +603,6 @@ label[for] {
     }
 }
 
-.logo {
-    width: 170px;
-}
-
 .slider {
     height: 100vh;
     position: relative;
@@ -648,12 +664,9 @@ label[for] {
 
 .sns>ul {
     position: absolute;
-    bottom: 245px;
-
     z-index: 1;
-    margin-left: 30px;
-    left: 85%;
-
+    top:85%;
+    left: 6%;
 }
 
 .sns>ul>li>a>img {
@@ -685,56 +698,5 @@ label[for] {
 
 }
 
-.post-box {
-    top: -250px;
-    left: 0;
-
-    width: 100%;
-    height: 250px;
-    position: relative;
 
 
-}
-
-.post-box>ul {
-    max-width: 1800px;
-    margin-left: auto;
-    margin-right: auto;
-    cursor: pointer;
-
-}
-
-.post-box>ul>li {
-    height: 223px;
-    flex-grow: 1;
-    margin: 0 15px;
-    border: 1px solid white;
-    text-align: center;
-
-    position: relative;
-}
-
-.post-box>ul>li>div>a {
-    color: white;
-    font-size: 2.5rem;
-
-
-}
-
-.post-box>ul>li>div>p {
-    color: white;
-    font-size: 12px;
-    margin-top: 10px;
-
-
-}
-
-.post-box>ul>li>div {
-    margin-top: -40px;
-}
-
-.post-box>ul>li:hover {
-    background-color: aliceblue;
-    opacity: 0.5;
-    border: 2px solid #c5c5c5;
-}
