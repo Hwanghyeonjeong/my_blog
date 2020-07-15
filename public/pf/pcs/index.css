@@ -1,8 +1,10 @@
 /* 폰트적용 */
 @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url(//db.onlinewebfonts.com/c/01d273202731e44f0f1187f3afcaf156?family=Mark+Pro);
 
 html {
-    font-family: "Noto Sans KR", sans-serif;
+    font-family: "Mark Pro", "Noto Sans KR", sans-serif;
+
 }
 
 /* 노말라이즈 */
@@ -330,53 +332,383 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
+
 /*슬라이더시작*/
-.slider {
-    position:relative;
-    height: 1020px;
-    user-select: none;    
-}
-
-
-.slider > .slides > div {
-    position: absolute;
-    top:0;
-    left:0;
-    width:100%;
-    height: 100%;
-    opacity: 0;
-    transition:opacity 0.5s;
+.my-slider-1 .item {
+    height: 100vh;
+    min-height: 1020px;
 
 }
 
-.slider > .slides > div.active {
-    opacity:1 ;
-    
+.my-slider-1 .item>.background {
+    z-index: -2;
 }
 
-.slider > .slides > div {
+.my-slider-1 .item>.background>div {
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+
 }
 
-.slider > .dots {
-    position: absolute;
-    left: 50%;
-    bottom: 100px;
-    transform: translateX(-50%);
+.my-slider-1 .item>.background>div:last-child {
+    display: none;
 }
-.slider > .dots > ul > li {
+
+@media (max-width:700px) {
+    .my-slider-1 .item>.background>div:first-child {
+        display: none;
+    }
+
+    .my-slider-1 .item>.background>div:last-child {
+        display: block;
+    }
+}
+
+.my-slider-1 .item>.txt-box {
+    position: absolute;
+    top: 50%;
+    left: 100px;
+    right: 100px;
+    transform: translateY(-50%);
+    text-align: center;
+    color: white;
+}
+
+.my-slider-1 .item>.txt-box>.more {
+    border: 2px solid #fff;
+    color: #fff;
+    border-radius: 35px;
+    font-size: 18px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 260px;
+    height: 60px;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.my-slider-1 .item>.txt-box>.area {
+    font-size: 24px;
+    margin-bottom: 18px;
+}
+
+.my-slider-1 .item>.txt-box>.title {
+    font-weight: bold;
+    font-size: 80px;
+    line-height: 1.075;
+    text-transform: uppercase;
+    padding-bottom: 11px;
+}
+
+.my-slider-1>.owl-carousel.owl-theme>div.owl-dots {
+    margin-top: 0;
+    position: absolute;
+    top: calc(100vh - 30px);
+    left: 50%;
+    transform: translateX(-50%);
+
+}
+
+.my-slider-1>.owl-carousel.owl-theme>div.owl-dots>div.owl-dot>span {
+    transition: width .3s;
     width: 10px;
     height: 10px;
-    margin: 0 6px;
-    border-radius: 100%;
-    background-color: white;
-    cursor: pointer;
+
+
 }
-.slider > .dots > ul > li.active {
-    background-color: white;
+
+.my-slider-1>.owl-carousel.owl-theme>div.owl-dots>div.owl-dot.active>span {
     width: 38px;
-    border-radius: 40%;
+    background-color: #51b0ec;
+}
+
+.my-slider-1>.custom-nav>div {
+    position: absolute;
+    top: 52%;
+    left: 0;
+    transform: translateY(-50%);
+    z-index: 10;
+    font-size: 3rem;
+    padding: 40px 18px;
+    cursor: pointer;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+.my-slider-1>.custom-nav>div:hover {
+    background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.1) 20%, rgba(255, 255, 255, 0.4) 100%);
+}
+
+.my-slider-1>.custom-nav>div:last-child {
+    left: auto;
+    right: 0;
+}
+
+/*탑바*/
+
+.top-bar {
+    height: 110px;
+
+    z-index: 2000;
+    position: fixed;
+    top: 0;
+    width: 1903px;
+}
+
+.logo {
+    margin-left: 70px;
+
+}
+
+.cont {
+    margin-right: 40px;
+    cursor: pointer;
+
+}
+
+.menu-box-1 {
+    margin-left: 100px;
+}
+
+.menu-box-1>ul>li>a {
+    color: white;
+    margin: 0 35px;
+    font-size: 19px;
+    font-weight: 700;
+    text-transform: uppercase;
+    white-space: nowrap;
+
+
+
+}
+
+.cont>ul>li:last-child>a {
+    color: #FEE200;
+    padding-left: 10px;
+}
+
+.cont {
+    font-weight: 500;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+
+
+
+.menu-box-1>ul>li>a {
+    position: relative;
+    display: inline-block;
+    transition: .5s;
+}
+
+.menu-box-1>ul>li>a::after {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    content: '';
+    width: 0;
+    height: 2px;
+    background-color: #df0024;
+    transition: .5s;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%);
+}
+
+.menu-box-1>ul>li>a:hover::after {
+    width: 100%;
+}
+
+.menu-box-1>ul>li:nth-child(2)>a::after {
+    background-color: #0085c7;
+}
+
+.menu-box-1>ul>li:nth-child(3)>a::after {
+    background-color: #0da447;
+}
+
+.menu-box-1>ul>li:nth-child(4)>a::after {
+    background-color: #f4c300;
+}
+
+.news {
+    background-color: #191d22;
+    height: 850px;
+}
+
+.news>.top {
+    position: relative;
+    top: 110px;
+}
+
+.news>.top>.tit {
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+    padding: 0 0 75px 0;
+    color: white;
+
+}
+
+.news>.top>.all {
+    position: absolute;
+    top: 25px;
+    left: 85%;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: underline;
+    cursor: pointer;
+
+}
+
+.center>ul>li {
+    position: relative;
+    width: 474px;
+    height: 458.63px;
+    box-sizing: border-box;
+    background-color: red;
+    margin:0 25px;
+}
+.center>ul>li>a>.pho-wrap {
+    width: 474px;
+    height: 266.63px;
+    overflow: hidden;
+}
+.center>ul>li>a>.pho-wrap>.pho {
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/final-recap-1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    width: 100%;
+    height: 100%;
+    top: 0;
+}
+
+.center>ul>li:hover>a>.pho-wrap>.pho{
+    transform: scale(1.1);
+}
+.center>ul>li>a>.pho-wrap>.pho{
+    transition: transform .5s;
+}
+
+.center>ul>li:nth-child(2)>a>.pho-wrap>.pho {
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/200706_08.png);
+}
+
+.center>ul>li:nth-child(3)>a>.pho-wrap>.pho {
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/week1recap.png);
+}
+
+.center>ul>li>a>.post {
+    background-color: white;
+    padding: 50px 26px;
+    box-sizing: border-box;
+    height: 192px;
+    z-index: 20;
+}
+
+.center>ul>li>a>.post>h3 {
+    text-transform: capitalize;
+    color: #51b0ec;
+    font-weight: bold;
+    margin: 0 0 13px 0;
+}
+.center>ul>li>a>.post>h2{
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1.13636;
+    margin: 0;
+}
+.center>ul{
+    margin-top:80px;
+}
+.center>ul>li>a>.post>h2::after{
+    content: '';
+    background: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/ico_news_arrow.png) 0% 0% no-repeat;
+    width: 14px;
+    height: 14px;
+    position: absolute;
+    right: 4px;
+    bottom: 4px;
+}
+.center>ul>li>a>.post::after{
+    content: '';
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/bg_post_line.png);
+    position: absolute;
+    width: 492.95px;
+    height: 476.97px;
+    z-index: 10;
+    top: -29px;
+    left: -29px;
+    transition: all 0.3s ease-in-out;
+    background-size: cover;
+}
+.center>ul>li:hover>a>.post::after{
+    top: -9px;
+    left: -9px;
+}
+.banner{
+    background-color: #191d22;
+    height: 1000px;
+}
+.banner>.box{
+    position: relative;
+}
+.banner>.box>.post{
+    position: absolute;
+    top:10%;
+    left: 8%;
+}
+.banner>.box>.post>h3{
+    font-size: 40px;
+    font-weight: bold;
+    padding-bottom: 5px;
+    color: white;
+}
+.banner>.box>.post>.sum{
+    font-size: 20px;
+    margin-bottom: 30px;
+    color:white;
+}
+.banner>.box>.post>ul{
+    flex-wrap: wrap;
+    width: 420px;
+    
+}
+.banner>.box>.post>ul>li{
+    margin-bottom: 10px;
+}
+
+.banner>.box>.post>ul>li>a{
+    width: 176px;
+    padding-left: 25px;
+    position: relative;
+    color:white;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    height: 55px;
+    display: inline-flex;
+    align-items: center;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 16px;
+}
+
+.banner>.box>.post>ul>li>a::after{
+    content: '>';
+    color: #fff;
+    position: absolute;
+    right: 15px;
     
 }
