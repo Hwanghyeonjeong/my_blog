@@ -11,3 +11,43 @@ $(function(){
         loop:true
       });
 })
+
+
+function scrollT(){
+  $(window).scroll(function(){
+    $thisSt = $(this).scrollTop();
+
+    if( $thisSt > 50 ) {
+      $('.top-bar').addClass('active');
+    }
+    else {
+      $('.top-bar').removeClass('active');
+    }
+  })
+}
+
+function contClick__init(){
+  var topCont = $('.top-bar > .cont');
+
+  topCont.click(function(){
+    if (topCont.hasClass('active')) {
+      topCont.removeClass('active');
+    }
+    else {
+      topCont.addClass('active');
+    }
+  });
+}
+
+
+
+
+
+
+
+
+
+$(function(){
+  scrollT();
+  contClick__init();
+})

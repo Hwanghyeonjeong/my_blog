@@ -383,18 +383,22 @@ label[for] {
 
 .my-slider-1 .item>.txt-box>.more {
     border: 2px solid #fff;
-    color: #fff;
     border-radius: 35px;
     font-size: 18px;
     margin-left: auto;
     margin-right: auto;
     width: 260px;
     height: 60px;
-    padding-top: 5px;
+    padding-top: 3px;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.5s ease;
+}
+.txt-box>.more:hover{
+    color: black;
+    background-color: white;
+    
 }
 
 .my-slider-1 .item>.txt-box>.area {
@@ -458,12 +462,39 @@ label[for] {
 
 .top-bar {
     height: 110px;
-
     z-index: 2000;
     position: fixed;
     top: 0;
     width: 1903px;
 }
+
+.top-bar.active {
+    height: 80px;
+    animation-name: downTop;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+    background-color: #000;
+}
+@keyframes downTop {
+    0% {
+        top: -110px;
+    }
+    100% {
+        top: 0;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
 
 .logo {
     margin-left: 70px;
@@ -487,8 +518,6 @@ label[for] {
     font-weight: 700;
     text-transform: uppercase;
     white-space: nowrap;
-
-
 
 }
 
@@ -520,13 +549,14 @@ label[for] {
     width: 0;
     height: 2px;
     background-color: #df0024;
-    transition: .5s;
+    transition: 0s;
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
 .menu-box-1>ul>li>a:hover::after {
     width: 100%;
+    transition: .5s;
 }
 
 .menu-box-1>ul>li:nth-child(2)>a::after {
@@ -652,7 +682,9 @@ label[for] {
     top: -29px;
     left: -29px;
     transition: all 0.3s ease-in-out;
-    background-size: cover;
+    background-size: contain;
+    background-repeat: no-repeat;
+
 }
 .center>ul>li:hover>a>.post::after{
     top: -9px;
@@ -660,7 +692,7 @@ label[for] {
 }
 .banner{
     background-color: #191d22;
-    height: 1000px;
+    height: 700px;
 }
 .banner>.box{
     position: relative;
@@ -689,8 +721,12 @@ label[for] {
 .banner>.box>.post>ul>li{
     margin-bottom: 10px;
 }
+.banner>.box>.post>ul>li>a:hover{
+    background-color: white;
+    color: black;
+}
 
-.banner>.box>.post>ul>li>a{
+.banner>.box-1>.post>ul>li>a{
     width: 176px;
     padding-left: 25px;
     position: relative;
@@ -705,10 +741,134 @@ label[for] {
     font-size: 16px;
 }
 
-.banner>.box>.post>ul>li>a::after{
+.banner>.box-1>.post>ul>li>a::after{
     content: '>';
     color: #fff;
     position: absolute;
     right: 15px;
+}
+.banner>.box-1>.post>ul>li:hover>a::after{
+    color: black;
+}
+
+.banner>.box-2>.post>ul>li>a{
+    border: 2px solid #fff;
+    border-radius: 30px;
+    min-width: 230px;
+    min-height: 60px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    transition: all 0.5s ease;
+    font-size: 16px;
+}
+.footer{
+    height: 316px;
+    width: 1903px;
+    background-color: black;
+    position: relative;
+    margin-top:-90px;
+}
+.line{
+    max-width: 1820px;
+    width: 100%;
+    height: 90px;
+    position: relative;
+    top: -45px;
+    left: 50%;
+    transform: translateX(-50%);
+    align-items: center;
+    z-index: 10;
     
+}
+.txt{
+    position: absolute;
+    z-index: 10;
+    color:white;
+    width: 430px;
+    font-size: 1.5rem;
+    margin-left: 150px;
+}
+.txt>.icon{
+    cursor: pointer;
+}
+.txt>.icon>.fab:hover{
+    color:#adadad;
+    
+}
+
+.line>ul{
+    position: absolute;
+    margin-left: 79%;
+}
+
+.line>ul>li{
+    margin: 0 20px;
+}
+
+.line>ul>li>a{
+    color:white;
+}
+.line>ul>li>a:hover{
+    color:#adadad;
+}
+.line>ul>li:first-child>a::after{
+    content: "";
+    position: absolute;
+    top: 50%;
+    transform: translateY(-45%);
+    width: 1px;
+    height: 15px;
+    background-color: #bbbbbb;
+    opacity: .3;
+    margin-left: 20px;
+}
+.footer>.box-1{
+    margin-top:50px;
+}
+.footer>.box-1>.pubg{
+    color:white;
+    width: 96.59px;
+    height: 77.82px;
+    margin-left: 10%;
+    position: absolute;
+    margin-top:-15px; 
+}
+.footer>.box-1>.box-2{
+    margin-top: -20px;
+}
+.footer>.box-1>.box-2>ul{
+    width:650px ;
+    font-size: 13px;
+    line-height: 1.66667;
+    list-style: none;
+    padding: 0;
+    margin-left: 350px;
+    
+}
+.footer>.box-1>.box-2>ul>li>a{
+    color: #fff;
+    position: relative;
+    text-decoration: none;
+    transition: 0.1s all ease;
+    letter-spacing: -0.5px;
+    
+}
+.footer>.box-1>.box-2>.copy{
+    font-size: 12px;
+    line-height: 1.66667;
+    
+    color: #838383;
+    margin-left: 350px;
+    margin-top:10px;
+}
+.footer>.box-3{
+    margin-left: 28.8%;
+    margin-top:7%;
+}
+
+
+.top-bar.nav-down {
+    background-color: #000;
 }
