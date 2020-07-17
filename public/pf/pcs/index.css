@@ -471,7 +471,7 @@ label[for] {
 .top-bar.active {
     height: 80px;
     animation-name: downTop;
-    animation-duration: 1s;
+    animation-duration: .5s;
     animation-fill-mode: forwards;
     background-color: #000;
 }
@@ -519,11 +519,6 @@ label[for] {
     text-transform: uppercase;
     white-space: nowrap;
 
-}
-
-.cont>ul>li:last-child>a {
-    color: #FEE200;
-    padding-left: 10px;
 }
 
 .cont {
@@ -676,13 +671,13 @@ label[for] {
     content: '';
     background-image: url(https://hwanghyeonjeong.github.io/img1/pf/pcs/bg_post_line.png);
     position: absolute;
-    width: 492.95px;
-    height: 476.97px;
+    width: 104%;
+    height: 104%;
     z-index: 10;
     top: -29px;
     left: -29px;
     transition: all 0.3s ease-in-out;
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
 
 }
@@ -871,4 +866,41 @@ label[for] {
 
 .top-bar.nav-down {
     background-color: #000;
+}
+
+.cont>.menu{
+    display: none;
+}
+
+.cont.active>.menu{
+    display: block;
+}
+.cont>.menu{
+    margin-top:55px;
+    background-color: #191d22;
+    text-align: left;
+    position: absolute;
+    width: 143px;
+    border: 1px solid #727272;
+    border-bottom: none;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);
+    right: 40px;
+
+}
+.cont>.menu>li{
+    border-bottom: 1px solid #727272;
+}
+.cont>.menu>li>a{
+    color:white;
+    background: transparent;
+    transition: all 0.3s ease;
+    padding-left: 15px;
+    height: 34px;
+    display: flex;
+    font-size: 14px;
+    align-items: center;
+}
+.cont>.menu>li:hover>a{
+    background-color: white;
+    color: black;
 }

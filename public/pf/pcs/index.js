@@ -45,8 +45,6 @@ function contClick__init(){
 
 
 
-
-
 $(function(){
   scrollT();
   contClick__init();
