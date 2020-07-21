@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>블로그</title>
+    <title>카카오뱅크</title>
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css">
     <link rel="stylesheet" href="./index.css">
@@ -186,6 +186,14 @@
 
     <div class="banner-box-1">
         <div class="con"></div>
+        <div class="cont-box">
+            <h3>같지만 다른 은행<br>카카오뱅크</h3>
+            <p>일상에서 더 쉽게, 더 자주 만나는 은행<br>카카오뱅크가 한번 더 편리해졌습니다.</p>
+            <ul>
+                <li><a href="#"> <span></span>Google Play</a></li>
+                <li><a href="#"><span></span>App Store</a></li>
+            </ul>
+        </div>
     </div>
 
     <div class="banner-box-2 con box">
@@ -211,7 +219,7 @@
 
             <div class="cont-btn-1 btn">정기예금 ></div>
             <div class="cont-btn-2 btn">자유적금 ></div>
-            <img src="https://www.kakaobank.com/static/images/web/renewal/main-savings-money.png" alt="">
+            <img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/main-savings-money.png" alt="">
         </div>
     </div>
 
@@ -258,8 +266,10 @@
 
 
 
-    <div class="page-1 active-on-visible" data-active-on-visible-delay="1200">
+    <div class="page-1 active-on-visible" data-active-on-visible-delay="500">
         <div class="stars">
+            <div></div>
+            <div></div>
             <div></div>
             <div></div>
             <div></div>

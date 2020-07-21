@@ -386,7 +386,7 @@ label[for] {
 
 .banner-box-1 {
   background-color: #fEDE22;
-  height: 720px;
+  height: 801px;
 }
 
 .go-submit-document {
@@ -427,6 +427,9 @@ label[for] {
 }
 
 .banner-box-1>.con {
+  position: absolute;
+  margin-top:81px;
+  margin-left: 22%;
   height: 884px;
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/kakao/main-bg2.png);
   background-repeat: no-repeat;
@@ -590,6 +593,9 @@ label[for] {
   text-align: center;
   margin-top: 35px;
 }
+.cont>.cont-btn>a:hover{
+  text-decoration: underline;
+}
 
 
 
@@ -601,14 +607,14 @@ label[for] {
   width: 492px;
   height: 408px;
   position: absolute;
-  top: 70px;
+  top: 120px;
   left: 50%;
 
 }
 
 .banner-box-5>.content-box {
   position: absolute;
-  top: 150px;
+  top: 190px;
   left: 50%;
   margin-left: -470px;
 
@@ -635,6 +641,15 @@ label[for] {
   margin-top: 30px;
 }
 
+.content-box>.cont-btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.banner-box-3>.content-box>.btn:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
 
 .banner-box-6>.img-box {
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/kakao/main-foreignRemittance.png);
@@ -1015,12 +1030,12 @@ label[for] {
 }
 
 .page-1 .stars>div {
-  width: 5px;
-  height: 5px;
+  width: 3px;
+  height: 3px;
   background-color: rgba(255, 255, 255, 0);
   border-radius: 50%;
   box-shadow: 0 0 3px rgba(255, 255, 255, 0), 0 0 6px rgba(255, 255, 255, 0), 0 0 9px rgba(255, 255, 255, 0), 0 0 12px rgba(255, 255, 255, 0);
-  transition: background-color 1s, box-shadow 1s;
+  transition: background-color .5s, box-shadow .5s;
   position: absolute;
   top: 50%;
   left: 50%;
@@ -1031,43 +1046,52 @@ label[for] {
 
 .page-1 .stars>div:nth-child(2) {
   margin-top: -100px;
-  margin-left: -100px;
-  animation-delay: 1s;
+  margin-left: 500px;
+  animation-delay: .5s;
+  
 }
 
 .page-1 .stars>div:nth-child(2) {
   margin-top: -100px;
-  margin-left: -100px;
-  animation-duration: 5s;
+  margin-left: 500px;
+  animation-duration: 3.5s;
 }
 
 .page-1 .stars>div:nth-child(3) {
   margin-top: -200px;
-  margin-left: -100px;
+  margin-left: -500px;
   animation-duration: 1s;
   transform: scale(0.7);
+  
 }
 
 .page-1 .stars>div:nth-child(4) {
   margin-top: -100px;
-  margin-left: -200px;
+  
+  margin-left: -700px;
 }
 
 .page-1 .stars>div:nth-child(5) {
   margin-top: -300px;
-  margin-left: -300px;
+  margin-left: -600px;
+  
 }
 
 .page-1 .stars>div:nth-child(6) {
   margin-top: 200px;
-  margin-left: -100px;
+  margin-left: 700px;
+  
 }
 
 .page-1 .stars>div:nth-child(7) {
-  margin-top: 100px;
-  margin-left: 200px;
+  margin-top: -200px;
+  margin-left: 800px;
 }
 
+.page-1 .stars>div:nth-child(8) {
+  margin-top: 100px;
+  margin-left: -500px;
+}
 @keyframes twinkle {
   0% {}
 
@@ -1097,7 +1121,7 @@ label[for] {
   left: 0;
   width: 100%;
   height: 100%;
-  transition: opacity 4s 1s;
+  transition: opacity 3s .5s;
 }
 
 .page-1.active .stars-cover {
@@ -1109,13 +1133,13 @@ label[for] {
 }
 
 .page-1 .sun-and-moon {
-  width: 100px;
-  height: 100px;
+  width: 120px;
+  height: 120px;
   position: absolute;
   top: 50%;
-  left: 50%;
+  left: 45%;
   margin-top: -300px;
-  margin-left: 300px;
+  margin-left: 500px;
   border-radius: 50%;
   overflow: hidden;
   border: 1px solid transparent;
@@ -1133,7 +1157,7 @@ label[for] {
 
 .page-1.active .sun-and-moon>.circle-1 {
   background-color: white;
-  transition: background-color 1s 1s;
+  transition: background-color .5s .5s;
 }
 
 .page-1 .sun-and-moon>.circle-2 {
@@ -1149,5 +1173,80 @@ label[for] {
 
 .page-1.active .sun-and-moon>.circle-2 {
   transform: translateX(-15%) translateY(-15%);
-  transition: transform 1s 1s;
+  transition: transform .5s .5s;
+}
+
+.banner-box-1>.cont-box{
+  margin-left: 19%;
+  top:80px;
+  position: relative;
+}
+.banner-box-1>.cont-box>h3{
+  position: absolute;
+    top: 215px;
+    width: 100%;
+    font-weight: bold;
+    font-size: 49px;
+    line-height: 1.35;
+    color: #333;
+    -webkit-font-smoothing: antialiased;
+    margin-left: 90px;
+}
+.banner-box-1>.cont-box>p{
+  position: absolute;
+  top: 360px;
+  left: 92px;
+  font-size: 17px;
+  line-height: 1.8;
+  color: #111;
+}
+.banner-box-1>.cont-box>ul{
+  overflow: hidden;
+    position: absolute;
+    top: 490px;
+    margin-left: 85px;
+}
+.banner-box-1>.cont-box>ul>li{
+  float: left;
+  width: 178px;
+  height: 60px;
+  padding: 0 6px;
+}
+.banner-box-1>.cont-box>ul>li>a{
+  display: block;
+    width: 178px;
+    height: 56px;
+    border: 1px solid rgba(255,255,255,.3);
+    border-radius: 12px;
+    font-size: 16.2px;
+    font-weight: bold;
+    line-height: 56px;
+    color: #333;
+    background: #fff;
+    text-align: center;
+    -webkit-font-smoothing: antialiased;
+}
+
+.banner-box-1>.cont-box>ul>li:first-child>a>span{
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  margin: -2px 10px 0 0;
+  background-position: -341px -292px;
+  text-indent: 0;
+  vertical-align: middle;
+background-image: url(https://hwanghyeonjeong.github.io/img1/pf/kakao/1.png);
+background-repeat: no-repeat;
+}
+.banner-box-1>.cont-box>ul>li:last-child>a>span{
+  width: 24px;
+    height: 24px;
+    margin-top: -4px;
+    background-position: -371px -292px;
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/kakao/1.png);
+background-repeat: no-repeat;
+display: inline-block;
+margin: -2px 10px 0 0;
+text-indent: 0;
+vertical-align: middle;
 }
