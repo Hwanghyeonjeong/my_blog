@@ -176,20 +176,16 @@
             <div class="top con flex flex-jc-sb">
                 <h2>Subway's Menu</h2>
                 <ul class="flex">
-                    <li><a href="#">클래식</a></li>
-                    <li><a href="#">프레쉬&라이트</a></li>
-                    <li><a href="#">프리미엄</a></li>
-                    <li><a href="#">아침메뉴</a></li>
+                    <li><a>클래식</a></li>
+                    <li><a>프레쉬&라이트</a></li>
+                    <li><a>프리미엄</a></li>
+                    <li><a>아침메뉴</a></li>
                 </ul>
             </div>
 
 
 
-
-
-
-
-            <div style=" padding:50px 0; margin-bottom:70px;">
+            <div class="menu-slider" style="padding:50px 0; margin-bottom:70px;">
                 <div class="slider-div con">
 
                     <li>
@@ -250,110 +246,125 @@
             <div class="next"></div>
             <div class="prev"></div>
         </div>
-<div class="bac">
-<div class="section">
-    <div class="top flex">
-        <div class="blue">
-            <p>써브웨이를<br>제대로 즐기는 방법!</p>
-            <a class="btn" href="/utilizationSubway"><span>이용방법</span></a>
-        </div>
-        <div class="orange">
-            <p>50년 역사를 가진<br>No.1 프랜차이즈의 성장기</p>
-            <a class="btn" href="/subwayHistory"><span>써브웨이 역사</span></a>
-            <img src="https://hwanghyeonjeong.github.io/img1/pf/subway/img_subway_history.png">
-        </div>
-    </div>
+        <div class="bac">
+            <div class="section">
+                <div class="top flex">
+                    <div class="blue">
+                        <p>써브웨이를<br>제대로 즐기는 방법!</p>
+                        <a class="btn" href="/utilizationSubway"><span>이용방법</span></a>
+                    </div>
+                    <div class="orange">
+                        <p>50년 역사를 가진<br>No.1 프랜차이즈의 성장기</p>
+                        <a class="btn" href="/subwayHistory"><span>써브웨이 역사</span></a>
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/subway/img_subway_history.png">
+                    </div>
+                </div>
 
-    <div class="bottom">
-        <div class="new">
-            <div class="hd">
-                
-					<h2>What's New</h2>
-					<p>
-						써브웨이의 다양한 소식을<br>
-						빠르게 전달해드립니다.
-					</p>
+                <div class="bottom">
+                    <div class="new">
+                        <div class="hd">
+
+                            <h2>What's New</h2>
+                            <p>
+                                써브웨이의 다양한 소식을<br>
+                                빠르게 전달해드립니다.
+                            </p>
+                        </div>
+                        <div class="board">
+                            <ul>
+                                <li><a href="#">개인정보 처리방침 개정안내</a></li>
+                                <li><a href="#">써브카드 잔액 환불 안내</a></li>
+                                <li><a href="#">써브웨이 앱 출시 및 앱 사용 불가 매장 안내</a></li>
+                            </ul>
+                            <a class="more" href="#">more</a>
+                        </div>
+                    </div>
+                    <div class="sponser">
+                        <div class="my-slider-2">
+                            <div class="owl-carousel owl-theme">
+                                <div class="item">
+                                    <div class="background">
+                                        <div
+                                            style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/subway/200616_%ED%95%98%EB%8B%A8%EB%B0%B0%EB%84%88%EC%A0%9C%EC%9E%91%EA%B1%B4_20200616110752022.jpg);">
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="item">
+                                    <div class="background">
+                                        <div
+                                            style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/subway/subway_logo_bn_20200602031229667.png);">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
             </div>
-            <div class="board">
-					<ul>
-						<li><a href="#">개인정보 처리방침 개정안내</a></li>
-						<li><a href="#">써브카드 잔액 환불 안내</a></li>
-						<li><a href="#">써브웨이 앱 출시 및 앱 사용 불가 매장 안내</a></li>
-					</ul>
-					<a class="more" href="#">more</a>
-				</div>
+
         </div>
-        <div class="sponser">
-            
-        </div>
-    </div>
-</div>
-
-</div>
 
     </div>
-    </div>
-
-
-
-
-
 
     <div class="quick-menu">
-      <nav class="con">
-        <ul>
-          <li class="1 cell">
-            <a href="#">
-              <div class="icon icon-1"></div>
-            </a>
-            <strong>프랜차이즈</strong>
-            <span>개설절차/투자비용 정보</span>
+        <nav class="con">
+            <ul>
+                <li class="1 cell">
+                    <a href="#">
+                        <div class="icon icon-1"></div>
+                    </a>
+                    <strong>프랜차이즈</strong>
+                    <span>개설절차/투자비용 정보</span>
 
-          </li>
-          <li class="2 cell">
-            <a href="#">
-              <div class="icon icon-2"></div>
-            </a>
-            <strong>지사안내</strong><span>수도권/지방 지사정보</span>
+                </li>
+                <li class="2 cell">
+                    <a href="#">
+                        <div class="icon icon-2"></div>
+                    </a>
+                    <strong>지사안내</strong><span>수도권/지방 지사정보</span>
 
-          </li>
-          <li class="3 cell">
-            <a href="#">
-              <div class="icon icon-3"></div>
-            </a>
-            <strong>광고영상</strong><span>TV광고/동영상</span>
+                </li>
+                <li class="3 cell">
+                    <a href="#">
+                        <div class="icon icon-3"></div>
+                    </a>
+                    <strong>광고영상</strong><span>TV광고/동영상</span>
 
-          </li>
-          <li class="4 cell">
-            <a href="#">
-              <div class="icon icon-4"></div>
-            </a>
-            <strong>1:1문의</strong><span>개선/문의사항</span>
+                </li>
+                <li class="4 cell">
+                    <a href="#">
+                        <div class="icon icon-4"></div>
+                    </a>
+                    <strong>1:1문의</strong><span>개선/문의사항</span>
 
-          </li>
-        </ul>
-      </nav>
-      </nav>
-</div>
-<div class="footer">
-  <div class="content-1 con">
-    <div class="util-menu">
-      <ul class="row">
-        <li class="cell"><a href="#">이용약관</a></li>
-        <li class="cell"><a href="#">개인정보취급방침</a></li>
-        <li class="cell"><a href="#">점주관리자</a></li>
-        <li class="cell"><a href="#">Subway Listens</a></li>
-      </ul>
+                </li>
+            </ul>
+        </nav>
+        </nav>
     </div>
-    <span class="addr">서울시 서초구 강남대로 535 프린스빌딩 15층 |</span>
-    <span class="rep"> 대표 : 콜린클락 |</span>
-    <span class="tel"> 전화 : 02-797-5036 |</span>
-    <span class="rep"> 사업자등록번호 : 101-84-04143</span>
-    <p class="copyright">SUBWAY® is a Registered Trademark of Subway IP LLC. © 2019 Subway IP LLC. All Rights Reserved.</p>
-    <a href="#" class="insta"></a>
-    <a href="#" class="sns"></a>
-  </div>
-</div>
+    <div class="footer">
+        <div class="content-1 con">
+            <div class="util-menu">
+                <ul class="row">
+                    <li class="cell"><a href="#">이용약관</a></li>
+                    <li class="cell"><a href="#">개인정보취급방침</a></li>
+                    <li class="cell"><a href="#">써브카드</a></li>
+                    <li class="cell"><a href="#">점주관리자</a></li>
+                    <li class="cell"><a href="#">Subway Listens</a></li>
+                </ul>
+            </div>
+            <div class="line"></div>
+            <span class="addr">서울시 서초구 강남대로 535 프린스빌딩 15층 |</span>
+            <span class="rep"> 대표 : 콜린클락 |</span>
+            <span class="tel"> 전화 : 02-797-5036 |</span>
+            <span class="rep"> 사업자등록번호 : 101-84-04143</span>
+            <p class="copyright">SUBWAY® is a Registered Trademark of Subway IP LLC. © 2019 Subway IP LLC. All Rights
+                Reserved.</p>
+            <a class="sns insta" href="#"></a>
+            <a class="sns face" href="#"></a>
+        </div>
+    </div>
 
 
 

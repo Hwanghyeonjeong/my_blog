@@ -335,6 +335,7 @@ label[for] {
 }
 .top-bar {
   height: 170px;
+  border-bottom: 1px solid #e5e5e5;;
 }
 .top-bar>.center>.logo{
     position: absolute;
@@ -416,6 +417,7 @@ label[for] {
   background-color: white;
   width: 100%;
   top: 100%;
+  margin-top: 24px;
   left: 0;
   height: 0;
   transition: height 0.3s;
@@ -556,7 +558,7 @@ label[for] {
   width: 24px;
   height: 30px;
   top: 30px;
-  margin-left: -70px;
+  margin-left: -130px;
   position: absolute;
 }
 
@@ -568,7 +570,7 @@ label[for] {
   width: 34px;
   height: 30px;
   top: 25px;
-  margin-left: -80px;
+  margin-left: -150px;
   position: absolute;
 }
 
@@ -867,8 +869,8 @@ label[for] {
 }
 .bottom>.new>.board{
     position: absolute;
-    left: 389px;
-    top: 76px;
+    left: 350px;
+    top: 60px;
 }
 .bottom>.new>.board>ul{
     display: block;
@@ -884,12 +886,13 @@ label[for] {
 .bottom>.new>.board>ul>li{
     margin-top:21px;
 }
-.bottom>.new>.board>ul>li>a{
+.board>ul>li>a{
     display: inline-block;
     font-size: 16px;
     color: #292929;
     position: relative;
     letter-spacing: -0.04em;
+    cursor: pointer;
 }
 .bottom>.new>.board>.more{
     display: inline-block;
@@ -897,6 +900,18 @@ label[for] {
     font-size: 14px;
     margin-left: 40px;
 }
+.board>ul>li>a:hover{
+  content: '';
+  height: 1px;
+  left: 0;
+  bottom: 1px;
+  width: 0;
+  background-color: #009223;
+  position: absolute;
+  transition-duration: 0.2s;
+  color: #009223;
+}
+
 .bac{
     width: 100%;
     
@@ -967,14 +982,13 @@ label[for] {
   padding-bottom:10px;
   color:#666666;
   font-size:13.5px;
+  position: relative;
 
   
 
 }
 .util-menu{
   padding:22px 0;
-  border-bottom:1px solid transparent;
-  border-bottom-color:#666666;
   margin-bottom:20px;
   
   
@@ -986,4 +1000,105 @@ label[for] {
 .util-menu>ul>li:nth-child(2)>a{
     font-weight: bold;
     color: #bbbbbb;
+}
+.sns::after{
+  content: '';
+    width: 50px;
+    height: 50px;
+    display: block;
+    opacity: 0;
+    transition-duration: 0.3s;
 
+}
+.sns:hover::after{
+  opacity: 1;
+}
+.sns{
+  position: absolute;
+  right: 20%;
+  bottom: 30px;
+  overflow: hidden;
+  width: 50px;
+  height: 50px;
+}
+.insta{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/subway/icon_sns_instar.png);
+  background-repeat: no-repeat;
+  background-position: 0px 0px;
+  margin-right: 60px;
+}
+.insta::after{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/subway/icon_sns_instar.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+.face{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/subway/icon_sns_facebook.png);
+  background-repeat: no-repeat;
+  background-position: 0 0;
+}
+.face::after{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/subway/icon_sns_facebook.png);
+  background-repeat: no-repeat;
+  background-position: 100% 0;
+}
+.footer .line{
+  content: '';
+    position: absolute;
+    left: 0;
+    top: 59px;
+    width: 100%;
+    height: 1px;
+    background-color: #3b3b3b;
+}
+
+
+
+
+/*sponser*/
+
+.my-slider-2 .item {
+  float: left;
+    width: 270px;
+    height: 300px;
+    margin-left: 30px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 0 30px 0 30px;
+}
+.my-slider-2 .item > .background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;s
+}
+
+.my-slider-2 .item > .background > div {
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.my-slider-2 > .owl-carousel.owl-theme > div.owl-dots {
+  position: absolute;
+  right: 60px;
+  top: 14px;
+}
+
+.my-slider-2 > .owl-carousel.owl-theme > div.owl-dots > div.owl-dot > span {
+  transition: width 0.5s;
+  width: 10px;
+  height: 10px;
+  background-color: white;
+}
+
+.my-slider-2 > .owl-carousel.owl-theme> div.owl-dots> div.owl-dot.active> span {
+  width: 35px;
+  background-color: #ffc300;
+}

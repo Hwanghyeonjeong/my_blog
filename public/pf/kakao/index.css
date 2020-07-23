@@ -771,7 +771,7 @@ label[for] {
 }
 
 .check {
-  height: 1062px;
+  height: 900px;
 }
 
 .check>.cont {
@@ -1238,6 +1238,9 @@ label[for] {
 background-image: url(https://hwanghyeonjeong.github.io/img1/pf/kakao/1.png);
 background-repeat: no-repeat;
 }
+.banner-box-1>.cont-box>ul>li>a:hover{
+  text-decoration: underline;
+}
 .banner-box-1>.cont-box>ul>li:last-child>a>span{
   width: 24px;
     height: 24px;
@@ -1249,4 +1252,73 @@ display: inline-block;
 margin: -2px 10px 0 0;
 text-indent: 0;
 vertical-align: middle;
+}
+
+
+
+
+
+
+.my-slider-2 {
+  
+  margin-top:100px;
+  width:540px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+
+.my-slider-2 .item {
+  padding:100px 0;
+  transition: all .25s;
+  margin-left:-30px;
+  margin-right:-30px;
+  background-color: white;
+}
+
+.my-slider-2 .owl-item.active.center {
+  z-index:10; 
+  
+}
+
+.my-slider-2 .owl-item.active.center > .item {
+  margin-left:-50px;
+  margin-right:-50px;
+  margin-top:-30px;
+}
+
+.my-slider-2 .owl-item.active.center + * {
+  z-index:9; 
+}
+
+
+.my-slider-2 .owl-prev  {
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+  right:calc(100% + 200px);
+  
+}
+
+.my-slider-2 .owl-next{
+  left:calc(100% + 200px);
+  right:auto;
+  position:absolute;
+  top:50%;
+  transform:translateY(-50%);
+}
+
+
+.my-slider-2 .owl-carousel .owl-nav .owl-prev  {
+  background-color: transparent;
+}
+.my-slider-2 .owl-carousel .owl-nav .owl-next  {
+  background-color: transparent;
+}
+
+.my-slider-2 .owl-carousel .owl-nav .owl-prev:hover  {
+  background-color: transparent;
+}
+.my-slider-2 .owl-carousel .owl-nav .owl-next:hover  {
+  background-color: transparent;
 }

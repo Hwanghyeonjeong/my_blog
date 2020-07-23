@@ -52,3 +52,25 @@ function ActiveOnVisible__checkAndActive() {
 $(function() {
     ActiveOnVisible__init();
 })
+
+
+
+function MySlider2__init() {
+    $('.my-slider-2 > .owl-carousel').owlCarousel({
+      responsive:{
+        0:{
+          items:3
+        }
+      },
+      loop:true,
+      dots:false,
+      nav:true,
+      navText: ['<img style="transform: rotate(-180deg);" src="https://www.kakaobank.com/static/images/web/img-right.png" alt="">','<img src="https://www.kakaobank.com/static/images/web/img-right.png" alt="">'],
+      center:true,
+      stagePadding:30
+    });
+  }
+  $(function() {
+  MySlider2__init();
+})
+

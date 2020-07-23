@@ -322,7 +322,22 @@
                 <a href="#">카카오뱅크 프렌즈 체크카드 ></a>
             </div>
         </div>
-        <div class="img-box"></div>
+        
+        
+
+        <div class="my-slider-2">
+  <div class="owl-carousel owl-theme">
+    <div class="item"><img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/card-1.png" alt=""></div>
+    <div class="item"><img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/card-2.png" alt=""></div>
+    <div class="item"><img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/card-3.png" alt=""></div>
+    <div class="item"><img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/card-4.png" alt=""></div>
+    <div class="item"><img src="https://hwanghyeonjeong.github.io/img1/pf/kakao/card-5.png" alt=""></div>
+  </div>
+  
+</div>
+
+
+
     </div>
     </div>
 

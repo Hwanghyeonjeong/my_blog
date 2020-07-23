@@ -112,3 +112,12 @@ $('.slider-div').slick({
 $(function(){
     slick();
 })
+
+
+$(function(){
+    $('.my-slider-2 > .owl-carousel').owlCarousel({
+        items:1,
+        navContainer: '.my-slider-2 > .custom-nav',
+        loop:true
+      });
+    })
