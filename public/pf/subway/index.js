@@ -67,53 +67,6 @@ $('.my-slider-1 > .owl-carousel').owlCarousel({
   });
 })
 
-
-
-
-function slick(){
-$('.slider-div').slick({
-    slide: 'div',		//슬라이드 되어야 할 태그 ex) div, li 
-    infinite : false, 	//무한 반복 옵션	 
-    slidesToShow : 4,		// 한 화면에 보여질 컨텐츠 개수
-    slidesToScroll : 4,		//스크롤 한번에 움직일 컨텐츠 개수
-    speed : 100,	 // 다음 버튼 누르고 다음 화면 뜨는데까지 걸리는 시간(ms)
-    arrows : true, 		// 옆으로 이동하는 화살표 표시 여부
-    dots : false, 		// 스크롤바 아래 점으로 페이지네이션 여부
-    pauseOnHover : true,		// 슬라이드 이동	시 마우스 호버하면 슬라이더 멈추게 설정
-    vertical : false,		// 세로 방향 슬라이드 옵션
-    prevArrow : '.prev',		// 이전 화살표 모양 설정
-    nextArrow : '.next',		// 다음 화살표 모양 설정
-    dotsClass : "slick-dots", 	//아래 나오는 페이지네이션(점) css class 지정
-    draggable : true, 	//드래그 가능 여부 
-    
-    responsive: [ // 반응형 웹 구현 옵션
-        {  
-            breakpoint: 960, //화면 사이즈 960px
-            settings: {
-                //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-                slidesToShow:3 
-            } 
-        },
-        { 
-            breakpoint: 768, //화면 사이즈 768px
-            settings: {	
-                //위에 옵션이 디폴트 , 여기에 추가하면 그걸로 변경
-                slidesToShow:2 
-            } 
-        }
-    ]
-
-});
-}
-
-
-
-
-$(function(){
-    slick();
-})
-
-
 $(function(){
     $('.my-slider-2 > .owl-carousel').owlCarousel({
         items:1,
@@ -121,3 +74,104 @@ $(function(){
         loop:true
       });
     })
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+    $('.tab-box > .head > ul > li').click(function() {
+        var $clickedLi = $(this);
+        var index = $clickedLi.index();
+        
+        $clickedLi.siblings('.active').removeClass('active');
+        $clickedLi.addClass('active');
+        
+        var $tabBox = $clickedLi.closest('.tab-box');
+        
+        $tabBox.find('.body > ul > li').removeClass('active');
+        $tabBox.find('.body > ul > li').eq(index).addClass('active');
+    }); // 메뉴 이름 클릭
+})
+    
+
+$(function(){
+    $('.carousel-1 > .owl-carousel').owlCarousel({
+        navSpeed:150,
+        loop:false,
+        margin:10,
+        nav:true,
+        dots:false,
+        slideBy:4,
+        mouseDrag:false,
+        navText:['<div class="left-btn"></div>', '<div class="right-btn"></div>'],
+        responsive:{
+            0:{
+                items:4
+            }
+        }
+    });
+}) // 메뉴 슬라이드
+    
+
+
+$(function(){
+    $('.carousel-1 > .owl-carousel .owl-item').mouseenter(function() {
+        var eventItem = this;
+        var $carousel = $(this).closest('.carousel-1');
+        
+        for ( var i = 1; i <= 4; i++ ) {
+            $carousel.removeClass('carousel-item-' + i + '-hover');
+        }
+        
+        $carousel.find('.owl-item.active').each(function(index, node) {
+            if ( eventItem == node ) {
+                $carousel.addClass('carousel-item-' + (index + 1) + '-hover');
+                
+                return false;
+            }
+        });
+    });
+}) // 메뉴 마우스 오버
+$(function(){
+    $('.carousel-1 > .owl-carousel .owl-item').mouseleave(function() {
+        var $carousel = $('.carousel-1');
+        
+        for ( var i = 1; i <= 4; i++ ) {
+            $carousel.removeClass('carousel-item-' + i + '-hover');
+        }
+    });
+})
+    
+$(function(){
+    $('.carousel-1').mouseleave(function() {
+        var $carousel = $(this);
+        
+        for ( var i = 1; i <= 4; i++ ) {
+            $carousel.removeClass('carousel-item-' + i + '-hover');
+        }
+    });
+}) // 메뉴 마우스 리브
+$(function(){
+    $('.head > ul > li').click(function () {
+        $click_menu = $(this);
+        
+        $click_menu.addClass('active');
+    });
+}) // 메뉴 이름 클릭 색깔
+    
