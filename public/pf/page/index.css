@@ -307,6 +307,9 @@ label[for] {
 *>.flex-1-0-0 {
     flex: 1 0 0;
 }
+.con{
+
+}
 .box-1 .text {
     position:relative;
     font-size:7rem;
@@ -336,6 +339,7 @@ label[for] {
     transition:width 1s;
   }
   
+  
   .box-1.active .text::before {
     width:100%;
   }
@@ -359,7 +363,7 @@ label[for] {
     top:0;
     left:20%;
     width:1.5px;
-    height:6600px;
+    height:6800px;
     background-color:rgba(45,45,45,0.1);
     z-index:-1;
   }
@@ -385,15 +389,17 @@ label[for] {
     z-index: 100;
     min-width: 1366px;
   height:80px;
-  padding:0 50px;
+  padding:0 100px;
 }
 .logo>a{
       font-size: 1.9rem;
       font-weight: 500;
+      letter-spacing: -2px;
       
   }
 .logo>a:nth-child(2){
       font-weight: bold;
+      margin-left: -1px;
   }
 .menu-box>ul>li>a{
   display: block;
@@ -413,10 +419,10 @@ label[for] {
 .menu-box>ul:hover ul{
   display:block;
 }
-.menu-box>ul ul>li{
-
-
+.top-bar:hover .menu-box>ul ul{
+    display:block;
 }
+
 
 .menu-box>ul ul>li>a{
   display: block;
@@ -431,6 +437,9 @@ label[for] {
   color:black;
 
 }
+.menu-box{
+    padding: 0 50px; 
+}
 
 .banner{
     margin-left: 20%;
@@ -443,23 +452,87 @@ label[for] {
     line-height: 130px;
 }
 
+.banner>.tit>.title > a{
+    font-size: 7rem;
+    font-weight: bold;
+    letter-spacing: -5px;
+    line-height: 130px;
+}
+
 
 .box-2 {
     position: relative;
     margin-top: 300px;
+    overflow: hidden;
+    
+}
+.box-2>.title{
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+    
+}
+
+.box-2>.title.active{
+    left: 1px;
+    opacity: 1;
+}
+
+.box-5>.title{
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+}
+
+.box-5>.title.active{
+    left: 1px;
+    opacity: 1;
+}
+
+
+.box-3>.tit>.title{
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+}
+
+.box-3>.tit>.title.active{
+    left: 1px;
+    opacity: 1;
+}
+.box-4>.title{
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+}
+
+.box-4>.title.active{
+    left: 1px;
+    opacity: 1;
 }
 
 .box-2 .more{
     position: absolute;
     top:20%;
-    left:69%;
+    left:75%;
     font-weight: 500;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+    
+}
+.box-2 .more.active{
+    left: 69%;
+    opacity: 1;
+
 }
 
 .box-2 .more:hover>a{
-    font-size: 1.1rem;
+    color:#bdbdbd;
 }
-
 .box-2 .more>a:last-child{
     color: #FEE200;
     padding-left: 10px;
@@ -473,6 +546,33 @@ label[for] {
         color: #787878;
         box-sizing: border-box;
         margin-bottom:50px;
+        position: relative;
+        left: -300px;
+        opacity: 0;
+        transition: left 1s, opacity 1s;
+}
+.banner>p.active{
+    left:1px;
+    opacity: 1;
+}
+
+.banner>.tit>p{
+    width: 50%;
+    padding: 50px 40px 0 0;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: -.036em;
+    color: #787878;
+    box-sizing: border-box;
+    margin-bottom:50px;
+    position: relative;
+    left: -300px;
+    opacity: 0;
+    transition: left 1s, opacity 1s;
+}
+.banner>.tit>p.active{
+left:1px;
+opacity: 1;
 }
 
 /*top-bar*/
@@ -493,6 +593,7 @@ label[for] {
     float: left;
     width: 165px;
     position: relative;
+
 }
 .top-bar>ul>li>a{
     font-weight: bold;
@@ -530,15 +631,16 @@ label[for] {
     position: absolute;
     left: 0;
     right: 0;
-    height: 0;
-    transform: translateY(56px);
+    height: 0px;
+    transform: translateY(82px);
    
     
   }
   
 .top-bar:hover::before {
-    height: 220px;
+    height: 275px;
   }
+
 .top-bar > ul > li > div > ul {
     padding-top:0px;
     transition:padding-top 0.3s;
@@ -569,6 +671,7 @@ label[for] {
   }
 .top-bar .cont{
     font-size:11px;
+    margin-right: 3%;
 }
 .top-bar .cont>a:last-child{
     color:#ffd200;
@@ -576,6 +679,11 @@ label[for] {
 }
 .more{
     font-size:14px;
+}
+.top-bar ul>li:nth-child(5)>ul>li:nth-child(2)>a:last-child{
+    color: #ffd200;
+    padding-left: 10px;
+    text-decoration: none;
 }
 
 /*banner-box*/
@@ -586,9 +694,47 @@ label[for] {
 }
 .banner-box>.item{
     width:calc(100%/5);
+    
+    
 }
 .banner-box>.item>.img-box{
     background-color:black;
+    position: relative;
+    top:10%;
+    opacity: 0;
+    transition: top .3s, opacity .3s;
+}
+
+
+.banner-box>.item>.img-box::after{
+    opacity: 0;
+    content: '';
+    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/page/stamp01.png);
+    background-repeat: no-repeat;
+    width: 380px;
+    height: 633.33px;
+    position: absolute;
+    top:-50%;
+    transform: translateY(50%);
+    transition:opacity .3s;
+}
+
+.banner-box>.item:hover>.img-box::after{
+    opacity: .4;
+}
+
+
+
+
+
+
+
+
+
+
+.banner-box>.item>.img-box.active{
+    top:0;
+    opacity: 1;
 }
 .banner-box>.item>.img-box{
     position:relative;
@@ -612,6 +758,14 @@ label[for] {
     font-size: 20px;
     line-height: 29px;
     letter-spacing: -.05em;
+    position: relative;
+    top:10%;
+    opacity: 0;
+    transition: top .3s, opacity .3s;
+}
+.item>strong.active{
+    opacity: 1;
+    top:0;
 }
 .item>p{
     font-size: 14px;
@@ -619,10 +773,16 @@ label[for] {
     letter-spacing: -.036em;
     color: #787878;
     margin-left:1px;
+    position: relative;
+    top:10%;
+    opacity: 0;
+    transition: top .5s, opacity .5s;
 }
-.banner-box-2{
-    
+.item>p.active{
+    opacity: 1;
+    top:0;
 }
+
 .bannner-box-2>.item>.img-box{
     width:calc(100%/3);
     position:relative;
@@ -630,8 +790,12 @@ label[for] {
 .bannner-box-2>.item>.img-box>img{
     position:absolute;
 }
+.tit{
+    overflow: hidden;
+}
 .box-3{
-    margin-top:100px;
+    margin-top:150px;
+    
 }
 .box-3>.banner-box-2{
     margin-left: -9%;
@@ -658,8 +822,9 @@ label[for] {
     margin-left: 26%;
 }
 .box-4{
-    margin-top:100px;
+    margin-top:150px;
     margin-left: 60%;
+    overflow: hidden;
 }
 .box-4 img{
     width: 380px;
@@ -667,7 +832,12 @@ label[for] {
 }
 .box-4>.banner-box{
     position: relative;
+    
+    
+    
 }
+
+
 
 .box-4>.banner-box>.black{
     background-color: black;
@@ -704,11 +874,13 @@ label[for] {
 
 }
 .box-5{
-    margin-top:100px;
+    margin-top:200px;
     position: relative;
+    overflow: hidden;
 }
 .box-5>.banner-box>ul>li{
     margin-bottom: 100px;
+    
 }
 .box-5>.banner-box>ul{
     margin-top:150px;
@@ -723,7 +895,16 @@ label[for] {
     letter-spacing: -.036em;
     display: block;
     font-weight: 600;
+    top:20px;
+    position: relative;
+    opacity: 0;
+    transition: top .5s, opacity .5s;
 }
+.box-5>.banner-box>ul>li>a>strong.active{
+    opacity: 1;
+    top:0;
+}
+
 .box-5>.banner-box>ul>li>a>.sum{
     display: -webkit-box;
     overflow: hidden;
@@ -738,6 +919,13 @@ label[for] {
     line-height: 28px;
     letter-spacing: -.036em;
     color: #787878;
+    top:20px;
+    position: relative;
+    transition: top .5s, opacity .5s;
+}
+.box-5>.banner-box>ul>li>a>.sum.acive{
+    opacity: 1;
+    top:0;
 }
 .box-5>.banner-box>ul>li>a>p{
     overflow: hidden;
@@ -745,23 +933,43 @@ label[for] {
     font-size: 14px;
     line-height: 28px;
     letter-spacing: -.036em;
+    top:20px;
+    position: relative;
+    transition: top .5s, opacity .5s;
+}
+.box-5>.banner-box>ul>li>a>p.active{
+    opacity: 1;
+    top:0;
 }
 
 .box-5 .more{
     position: absolute;
     top:8%;
-    left:69%;
+    left:75%;
     font-weight: 500;
+    opacity: 0;
+    transition: left .5s, opacity .5s;
 }
 
 .box-5 .more:hover>a{
-    font-size: 1.1rem;
+    color:#bdbdbd;
 }
 
 .box-5 .more>a:last-child{
     color: #FEE200;
     padding-left: 10px;
 }
+
+.box-5 .more.active{
+    left: 69%;
+    opacity: 1;
+}
+
+
+
+
+
+
 .box-6{
     margin-left: 60%;
     margin-top:200px;
@@ -791,7 +999,10 @@ label[for] {
   }
   .bottom-bar>.kakao>a{
       letter-spacing: -2px;
+  }
 
+  .bottom-bar>.kakao>a:last-child{
+      margin-left: -5px;
   }
 
   .bottom-bar>.kakao>a:last-child{
@@ -817,9 +1028,46 @@ label[for] {
       margin-left: 25px;
   }
   .bottom-bar .copy{
-      margin-top:28%;
+      margin-top:30%;
       font-size: 13px;
   }
-  .bottom-bar .copy>div{
-      margin-top:10px;
+
+  .bottom-bar>ul>li:hover>a{
+      text-decoration: underline;
   }
+
+
+.box-6{
+    position: relative;
+    overflow: hidden;
+}
+.box-6>.title>a.active{
+    left: -5%;
+    opacity: 1;
+}
+
+.box-6>.title>p.active{
+    left: 0;
+    opacity: 1;
+}
+
+.box-6>.title>a{
+    position: relative;
+    color: #cac9c9;
+    transition: color .3s;
+    left: -11%;
+    opacity: 0;
+    transition: left .5s, opacity .5s;
+}
+.box-6>.title>p{
+    position: relative;
+    left: -10%;
+    opacity: 0;
+    transition: left .5, opacity .5s;
+}
+
+.box-6>.title>a:hover{
+    color: black;
+    transition: color .5s left .3s;
+    left: 0%;
+}
