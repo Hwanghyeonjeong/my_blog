@@ -23,6 +23,9 @@
 
         <li><a href="https://site9.blog.oa.gg/pf/page/">kakaopage</a></li>
         <li><a href="https://www.kakaobank.com/">원본</a></li>
+
+        <li><a href="https://site9.blog.oa.gg/pf/baemin/">baemin</a></li>
+        <li><a href="https://www.kakaobank.com/">원본</a></li>
     </ul>
     </nav>
 
