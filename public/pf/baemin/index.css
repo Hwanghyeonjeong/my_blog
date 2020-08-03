@@ -513,7 +513,7 @@ label[for] {
 }
 
 @media screen and (min-width: 1440px){
-    .first .wrap s{
+    .first .wrap {
     max-width: 1024px;
 }
 }
@@ -577,42 +577,101 @@ img {
     height: auto;
     vertical-align: baseline;
 }
-}
 
-@media screen and (min-width: 1024px){
-.second .wrap {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 0 50px;
-}
-}
 
-.second .wrap{
+.pho .wrap{
     position: relative;
     height: 100vh;
     color: #ffffff;
     box-sizing: border-box;
+    margin: 0 auto;
+    padding: 0 6%;
 }
+.pho .wrap>.txt{
+  padding-top: 30%;
+}
+.pho .wrap>.txt>h1{
+  padding-right: 10%;
+  box-sizing: border-box;
+  width: 85%;
+}
+
+
+@media screen and (min-width: 768px){
+  .pho .wrap>.txt {
+    padding-top: 20%;
+  }
+  .pho .wrap>.txt>h1{
+    width: 65%;
+  }
+  .down {
+    width: 200px;
+  }
+}
+
 @media screen and (min-width: 1024px){
-.second .txt {
+  .pho .wrap {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+  .pho .wrap>.txt {
     padding-top: 165px;
-}
-}
-
-.second .txt h1 {
-    padding-right: 10%;
-    box-sizing: border-box;
-}
-
-@media screen and (min-width: 1024px){
-    .second .txt h1 {
+  }
+  .pho .wrap>.txt>h1{
     width: 500px;
-}
-}
-
-@media screen and (min-width: 1024px){
-    .second .txt h1 img {
+  }
+  .pho .wrap>.txt>h1>img {
     display: block;
     width: 100%;
+  }
+  .pho .wrap .cont{
+    margin-top: 3%;
 }
+.second .ani {
+  width: 600px;
+  bottom: 16%;
+}
+.down {
+  width: 200px;
+  right: 10px;
+  top: 130px;
+}
+}
+
+
+.pho .wrap .cont{
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.pho .wrap>ul{
+  font-size: 14px;
+  margin-top: 6px;
+  color: rgba(255, 255, 255, 0.7);
+  font-weight: 300;
+  box-sizing: border-box;
+  padding-right: calc(5% + 24px);
+  position: relative;
+  z-index: 10;
+}
+
+.second .ani{
+  position: absolute;
+  left: 100%;
+  opacity: 0;
+}
+.second.active .ani{
+  left: 46%;
+  transition: left .8s, opacity .8s;
+  opacity:1;
+}
+.second .ani>img{
+  vertical-align: top;
+}
+
+.top-bar .down{
+  opacity: 1;
+  display: block;
+  position: absolute;
 }
