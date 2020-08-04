@@ -332,320 +332,276 @@ label[for] {
 }
 
 /*시작*/
-.con{
-    max-width: 1024px;
-}
-.back{
-    background-color: #2ac1bc;
-    width: 100%;
-    height: 969px;
-    overflow: hidden;
+.con {
+  max-width: 1024px;
 }
 
-.back>.img-box{
-    height: 969px;
-    position: relative;
-    overflow: hidden;
+.back {
+  background-color: #2ac1bc;
+  width: 100%;
+  height: 969px;
+  overflow: hidden;
 }
-.back>.img-box>.cafe{
-    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/baemin/main_02@2x.jpg);
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: 50% 50%;
-    background-size: cover;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    animation-name: bg-ani;
-    animation-duration: 2s;
-    animation-fill-mode: forwards;
-    
+
+.back>.img-box {
+  height: 969px;
+  position: relative;
+  overflow: hidden;
+}
+
+.back>.img-box>.cafe {
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/baemin/main_02@2x.jpg);
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  animation-name: bg-ani;
+  animation-duration: 2s;
+  animation-fill-mode: forwards;
+
 }
 
 @keyframes bg-ani {
-    0% {
-        width: 150%;
-        height: 150%;
-        opacity: 0;
-    }
-    100% {
-        width: 100%;
-        height: 100%;
-        opacity: 1;
-    }
-}
+  0% {
+    width: 150%;
+    height: 150%;
+    opacity: 0;
+  }
 
-
-.top-bar{
+  100% {
     width: 100%;
-    position: fixed;
-    top: 0;
-    z-index: 10;
-    margin-top:1%;
-    
-}
-@media screen and (min-width: 1024px){
-    .logo {
-    margin-top: 60px;
-    margin-left: 50px;
-}
+    height: 100%;
+    opacity: 1;
+  }
 }
 
-@media screen and (min-width: 768px){
-.logo {
-    width: 142px;
-}
-}
 
-.logo {
-    display: block;
-    margin: 40px 0 0 6%;
-    max-width: 142px;
-}
 
-.logo>img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: baseline;
-    
-}
 
-@media screen and (min-width: 1024px){
+
+
 
 .top-bar {
-    width: 1024px;
-    min-width: 1024px !important;
-    left: 50%;
-    margin-left: -512px;
- }
-}
-@media screen and (max-width: 1024px){
-    .sns{
-        display: none;
-    }
-}
-
-@media screen and (min-width: 1024px){
-    .sns {
-    display: block !important;
-    position: absolute;
-    bottom: 0;
-    right: 100px;
-    width: 50%;
-    text-align: right;
-}
-}
-
-@media screen and (min-width: 1024px){
-.sns li:first-child {
-    margin-right: -5px;
-}
-}
-
-@media screen and (min-width: 1024px){
-    .sns li {
-        display: inline-block;
-        width: 10%;
-        text-align: center;
-        vertical-align: middle;
-}
-}
-
-.first .btn{
-    z-index: 999;
-    position: fixed;
-    top: 0;
-    right: 0;
-    background-image: url(https://hwanghyeonjeong.github.io/img1/pf/baemin/btn_rider.png);
-    background-repeat: no-repeat;
-    background-size: contain;
-}
-
-@media screen and (min-width: 1024px){
-    .btn {
-        width: 191px;
-        height: 241px;
-    }
-}
-
-@media screen and (max-width: 1024px){
-    .btn {
-        width: 125px;
-        height: 156px;
-    }
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 10;
 }
 
 
-@media screen and (max-width: 1024px){
-    .scroll {
-        left: 6%;
-    }
+.logo {
+  display: block;
+  margin: 40px 0 0 6%;
+  max-width: 142px;
 }
 
-@media screen and (min-width: 1024px){
+.logo>img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+
+}
+
+
+.first .btn {
+  z-index: 999;
+  position: fixed;
+  top: 0;
+  right: 0;
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/baemin/btn_rider.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+.three .ani>.road{
+  position: absolute;
+  bottom: 30%;
+  right: 32%;
+  width: 42%;
+}
+.three .ani>.bike{
+  position: absolute;
+  bottom: 26%;
+  right: 25%;
+  width: 42%;
+}
+
+.three.active .ani>.bike {
+  bottom:0%;
+  right: 7%;
+  transition: bottom .8s, right .8s;
+  transition-delay: .8s;
+}
+
+
+.four .ani {
+  position: absolute;
+  bottom: -30%;
+  right: -5%;
+  width: 85%;
+  opacity: 0;
+}
+
+.four.active .ani {
+  bottom:-1%;
+  opacity: 1;
+  transition:bottom .8s, opacity .8s;
+  transition-delay: .5s;
+}
+
+
+
+
+
 .scroll {
-    left: 50%;
-}
-}
-.scroll{
-    position: absolute;
-    display: block;
-    bottom: 3%;
-    width: 20%;
-    z-index: 100;
-}
-.scroll>img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: baseline;
-}
-.first{
-    position: relative;
-}
-.first .wrap{
-    position: absolute;
-    left: 0;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
+  position: absolute;
+  display: block;
+  bottom: 3%;
+  width: 20%;
+  z-index: 100;
 }
 
-@media screen and (min-width: 1440px){
-    .first .wrap {
-    max-width: 1024px;
-}
+.scroll>img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
 }
 
-@media screen and (min-width: 768px){
+.first {
+  position: relative;
+}
+
+.first .wrap {
+  position: absolute;
+  left: 0;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+
+
+
 .first .txt {
-    top: 20%;
-    left: 50px;
-}
-}
-.first .txt{
-    position: absolute;
-    top: 18%;
-    left: 6%;
+  position: absolute;
+  top: 18%;
+  left: 6%;
 }
 
-@media screen and (min-width: 768px){
-.first .txt>h1 {
-    
-    max-width: 440px;
-}
+
+
+
+@media screen and (min-width: 1440px) {
+  .first .wrap {
+    max-width: 1024px;
+  }
 }
 
-@media screen and (max-width: 768px){
-    .first .txt>h1 {
-        
-        width: 85%;
-    }
-    }
+.three .ani>.road {
+  position: absolute;
+  bottom: 16%;
+  right: 21%;
+  width: 232px;
+}
+
+
+
+
+
+.app {
+  position: absolute;
+  bottom: 0;
+  max-width: 262px;
+  right: 0;
+}
+
+.app>img {
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
+}
 
 .first .txt h1 {
-    max-width: 440px;
-  
+  max-width: 440px;
+
 }
 
 img {
-    max-width: 100%;
-    height: auto;
-    vertical-align: baseline;
-}
-
-@media screen and (min-width: 1024px){
-.app {
-    width: 262px;
-}
-}
-@media screen and (max-width: 1024px){
-    .app {
-        width: 55%
-    }
-    }
-
-.app {
-    position: absolute;
-    bottom:0;
-    max-width: 262px;
-    right: 0;
-}
-.app>img{
-    max-width: 100%;
-    height: auto;
-    vertical-align: baseline;
+  max-width: 100%;
+  height: auto;
+  vertical-align: baseline;
 }
 
 
-.pho .wrap{
-    position: relative;
-    height: 100vh;
-    color: #ffffff;
-    box-sizing: border-box;
-    margin: 0 auto;
-    padding: 0 6%;
+
+
+.pho .wrap {
+  position: relative;
+  height: 100vh;
+  color: #ffffff;
+  box-sizing: border-box;
+  margin: 0 auto;
+  padding: 0 6%;
 }
-.pho .wrap>.txt{
-  padding-top: 30%;
-}
-.pho .wrap>.txt>h1{
+
+
+
+.pho .wrap>.txt>h1 {
   padding-right: 10%;
   box-sizing: border-box;
   width: 85%;
 }
 
+.top-bar .down {
+  opacity: 1;
+  display: block;
+  position: absolute;
 
-@media screen and (min-width: 768px){
-  .pho .wrap>.txt {
-    padding-top: 20%;
-  }
-  .pho .wrap>.txt>h1{
-    width: 65%;
-  }
+}
+.five .ani{
+  position: absolute;
+  bottom: -30%;
+  right: -7%;
+  width: 70%;
+  opacity: 0;
+}
+
+.five.active .ani {
+  bottom:-1%;
+  opacity: 1;
+  transition:bottom .8s, opacity .8s;
+  transition-delay: .5s;
+}
+
+
+@media screen and (max-width: 768px) {
   .down {
-    width: 200px;
+    position: absolute;
+    width: 45%;
+    top: 19px;
+    right: 0;
+  }
+
+  .first .txt>h1 {
+    width: 85%;
   }
 }
 
-@media screen and (min-width: 1024px){
-  .pho .wrap {
-    width: 1024px;
-    margin: 0 auto;
-    padding: 0 50px;
-  }
-  .pho .wrap>.txt {
-    padding-top: 165px;
-  }
-  .pho .wrap>.txt>h1{
-    width: 500px;
-  }
-  .pho .wrap>.txt>h1>img {
-    display: block;
-    width: 100%;
-  }
-  .pho .wrap .cont{
-    margin-top: 3%;
-}
-.second .ani {
-  width: 600px;
-  bottom: 16%;
-}
-.down {
-  width: 200px;
-  right: 10px;
-  top: 130px;
-}
-}
 
 
-.pho .wrap .cont{
+
+
+.pho .wrap .cont {
   font-weight: 300;
   font-size: 15px;
 }
 
-.pho .wrap>ul{
+.pho .wrap>ul {
   font-size: 14px;
   margin-top: 6px;
   color: rgba(255, 255, 255, 0.7);
@@ -656,22 +612,238 @@ img {
   z-index: 10;
 }
 
-.second .ani{
+.second .ani {
   position: absolute;
-  left: 100%;
+  bottom: 30px;
+  right: 10%;
+  width: 80%;
   opacity: 0;
-}
-.second.active .ani{
-  left: 46%;
-  transition: left .8s, opacity .8s;
-  opacity:1;
-}
-.second .ani>img{
-  vertical-align: top;
+  -webkit-transform: translateX(100%);
+  transform: translateX(100%);
 }
 
-.top-bar .down{
+.second.active .ani {
+  right: 53%;
+  transition: right .8s, opacity .8s;
+  transition-delay: .8s;
   opacity: 1;
-  display: block;
-  position: absolute;
 }
+
+.second .ani>img {
+  vertical-align: top;
+}
+.pho .wrap>.txt {
+  padding-top: 32%;
+}
+.six .title>h1{
+  width: 40%;
+}
+.six .link{
+  overflow: hidden;
+  margin: 10% 0 5%;
+  width: 100%;
+}
+
+
+@media screen and (min-width: 768px) {
+  .six .link{
+    overflow: visible;
+    width: 450px;
+  }
+  .logo {
+    width: 142px;
+  }
+
+  .first .txt {
+    top: 20%;
+    left: 50px;
+  }
+
+  .first .txt>h1 {
+
+    max-width: 440px;
+  }
+
+  .three .ani>.road {
+
+    position: absolute;
+    bottom: 16%;
+    right: 21%;
+    width: 232%;
+  }
+
+  .three .ani>.bike {
+
+    position: absolute;
+    bottom: 13%;
+    right: 17%;
+    width: 204px;
+  }
+
+  .pho .wrap>.txt {
+    padding-top: 20%;
+  }
+
+  .pho .wrap>.txt>h1 {
+    width: 65%;
+  }
+
+  .down {
+    width: 200px;
+
+  }
+  .four .ani{
+    width: 400px;
+    right: 40px;
+  }
+  .five .ani{
+    width: 352px;
+    right: 10%;
+  }
+  .six .title>h1{
+    width: 45%;
+  }
+  .six .link li{
+    margin-right: 23px;
+  }
+}
+
+
+
+
+@media screen and (min-width: 1024px) {
+  .six .link{
+    margin-top: 0;
+  }
+  .logo {
+    margin-top: 60px;
+    margin-left: 50px;
+  }
+
+  .top-bar {
+    width: 1024px;
+    min-width: 1024px !important;
+    left: 50%;
+    margin-left: -512px;
+  }
+
+  .sns {
+    display: block !important;
+    position: absolute;
+    bottom: 0;
+    right: 100px;
+    width: 50%;
+    text-align: right;
+  }
+
+  .sns li:first-child {
+    margin-right: -5px;
+  }
+
+  .sns li {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    vertical-align: middle;
+  }
+
+  .btn {
+    width: 191px;
+    height: 241px;
+  }
+
+  .scroll {
+    left: 50%;
+  }
+
+  .app {
+    width: 262px;
+  }
+
+  .three .ani>.road {
+    position: absolute;
+    width: 232px;
+  }
+
+  .three .ani>.bike {
+    width: 204px;
+  }
+
+  .pho .wrap {
+    width: 1024px;
+    margin: 0 auto;
+    padding: 0 50px;
+  }
+
+  .pho .wrap>.txt {
+    padding-top: 165px;
+  }
+
+  .second .wrap>.txt>h1 {
+    width: 500px;
+  }
+
+  .pho .wrap>.txt>h1>img {
+    display: block;
+    width: 100%;
+  }
+
+  .pho .wrap .cont {
+    margin-top: 3%;
+  }
+
+  .second .ani {
+    width: 600px;
+    bottom: 16%;
+  }
+
+  .down {
+    width: 200px;
+    right: 10px;
+    top: 130px;
+  }
+  .four .ani{
+    width: 400px;
+    right: 40px;
+  }
+  .five .ani{
+    width: 352px;
+    right: 10%;
+  }
+  .six .title{
+    width: 40%;
+    float: right;
+  }
+  .six .title>h1{
+    width: 176px;
+    padding-top: 0;
+  }
+}
+
+
+
+@media screen and (max-width: 1024px) {
+  .sns {
+    display: none;
+  }
+
+  .btn {
+    width: 125px;
+    height: 156px;
+  }
+
+  .scroll {
+    left: 6%;
+  }
+
+  .app {
+    width: 55%
+  }
+
+  .down {
+    position: absolute;
+    top: 19px;
+    right: 0;
+  }
+}
+

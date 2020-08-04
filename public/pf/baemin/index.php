@@ -30,7 +30,7 @@
             <div class="logo">
                 <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/logo@2x.png" alt="">
             </div>
-           
+
             <ul class="sns flex flex-jc-end">
                 <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/iconFacebook@2x.png" alt=""
                             srcset=""></a></li>
@@ -97,6 +97,14 @@
                         3천만 이상이 선택한 배달의민족,<br>
                         업계 최다 배달가능 업소 보유 중!
                     </p>
+                    <div class="ani">
+                        <div class="road">
+                            <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/img-road@2x.png" alt="">
+                        </div>
+                        <div class="bike">
+                            <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/img-bike@2x.png" alt="">
+                        </div>
+                    </div>
                     <ul>
                         <li> (2017년 11월 기준)</li>
                     </ul>
@@ -113,6 +121,9 @@
                         배달이 안되던 동네 맛집까지 ~<br>
                         배민라이더스가 직접 배달해드립니다.
                     </p>
+                    <div class="ani">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/img-people@2x.png" alt="">
+                    </div>
                     <ul>
                         <li>서울 전지역, 경기 및 광역시 일부 지역에서 서비스 이용 가능!</li>
                     </ul>
@@ -129,9 +140,62 @@
                         배민페이, 네이버페이 등은 물론<br>
                         각종 신용카드까지 결제 가능!
                     </p>
-                   
+                    <div class="ani">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/img-flag@2x.png" alt="">
+                    </div>
+
                 </div>
             </div>
+            <div class="section six pho">
+            <div class="wrap con">
+                <div class="title">
+                    <h1>
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/txt-slogan@2x.png" alt="">
+                    </h1>
+                </div>
+                <div class="link">
+                   <ul class="link1">
+                       <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/link_woowahan@2x.png" alt="" srcset=""></a></li>
+                       <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/link_ceosite@2x.png" alt="" srcset=""></a></li>
+                   </ul>
+                   <ul class="link2">
+                       <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/link_store@2x.png" alt="" srcset=""></a></li>
+                       <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/link_rider@2x.png" alt="" srcset=""></a></li>
+                   </ul>
+                </div>
+                <ul class="footer-sns">
+                    <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/icon_facebook@2x.png" alt="" srcset=""></a></li>
+                    <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/icon_instagram@2x.png" alt="" srcset=""></a></li>
+                    <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/icon_blog@2x.png" alt="" srcset=""></a></li>
+                    <li><a href="#"><img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/icon_youtube@2x.png" alt="" srcset=""></a></li>
+                </ul>
+                <div class="info">
+                    <p class="add">
+                    <span>(주)우아한형제들</span>
+                    <br>
+                    <span>서울시 송파구 위례성대로 2 장은빌딩 2층</span>
+                    </p>
+                    <p class="business">
+                    <span>사업자번호:120-87-65763</span>
+                    <span class="link-business-info">
+              <a href="http://www.ftc.go.kr/bizCommPop.do?wrkr_no=1208765763" target="_blank">사업자정보확인</a>
+            </span><br><span>통신판매업: 서울 송파-0515</span>
+                    </p>
+                    <p class="contact">
+                    <span>전자금융분쟁처리</span>
+                    <br>
+                    <span>대표전화 : 1600-0987</span>
+                    <span class="ico-bar">|</span>
+                    <span>팩스 : 050-6050-0400</span>
+                    <br>
+                    <span class="link-mail">
+							<a href="mailto:help@woowahan.com">대표메일 : help@woowahan.com</a>
+						</span>
+                    </p>
+                </div>
+</div>
+</div>
+            
         </div>
 
     </div>
