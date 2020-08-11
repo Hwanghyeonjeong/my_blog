@@ -331,8 +331,33 @@ label[for] {
   flex: 1 0 0;
 }
 
-.section .img-box img{
-    background-repeat: no-repeat;
-    background-size: cover;
-    
+/*배경 동영상*/
+
+
+.section1 {
+  height:100vh;
+  position:relative;
+  z-index:0;
+  color:white;
+}
+
+.section1 .bg {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  z-index:-1;
+}
+
+.section1 .bg > video {
+  display:block;
+  width:100%;
+  height:100%;
+  object-fit:cover;
+}
+/*탑바*/
+.top-bar{
+  height: 75px;
+  border-bottom:.3px solid rgba(255, 255, 255, .3);
 }

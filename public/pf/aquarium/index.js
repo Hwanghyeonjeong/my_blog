@@ -1,6 +1,6 @@
 $(function() {
     new fullpage('#fullpage', {
-        sectionsColor: ['#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
+        sectionsColor: ['#000000', '#ffffff', '#ffffff', '#ffffff', '#ffffff', '#ffffff'],
       });
     })
     
