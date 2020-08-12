@@ -30,29 +30,76 @@
 
     <div id="fullpage">
         <div class="section section1">
-    <div class="bg">
-        <video autoplay muted src="https://player.vimeo.com/external/365733344.sd.mp4?s=7c39be1804f6846428443fcfa6f2243b9950269d&profile_id=139&oauth2_token_id=57447761"></video>
-    </div>
-    <div class="top-bar">
-        <div class="logo">
-            <img src="" alt="">
-        </div>
-        <ul class="menu flex">
-            <li><a href="#">대전아쿠아리움</a></li>
-            <li><a href="#">테마존</a></li>
-            <li><a href="#">체험안내</a></li>
-            <li><a href="#">이용안내</a></li>
-        </ul>
-        <ul class="login">
-            <li><a href="#"></a></li>
-            <li><a href="#"></a></li>
-        </ul>   
-    </div>
+            <div class="bg">
+                <video autoplay muted src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/mov2.mp4?dummy=1234"
+                    loop="10"></video>
+            </div>
+            <div class="top-bar flex">
+                <div class="logo flex-ai-c">
+                    <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/4.png" alt="">
+                </div>
+                <ul class="menu flex flex-1-0-0 flex-jc-c flex-ai-c">
+                    <li><a href="#" class="flex-ai-c">대전아쿠아리움</a>
+                        <ul>
+                            <li><a href="#">소개</a></li>
+                            <li><a href="#">찾아오는 길</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="flex-ai-c">테마존</a>
+                        <ul>
+                            <li><a href="#">아쿠아리움</a></li>
+                            <li><a href="#">체험동물원</a></li>
+                            <li><a href="#">부대시설</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="flex-ai-c">체험안내</a></li>
+
+                    <li><a href="#" class="flex-ai-c">이용안내</a>
+                        <ul>
+                            <li><a href="#">이용안내</a></li>
+                            <li><a href="#">단체관람안내</a></a></li>
+                            <li><a href="#">자주하는 질문</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#" class="flex-ai-c">고객센터</a>
+                        <ul>
+                            <li><a href="#">공지사항</a></li>
+                            <li><a href="#">자주 묻는 질문</a></a></li>
+                            <li><a href="#">고객소리함</a></li>
+                        </ul>
+                    </li>
+</ul>
+
+
+
+                    <ul class="login flex flex-ai-c">
+                        <li class="flex flex-ai-c"><a href="#" class="flex flex-ai-c">
+                                <img class="user"
+                                    src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/%EC%BA%A1%EC%B2%98.PNG?dummy"
+                                    alt="">
+                                <div class="flex-ai-c">Log In</div>
+                                <img class="v" src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/Untitled-2.png"
+                                    alt="">
+                            </a></li>
+                        <li class="flex flex-ai-c"><a href="#" class="flex">
+                                <img class="ticket flex-ai-c"
+                                    src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/ticket.png" alt="">
+                                <div class="flex-ai-c">티켓구매</div>
+                            </a></li>
+                    </ul>
+            </div>
 
         </div>
-        <div class="section section2">Section 2</div>
+        <div class="section section2">
+            <div class="bg">
+                <div class="img-box">
+                
+                </div>
+            </div>
+        </div>
         <div class="section section3">Section 3</div>
-        <div class="section section4">Section 4</div>   
+        <div class="section section4">Section 4</div>
     </div>
 
 

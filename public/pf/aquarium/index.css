@@ -334,14 +334,14 @@ label[for] {
 /*배경 동영상*/
 
 
-.section1 {
+.section {
   height:100vh;
   position:relative;
   z-index:0;
   color:white;
 }
 
-.section1 .bg {
+.section .bg {
   position:absolute;
   top:0;
   left:0;
@@ -358,6 +358,67 @@ label[for] {
 }
 /*탑바*/
 .top-bar{
-  height: 75px;
+  height: 90px;
   border-bottom:.3px solid rgba(255, 255, 255, .3);
+  padding: 0 50px;
+}
+.top-bar>.logo{
+  
+  
+}
+
+.top-bar .user{
+  width: 30px;
+  height: 30px;
+  margin-right: 10px;
+  margin-top:2px;
+}
+
+.top-bar .v{
+  width: 13px;
+  height: 13px;
+  margin-left: 10px;
+  margin-top: 6px;
+}
+
+.top-bar>.menu{
+  font-size: 19px;
+  
+}
+.top-bar>.menu>li{
+  height: 100%;
+  margin:0 60px;
+}
+.top-bar>.menu>li>a{
+  height: 100%;
+}
+.top-bar>.login>li:first-child{
+  margin-right: 40px;
+}
+
+.top-bar>.login>li:last-child>a>.ticket{
+  width: 30px;
+  height: 22px;
+  margin-top:3px;
+  margin-right: 10px;
+}
+.top-bar .menu ul{
+  font-size: 17px;
+  display: none; 
+}
+
+.top-bar .menu>li:hover ul{
+  display: block;
+}
+
+/*section2*/
+
+.section>.bg>.img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/stingray-4392776_1920.jpg?dummy=123);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  background-color: yellow;
+  width: 100px;
+  height: 100px;
 }
