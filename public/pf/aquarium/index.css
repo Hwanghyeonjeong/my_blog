@@ -333,7 +333,9 @@ label[for] {
 
 /*배경 동영상*/
 
-
+.con{
+  max-width: 1600px;
+}
 .section {
   height:100vh;
   position:relative;
@@ -357,13 +359,23 @@ label[for] {
   object-fit:cover;
 }
 /*탑바*/
+.top{
+  position: relative;
+  height: 90px;
+  width: 100%;
+}
 .top-bar{
   height: 90px;
   border-bottom:.3px solid rgba(255, 255, 255, .3);
-  padding: 0 50px;
+  z-index: 100;
+  color:white;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  
 }
 .top-bar>.logo{
-  
+  margin-left: 50px;
   
 }
 
@@ -383,11 +395,18 @@ label[for] {
 
 .top-bar>.menu{
   font-size: 19px;
-  
+  position: relative;
 }
+
+
+
 .top-bar>.menu>li{
   height: 100%;
-  margin:0 60px;
+  padding:0 60px;
+}
+
+.top-bar>.login{
+  margin-right: 50px;
 }
 .top-bar>.menu>li>a{
   height: 100%;
@@ -403,22 +422,174 @@ label[for] {
   margin-right: 10px;
 }
 .top-bar .menu ul{
-  font-size: 17px;
+  font-size: 16px;
+  color: #767676;
   display: none; 
+  background-color: white;
+  position: absolute;
+  text-align: center;
+}
+.top-bar .menu ul>li{
+  padding: 15px 10px;
 }
 
 .top-bar .menu>li:hover ul{
   display: block;
 }
 
+/*txt*/
+.section1 .txt{
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  top:50%;
+  left: 50%;
+  width: 1000px;
+  height: 200px;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+
+@keyframes top-ani {
+  0% {
+    top: 50%;
+    opacity: 0;
+  }
+  100% {
+    top: 20%;
+    opacity: 1;
+  }
+}
+
+@keyframes bottom-ani {
+  0% {
+    top: 100%;
+    opacity: 0;
+  }
+  100% {
+    top: 70%;
+    opacity: 1;
+  }
+}
+
+
+.section1 .txt>p:first-child{
+  font-size: 1.4rem;
+  position: absolute;
+  text-align: center;
+  top:50%;
+  opacity: 0;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.section1.active .txt>p:first-child{
+  animation-name: top-ani;
+  animation-duration: .7s;
+  animation-fill-mode: forwards;
+}
+
+.section1 .txt>p:last-child{
+  position: absolute;
+  text-align: center;
+  opacity: 0;
+  top:100%;
+  left: 50%;
+  transform: translateY(-50%) translateX(-50%);
+  font-size: 3.5rem;
+  font-weight: bold;  
+}
+
+.section1.active .txt>p:last-child{
+
+  animation-name: bottom-ani;
+  animation-duration: .7s;
+  animation-delay: .3s;
+  animation-fill-mode: forwards;
+}
+
+
 /*section2*/
 
-.section>.bg>.img-box{
-  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/stingray-4392776_1920.jpg?dummy=123);
+
+.section .bg .img-box{
+  position: absolute;
+  width: 100%;
+  height: 100%;
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
-  background-color: yellow;
-  width: 100px;
-  height: 100px;
+}
+
+.section2 .bg .img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/stingray-4392776_1920.jpg);
+}
+.section .bg .img-box>.black{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: black;
+  opacity: .3;
+}
+
+.section .title{
+  position: absolute;
+  overflow: hidden;
+  top: 11%;
+  font-size: 5rem;
+  font-weight: bold;  
+}
+.section2 .cover{
+  position: absolute;
+  
+  top: 25%;
+}
+
+.section2 .pro .box{
+  position: relative;
+  width: 330px;
+  height: 330px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background-color: rgba(0, 0, 0, .3);
+  text-align: center;
+}
+
+.section2 .pro .box>.tit{
+  margin-top: 55px;
+  padding-top: 10px;
+  font-size: 1.5rem;
+}
+
+.section2 .pro .box>p{
+  margin-top: 5px;
+  font-size: .8rem;
+  color: rgb(161, 161, 161);
+  
+}
+
+.section2 .pro .box>.time{
+  margin-top: 40px;
+}
+.section2 .pro1 .box:nth-child(4){
+  background-color: #1E539C;
+}
+.section2 .pro .box>.text{
+  margin-top: 50%;
+  transform: translateY(-50%);
+}
+
+.section2 .pro2 .box-6>.price{
+  margin-top: 20px;
+}
+
+.section2 .pro2 .box-7>.dd{
+  margin-top: 20px;
+}
+
+.section3 .bg .img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/craig-lovelidge-5iiI5wVXY8M-unsplash.jpg);
+}
+
+.section4 .bg .img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/animal-21668_1920.jpg);
 }
