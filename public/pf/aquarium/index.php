@@ -160,33 +160,84 @@
                 </div>
             </div>
         </div>
-    
+
 
 
 
         <div class="section section3">
-    <div class="bg">
+            <div class="bg">
                 <div class="img-box">
                     <div class="black"></div>
                 </div>
             </div>
             <div class="con">
                 <div class="title">Information</div>
-                <div class="box box1">
-                    <div class="txt">
-                        <div class="title">이용시간</div>
-                        <div class="time">
-                            <div class="1">평일  10:00-19:00<br>입장마감  18:00</div>
-                            <div class="2">주말 및 공휴일  10:00-20:00<br>입장마감  19:00</div>
+                <div class="cover flex">
+                    <div class="box box1">
+                        <div class="txt">
+                            <div class="tit">이용시간</div>
+                            <div class="time flex">
+                                <ul class="left">
+                                    <li>평일</li>
+                                    <li>입장마감</li>
+                                    <li>주말 및 공휴일</li>
+                                    <li>입장마감</li>
+                                </ul>
+                                <ul class="right">
+                                    <li>10:00-19:00</li>
+                                    <li>18:00</li>
+                                    <li>10:00-20:00</li>
+                                    <li>19:00</li>
+                                </ul>
+                            </div>
+                                
+                            <div class="small">※ 아쿠아리움 사정으로 이용시간이 변경될 수 <br>있습니다.
+                            </div>
                         </div>
-                        <div class="small">※ 아쿠아리움 사정으로 이용시간이 변경될 수 있습니다.
-</div>
+                    </div>
+                    <div class="box box2">
+                        <div class="txt">
+                        <div class="tit">이용요금</div>
+                        <div class="time flex">
+                                <ul class="left">
+                                    <li>성인</li>
+                                    <li>청소년</li>
+                                    <li>어린이 / 경로</li>
+                                    <li>장애인</li>
+                                </ul>
+                                <ul class="right">
+                                    <li>21000원</li>
+                                    <li>19000원</li>
+                                    <li>17000원</li>
+                                    <li>17000원</li>
+                                </ul>
+                            </div>
+                            
+                            <div class="small">단체문의 1522-4090</div>
+                        </div>
+                    </div>
+                    <div class="box box3">
+                        <div class="txt">
+                            <div class="tit">연간회원</div>
+                            <div class="time flex">
+                                <ul class="left">
+                                    <li>성인</li>
+                                    <li>청소년 / 어린이</li>
+                                </ul>
+                                <ul class="right">
+                                    <li>70000원</li>
+                                    <li>60000원</li>
+                                </ul>
+                            </div>
+                            <div class="small">- 1년간 대전아쿠아리움 무료입장<br>- 아쿠아리움 체험프로그램 할인</div>
+                            
+                        </div>
+
                     </div>
                 </div>
-                <div class="box box2"></div>
-                <div class="box box3"></div>
-    </div>
-</div>
+            </div>
+
+        </div>
 
 
 
@@ -201,16 +252,16 @@
 
 
 
-    <div class="section section4">
-    <div class="bg">
+        <div class="section section4">
+            <div class="bg">
                 <div class="img-box">
                     <div class="black"></div>
                 </div>
             </div>
             <div class="con">
                 <div class="title">Information</div>
-</div>
-    </div>
+            </div>
+        </div>
     </div>
 
 

@@ -334,7 +334,7 @@ label[for] {
 /*배경 동영상*/
 
 .con{
-  max-width: 1600px;
+  max-width: 1500px;
 }
 .section {
   height:100vh;
@@ -541,7 +541,6 @@ label[for] {
 }
 .section2 .cover{
   position: absolute;
-  
   top: 25%;
 }
 
@@ -592,4 +591,70 @@ label[for] {
 
 .section4 .bg .img-box{
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/animal-21668_1920.jpg);
+}
+.section3 .title{
+  top:17%; 
+}
+.section3 .cover{
+  position: absolute;
+  top: 37%;
+}
+
+.section3 .box{
+  position: relative;
+  width: 420px;
+  height: 420px;
+  border: 1px solid rgba(255, 255, 255, .3);
+  background-color: rgba(0, 0, 0, .3);
+}
+
+.section3 .box:not(:nth-child(1)){
+  margin-left: 30px;
+}
+
+.section3 .box .tit{
+  font-size: 2rem;
+  font-weight: bold;
+  margin:10% 0;
+}
+
+.section3 .box .txt{
+  margin-top: 50%;
+  transform: translateY(-50%);
+  margin-left: 60px;
+  font-size: 20px;
+}
+
+.section3 .box .small{
+  margin: 10% 0;
+  font-size: 15px;
+}
+
+.section3 .box .time .right{
+  margin-left:75px;
+}
+
+.section3 .box2 .time .right{
+  margin-left: 120px;
+}
+.section3 .box3 .time .right{
+  margin-left: 100px;
+}
+.section3 .box1 .time .left li:nth-child(2){
+  margin-bottom: 30px;
+}
+
+.section3 .box1 .time .right li:nth-child(2){
+  margin-bottom: 30px;
+}
+.section3 .box3 .time{
+  padding: 6% 0;
+}
+
+.section3 .box ul li{
+  margin: 12px 0;
+}
+
+.section3 .box1 ul li{
+  margin: 3px 0;
 }
