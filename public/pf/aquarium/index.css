@@ -334,7 +334,7 @@ label[for] {
 /*배경 동영상*/
 
 .con{
-  max-width: 1500px;
+  max-width: 1350px;
 }
 .section {
   height:100vh;
@@ -532,13 +532,58 @@ label[for] {
   opacity: .3;
 }
 
-.section .title{
+.section2 .title{
   position: absolute;
   overflow: hidden;
-  top: 11%;
+  top: 16%;
   font-size: 5rem;
   font-weight: bold;  
+  opacity: 0;
 }
+
+.section2.active .title{
+  transition: top 1s, opacity 1s;
+  transition-delay: .5s;
+  top: 11%;
+  opacity: 1;
+}
+
+
+
+.section3 .title{
+  position: absolute;
+  overflow: hidden;
+  top: 22%;
+  font-size: 5rem;
+  font-weight: bold;  
+  opacity: 0;
+}
+
+.section3.active .title{
+  transition: top 1s, opacity 1s;
+  transition-delay: .5s;
+  top: 17%;
+  opacity: 1;
+}
+
+
+.section4 .title{
+  position: absolute;
+  overflow: hidden;
+  top: 22%;
+  font-size: 5rem;
+  font-weight: bold;  
+  opacity: 0;
+}
+
+.section4.active .title{
+  transition: top 1s, opacity 1s;
+  transition-delay: .5s;
+  top: 17%;
+  opacity: 1;
+}
+
+
 .section2 .cover{
   position: absolute;
   top: 25%;
@@ -551,12 +596,110 @@ label[for] {
   border: 1px solid rgba(255, 255, 255, .3);
   background-color: rgba(0, 0, 0, .3);
   text-align: center;
+  margin-top: 10%;
+  opacity: 0;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.section2 .pro .box:hover{
+  background-color: #3366FF;
+  
+}
+
+.section2.active .pro .box-1{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: .5s;
+  opacity: 1;
+}
+
+.section2.active .pro .box-2{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: .6s;
+  opacity: 1;
+}
+.section2.active .pro .box-3{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: .7s;
+  opacity: 1;
+}
+.section2.active .pro .box-4{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: .8s;
+  opacity: 1;
+}
+.section2.active .pro .box-5{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: .9s;
+  opacity: 1;
+}
+.section2.active .pro .box-6{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: 1s;
+  opacity: 1;
+}
+.section2.active .pro .box-7{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: 1.1s;
+  opacity: 1;
+}
+.section2.active .pro .box-8{
+  transition: margin-top 1s, opacity 1s;
+  margin-top: 0%;
+  transition-delay: 1.2s;
+  opacity: 1;
 }
 
 .section2 .pro .box>.tit{
-  margin-top: 55px;
-  padding-top: 10px;
+  margin-top: 50%;
   font-size: 1.5rem;
+  transition: margin-top .5s;
+}
+.section2 .pro .box:hover .tit{
+  margin-top: 35%;
+  transition: margin-top .5s;
+}
+
+.section2 .pro .box img{
+  position: absolute;
+  top: 25%;
+  width: 60px;
+  left: 50%;
+  transform: translateX(-50%);
+  transition: top .5s;
+}
+
+.section2 .pro .box:hover img{
+  top: 10%;
+  transition: top .5s;
+}
+
+.section2 .pro .box-2 img{
+  width: 55px;
+}
+.section2 .pro .box-3 img{
+  width: 55px;
+  top: 26%;
+}
+.section2 .pro .box-5 img{
+  width: 50px;
+}
+.section2 .pro2 .box-6:hover img{
+  top: 14%;
+}
+.section2 .pro .box-6 img{
+  width: 70px;
+  top: 30%;
+}
+.section2 .pro .box-7 img{
+  width: 45px;
 }
 
 .section2 .pro .box>p{
@@ -566,23 +709,45 @@ label[for] {
   
 }
 
+.section2 .pro .box:hover>.time{
+  opacity: 1;
+
+}
+
 .section2 .pro .box>.time{
   margin-top: 40px;
+  transition: opacity .5s;
+  opacity: 0;
+
 }
 .section2 .pro1 .box:nth-child(4){
-  background-color: #1E539C;
+  background-color: #E3A502;
+  
 }
 .section2 .pro .box>.text{
   margin-top: 50%;
   transform: translateY(-50%);
 }
 
-.section2 .pro2 .box-6>.price{
-  margin-top: 20px;
+.section2 .pro2 .box-6:hover>.price{
+  opacity: 1;
+  margin-top: 0%;
+  transition: margin-top .5s, opacity .5s;
 }
 
+.section2 .pro2 .box-6>.price{
+  font-size:13px;
+  margin-top: 35px;
+  opacity: 0;
+}
 .section2 .pro2 .box-7>.dd{
+  font-size:13px;
+  margin-top: 35px;
+  opacity: 0;
+}
+.section2 .pro2 .box-7:hover>.dd{
   margin-top: 20px;
+  opacity: 1;
 }
 
 .section3 .bg .img-box{
@@ -592,9 +757,7 @@ label[for] {
 .section4 .bg .img-box{
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/animal-21668_1920.jpg);
 }
-.section3 .title{
-  top:17%; 
-}
+
 .section3 .cover{
   position: absolute;
   top: 37%;
@@ -658,3 +821,45 @@ label[for] {
 .section3 .box1 ul li{
   margin: 3px 0;
 }
+
+
+/* 오른쪽 네비 시작 */
+#menu{
+  position:fixed;
+  top:50%;
+  left: 91%;
+  height: 40px;
+  z-index: 70;
+  width: 10%;
+  padding: 0;
+  margin:0;
+  transform: translatey(-50%);
+  color:white;
+}
+
+#menu > li {
+  padding-top:5px;
+}
+
+#menu > li > a{
+  opacity: 0;
+}
+#menu > li > div {
+  width: 25px;
+  height: 1.5px;
+  margin:0 10px 0 10px;
+  opacity: .3;
+  background-color: white;
+  
+}
+#menu > li.active > div {
+  width: 70px;
+  transition: width 1s;
+  opacity: 1;
+}
+
+#menu > li.active > a {
+  font-weight: bold;
+  opacity: 1;
+}
+/* 왼쪽 네비 끝 */

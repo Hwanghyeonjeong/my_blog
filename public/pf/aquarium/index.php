@@ -25,6 +25,7 @@
 <body>
 
 
+
     <div class="top-bar flex">
         <div class="logo flex-ai-c">
             <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/4.png" alt="">
@@ -82,6 +83,29 @@
 
 
     <div id="fullpage">
+
+
+    <ul id="menu">
+  <li data-menuanchor="anchor1" class="flex flex-ai-c flex-jc-end">
+    <a href="#anchor1" class="">Home</a>
+    <div class="line"></div>
+    </li>
+  <li data-menuanchor="anchor2" class="flex flex-ai-c flex-jc-end">
+    <a href="#anchor2">Program</a>
+    <div class="line"></div>
+  </li>
+  <li data-menuanchor="anchor3" class="flex flex-ai-c flex-jc-end">
+    <a href="#anchor3">Information</a>
+    <div class="line"></div>
+  </li>
+  <li data-menuanchor="anchor4" class="flex flex-ai-c flex-jc-end">
+    <a href="#anchor4">Community</a>
+    <div class="line"></div>
+  </li>
+</ul>
+
+
+
         <div class="section section1">
             <div class="bg">
                 <video autoplay muted src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/mov2.mp4?dummy=1234"
@@ -113,18 +137,24 @@
                 <div class="cover">
                     <div class="pro pro1 flex">
                         <div class="box box-1">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/diving.png" alt="">
                             <div class="tit">다이버의 수중탐사시간</div>
                             <p>눈앞에서 펼쳐지는 다이버의 즐거운<br>물고기 피딩시간!</p>
+                            
                             <div class="time">평일 탐사시간 11:00, 14:30<br>주말 탐사시간 11:00, 12:30,<br>14:00, 15:30, 17:00</div>
                         </div>
                         <div class="box box-2">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/stair-of-a-swimming-pool.png" alt="">
                             <div class="tit">터치풀</div>
                             <p>살아있는 물고기와 샌드피쉬를 직접 만져볼<br>수 있는 터치풀</p>
+                         
                             <div class="time">물고기 체험관 / 샌드피쉬 체험관</div>
                         </div>
                         <div class="box box-3">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/ocean.png" alt="">
                             <div class="tit">비단잉어 먹이체험</div>
                             <p>내 손으로 직접 비단잉어에게 먹이를 줄 수 있는<br>비단잉어 먹이체험</p>
+                         
                             <div class="time">먹이요금 1캡슐 당 1,000원<br>(자판기 운영 / 500x2)</div>
                         </div>
                         <div class="box box-4">
@@ -134,26 +164,34 @@
                     </div>
                     <div class="pro pro2 flex">
                         <div class="box box-5">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/sea-life.png" alt="">
                             <div class="tit">닥터피쉬 체험관</div>
                             <p>피부 각질을 간질간질 떼어먹는 닥터피쉬 체험관!</p>
+                           
                             <div class="time">발만 체험 가능합니다. (손은X)<br>미끄러울 수 있으니, 주의하여 주세요!<br>체험시간 및 요금 10분 2,000원</div>
                         </div>
                         <div class="box box-6">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/crocodile.png" alt="">
                             <div class="tit">악어쇼 관람관</div>
                             <p>태국 정통 조련사들과 악어들이 펼치는 숨막히는<br>대결투로 여러분을 초대합니다</p>
+                           
                             <div class="time">평일 관람시간 12:00, 14:00, 16:00<br>주말 관람시간 11:30, 13:00,<br>14:30, 16:00,
                                 17:30</div>
                             <div class="price">관람요금 6,000원 (연간회원 4,000원)</div>
                         </div>
                         <div class="box box-7">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/rabbit.png" alt="">
                             <div class="tit">체험동물원 먹이주기 체험</div>
                             <p>20여종의 동물들을 보고, 만지고, 먹이까지<br>줄 수 있는 체험동물원!</p>
+                           
                             <div class="time">체험 요금 실내 당근먹이 1,000원<br>실외 맹수 먹이 1,000원</div>
                             <div class="dd">외부에서 가져온 먹이는 줄 수 없습니다</div>
                         </div>
                         <div class="box box-8">
+                        <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/bird.png" alt="">
                             <div class="tit">조류 체험장</div>
                             <p>내 손으로 직접 새들에게 먹이를 줄 수 있는 먹이체험</p>
+                           
                             <div class="time">먹이요금 1캡슐 당 1,000원<br>(자판기 운영 / 500x2)</div>
                         </div>
                     </div>
@@ -259,7 +297,7 @@
                 </div>
             </div>
             <div class="con">
-                <div class="title">Information</div>
+                <div class="title">Community</div>
             </div>
         </div>
     </div>
