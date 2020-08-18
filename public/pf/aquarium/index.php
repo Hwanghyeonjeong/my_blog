@@ -213,6 +213,7 @@
                 <div class="cover flex">
                     <div class="box box1">
                         <div class="txt">
+                            
                             <div class="tit">이용시간</div>
                             <div class="time flex">
                                 <ul class="left">
@@ -298,6 +299,13 @@
             </div>
             <div class="con">
                 <div class="title">Community</div>
+                <div class="cover">
+                <div class="box box-1"><div class="img-box"></div></div>
+                <div class="box box-2"><div class="img-box"></div></div>
+                <div class="box box-3"><div class="img-box"></div></div>
+                <div class="box box-4"><div class="img-box"></div></div>
+                <div class="box box-5"><div class="img-box"></div></div>
+                </div>
             </div>
         </div>
     </div>
