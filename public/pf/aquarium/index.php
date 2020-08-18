@@ -297,14 +297,15 @@
                     <div class="black"></div>
                 </div>
             </div>
-            <div class="con">
+            <div class="con-1">
                 <div class="title">Community</div>
-                <div class="cover">
-                <div class="box box-1"><div class="img-box"></div></div>
-                <div class="box box-2"><div class="img-box"></div></div>
-                <div class="box box-3"><div class="img-box"></div></div>
-                <div class="box box-4"><div class="img-box"></div></div>
-                <div class="box box-5"><div class="img-box"></div></div>
+                <div class="cover flex">
+                <div class="box box-1"><div class="img-box"><i class="fab fa-facebook-f"></i></div></div>
+                <div class="box box-2"><div class="img-box"><i class="fab fa-instagram"></i></div></div>
+                <div class="box box-3"><div class="img-box"><i class="fab fa-facebook-f"></i></div></div>
+                <div class="box box-4"><div class="img-box"><i class="fab fa-instagram"></i></div></div>
+                <div class="box box-5"><div class="img-box"><i class="fab fa-instagram"></i></div></div>
+                <div class="box box-6"><div class="img-box"><i class="fab fa-instagram"></i></div></div>
                 </div>
             </div>
         </div>

@@ -336,6 +336,13 @@ label[for] {
 .con{
   max-width: 1350px;
 }
+
+.con-1{
+  max-width: 1500px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 .section {
   height:100vh;
   position:relative;
@@ -894,9 +901,14 @@ label[for] {
   opacity: 1;
 }
 /* 왼쪽 네비 끝 */
+.section4 .cover{
+  overflow: hidden;
+}
 .section4 .cover .box{
   position: absolute;
   top: 33%;
+  flex-grow:1;
+    transition:transform 0.3s;
 }
 .section4 .box{
   position: relative;
@@ -905,20 +917,27 @@ label[for] {
   border: 2px solid rgba(255, 255, 255, .3);
   background-color: rgba(0, 0, 0, .3);
   cursor: pointer;
+  
 }
+
 .section4 .box:nth-child(2){
-  margin-left: 11%;
+  margin-left: 10%;
 }
 
 .section4 .box:nth-child(3){
-  margin-left: 22%;
+  margin-left: 20%;
 }
 .section4 .box:nth-child(4){
-  margin-left: 33%;
+  margin-left: 30%;
 }
 .section4 .box:nth-child(5){
-  margin-left: 44%;
+  margin-left: 40%;
 }
+
+.section4 .box:nth-child(6){
+  margin-left: 50%;
+}
+
 
 .section4 .box .img-box{
   width: 100%;
@@ -926,19 +945,34 @@ label[for] {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  
 }
 .section4 .box-1 .img-box{
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-andreas-l-3626111.jpg);
 }
 .section4 .box-2 .img-box{
-  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-phoebe-pinfold-3989684.jpg);
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-ivy-son-3490958.jpg);
 }
 .section4 .box-3 .img-box{
-  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/nardeen-hamad-SIs5c2ISvvk-unsplash.jpg);
-}
-.section4 .box-4 .img-box{
   background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/glenn-haertlein-IpuuBrEPUVE-unsplash.jpg);
 }
+
+.section4 .box-4 .img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/daniel-corneschi-sVGnruulBcA-unsplash.jpg);
+}
 .section4 .box-5 .img-box{
-  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-ivy-son-3490958.jpg);
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-kon-karampelas-3914166.jpg);
+}
+.section4 .box-6 .img-box{
+  background-image: url(https://hwanghyeonjeong.github.io/img1/pf/aquarium/pexels-phoebe-pinfold-3989684.jpg);
+}
+
+.section4  .box:hover ~ .box {
+  transform:translateX(291px);
+}
+.section4 .box .fab{
+  position: absolute;
+  font-size: 2rem;
+  top: 5%;
+  left: 5%;
 }
