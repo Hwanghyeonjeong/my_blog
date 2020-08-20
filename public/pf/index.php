@@ -33,7 +33,7 @@
 
 <h1>프로젝트</h1>
 <ul>
-<li><a href="https://site9.blog.oa.gg/pf/aquarium/">baemin</a></li>
+<li><a href="https://site9.blog.oa.gg/pf/aquarium/">대전아쿠아리움</a></li>
 <li><a href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/6.jpg">대전아쿠아리움</a></li>
         <li>창작여부 : 창작</li>
 </ul>
