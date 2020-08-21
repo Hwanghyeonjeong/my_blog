@@ -297,7 +297,14 @@
                                     <li>60000원</li>
                                 </ul>
                             </div>
-                            <div class="small">- 1년간 대전아쿠아리움 무료입장<br>- 아쿠아리움 체험프로그램 할인</div>
+                            <div class="bottom flex flex-ai-c">
+                                <div class="small">- 1년간 대전아쿠아리움 무료입장<br>- 아쿠아리움 체험프로그램 할인</div>
+                                <div class="over flex">
+                                    <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/ticket.png" alt="">
+                                    <div class="tic">티켓구매</div>
+                                </div>
+
+                            </div>
                             
 
                         </div>
@@ -486,10 +493,6 @@
                 </div>
             </div>
         </div>
-
-
-
- 황현정
 
 </body>
 
