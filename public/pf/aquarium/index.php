@@ -28,46 +28,55 @@
 
 
 
-    <div class="top-bar flex">
-        <div class="logo flex-ai-c">
-            <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/4.png" alt="">
-        </div>
-        <ul class="menu flex flex-1-0-0 flex-jc-c flex-ai-c">
-            <li><a href="#" class="flex-ai-c">대전아쿠아리움</a>
-                <ul>
-                    <li><a href="#">소개</a></li>
-                    <li><a href="#">찾아오는 길</a>
-                    </li>
-                </ul>
-            </li>
-            <li><a href="#" class="flex-ai-c">테마존</a>
-                <ul>
-                    <li><a href="#">아쿠아리움</a></li>
-                    <li><a href="#">체험동물원</a></li>
-                    <li><a href="#">부대시설</a></li>
-                </ul>
-            </li>
-            <li><a href="#" class="flex-ai-c">체험안내</a></li>
-
-            <li><a href="#" class="flex-ai-c">이용안내</a>
-                <ul>
-                    <li><a href="#">이용안내</a></li>
-                    <li><a href="#">단체관람안내</a></a></li>
-                    <li><a href="#">자주하는 질문</a></li>
-                </ul>
-            </li>
-            <li><a href="#" class="flex-ai-c">고객센터</a>
-                <ul>
-                    <li><a href="#">공지사항</a></li>
-                    <li><a href="#">자주 묻는 질문</a></a></li>
-                    <li><a href="#">고객소리함</a></li>
-                </ul>
-            </li>
+<div class="top-bar text-align-center line-height-0 relative">
+  <nav class="menu-box-1 inline-block">
+    <ul class="row">
+      <li class="cell">
+        <a href="#" class="block"><span>대전아쿠아리움</span></a>
+        <ul>
+          <li><a href="#" class="block">소개</a></li>
+          <li><a href="#" class="block">찾아오는길</a></li>
+          
         </ul>
-
-
-
-        <ul class="login flex flex-ai-c">
+      </li>
+      <li class="cell">
+        <a href="#" class="block"><span>테마존</span></a>
+        <ul>
+          <li><a href="#" class="block">아쿠아리움</a></li>
+          <li><a href="#" class="block">체험동물원</a></li>
+          <li><a href="#" class="block">부대시설</a></li>
+        </ul>
+      </li>
+      <li class="cell">
+        <a href="#" class="block"><span>체험안내</span></a>
+       
+      </li>
+      <li class="cell">
+        <a href="#" class="block"><span>이용안내</span></a>
+        <ul>
+          <li><a href="#" class="block">이용안내</a></li>
+          <li><a href="#" class="block">단체관람안내</a></li>
+          <li><a href="#" class="block">자주하는 질문</a></li>
+        </ul>
+      </li>
+      <li class="cell">
+        <a href="#" class="block"><span>고객센터</span></a>
+        <ul>
+          <li><a href="#" class="block">공지사항</a></li>
+          <li><a href="#" class="block">자주 묻는 질문</a></li>
+          <li><a href="#" class="block">고객소리함</a></li>
+        </ul>
+      </li>
+      
+    </ul>
+  </nav>
+  
+  <a href="#" class="logo absolute-left absolute-middle img-box">
+    <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/4.png" alt="">
+    <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/455.png" alt="">
+  </a>
+  
+  <ul class="login flex flex-ai-c">
             <li class="flex flex-ai-c"><a href="#" class="flex flex-ai-c">
                     <img class="user"
                         src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/%EC%BA%A1%EC%B2%98.PNG?dummy" alt="">
@@ -80,8 +89,10 @@
                     <div class="flex-ai-c">티켓구매</div>
                 </a></li>
         </ul>
-    </div>
-
+  
+  <div class="menu-box-1-sub-menu-background"></div>
+  <div class="menu-box-1-hover-background"></div>
+</div>
 
 
     <div id="fullpage">
@@ -253,7 +264,7 @@
                                 </ul>
                             </div>
 
-                            <div class="small">※ 아쿠아리움 사정으로 이용시간이 변경될 수 <br>있습니다.
+                            <div class="small"><div class="ds">※ 아쿠아리움 사정으로 이용시간이 변경될 수 <br>있습니다.</div>
                             </div>
                         </div>
                     </div>
@@ -298,8 +309,8 @@
                                 </ul>
                             </div>
                             <div class="bottom flex flex-ai-c">
-                                <div class="small">- 1년간 대전아쿠아리움 무료입장<br>- 아쿠아리움 체험프로그램 할인</div>
-                                <div class="over flex">
+                                <div class="small">- 1년간 대전아쿠아리움 무료<br>- 아쿠아리움 체험프로그램 할인</div>
+                                <div class="over-2 flex">
                                     <img src="https://hwanghyeonjeong.github.io/img1/pf/aquarium/ticket.png" alt="">
                                     <div class="tic">티켓구매</div>
                                 </div>

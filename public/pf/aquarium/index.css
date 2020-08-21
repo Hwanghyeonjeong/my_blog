@@ -366,23 +366,191 @@ label[for] {
   object-fit:cover;
 }
 /*탑바*/
-.top{
-  position: relative;
-  height: 90px;
-  width: 100%;
-}
-.top-bar{
-  height: 90px;
-  border-bottom:.3px solid rgba(255, 255, 255, .3);
-  z-index: 100;
+.top-bar {
+  z-index: 50000;
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
   color:white;
-  position: fixed;
-  top: 0;
-  width: 100%;
+  height: 90px;
+  border-bottom: .5px solid rgba(255, 255, 255, .3);
+}
+
+/* 탑바 - 메뉴 박스 1 */
+.top-bar > .menu-box-1 {
+  
+  height: 100%;
+
+}
+.top-bar > .menu-box-1 > ul {
+  height: 100%;
   
 }
-.top-bar>.logo{
-  margin-left: 50px;
+.top-bar > .menu-box-1 > ul > li{
+  padding: 0 40px;
+  height: 100%;
+  margin-top: 5px;
+  
+
+}
+.top-bar > .menu-box-1 > ul > li {
+  position:relative;
+  
+}
+
+.top-bar > .menu-box-1 > ul > li > a {
+  padding:25px;
+  font-weight:500;
+  font-size:1.18rem;
+  position:relative;
+}
+
+
+
+.top-bar > .menu-box-1 > ul > li ul li {
+
+}
+
+.top-bar > .menu-box-1 > ul > li > a > span {
+  position:relative;
+}
+
+.top-bar > .menu-box-1 > ul > li > a > span::after {
+  content:"";
+  position:absolute;
+  top:100%;
+  left:50%;
+  transform:translateX(-50%);
+  width:0%;
+  height:4px;
+  background-color:rgba(51, 102, 255, .8);
+  transition:width 0.3s;
+}
+
+.top-bar > .menu-box-1 > ul > li:hover > a > span::after {
+  width:100%;
+}
+
+.top-bar > .menu-box-1 > ul ul {
+  position:absolute;
+  color:black;
+  width:calc(100% - 75px);
+  height:0;
+  overflow-y:hidden;
+  transition:height 0s, padding-top 0.5s;
+  padding-top:0px;
+  
+}
+
+.top-bar > .menu-box-1:hover > ul ul {
+  padding-top:10px;
+  
+}
+
+.top-bar > .menu-box-1:hover > ul ul, .top-bar > .menu-box-1:hover ~ .menu-box-1-sub-menu-background {
+  height:170px;
+}
+.top-bar > .menu-box-1 > ul ul > li{
+  line-height: 50px;
+  text-align: center;
+}
+.top-bar > .menu-box-1 > ul ul > li > a {
+  font-weight:400;
+  font-size: 16px;
+  color: #767676;
+  
+
+}
+.top-bar > .menu-box-1 > ul:hover>li> a{
+color: rgb(148, 148, 148);
+}
+.top-bar > .menu-box-1 > ul>li:hover> a {
+  color: rgba(51, 102, 255, .8);
+}
+.top-bar > .menu-box-1 > ul ul > li:hover > a {
+  color: rgba(51, 102, 255, .8);
+  font-weight: bold;
+}
+
+.top-bar > .menu-box-1-sub-menu-background {
+  position:absolute;
+  top:100%;
+  left:0;
+  width:100%;
+  background-color:white;
+  z-index:-1;
+  height:0;
+}
+
+.top-bar > .menu-box-1:hover > ul ul, .top-bar > .menu-box-1:hover ~ .menu-box-1-sub-menu-background {
+  transition:height 0.3s, padding-top .6s;
+}
+
+.top-bar > .menu-box-1-hover-background {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:white;
+  z-index:-1;
+  display:none;
+}
+
+.top-bar > .menu-box-1:hover ~ .menu-box-1-hover-background {
+  display:block;
+}
+
+/* 탑바 - 문의하기 */
+.top-bar > .go-question {
+  padding:3px 8px;
+  border:1px solid white;
+  margin-right:30px;
+  transition:background-color 0.3s, color 0.3s;
+  font-weight:500;
+}
+
+.top-bar > .go-question:hover {
+  background-color:white;
+  color:black;
+}
+
+.top-bar > .menu-box-1:hover {
+  color:black;
+}
+
+.top-bar > .menu-box-1:hover ~ .go-question {
+  color:black;
+  border-color:black;
+}
+
+/* 탑바 - 로고 */
+.top-bar > .logo {
+  margin-left:30px;
+}
+
+.top-bar > .logo > img:last-child {
+  display:none;
+}
+
+.top-bar > .menu-box-1:hover ~ .logo > img:last-child {
+  display:block;
+}
+
+.top-bar > .menu-box-1:hover ~ .logo > img:first-child {
+  display:none;
+}
+
+.top-bar > .menu-box-1:hover {
+  background-color:white;
+}
+
+.top-bar>.login{
+  top: 50%;
+  transform: translateY(-50%);
+  right: 2%;
+  position: absolute;
   
 }
 
@@ -400,24 +568,6 @@ label[for] {
   margin-top: 6px;
 }
 
-.top-bar>.menu{
-  font-size: 19px;
-  position: relative;
-}
-
-
-
-.top-bar>.menu>li{
-  height: 100%;
-  padding:0 60px;
-}
-
-.top-bar>.login{
-  margin-right: 50px;
-}
-.top-bar>.menu>li>a{
-  height: 100%;
-}
 .top-bar>.login>li:first-child{
   margin-right: 40px;
 }
@@ -428,21 +578,6 @@ label[for] {
   margin-top:3px;
   margin-right: 10px;
 }
-.top-bar .menu ul{
-  font-size: 16px;
-  color: #767676;
-  display: none; 
-  position: absolute;
-  text-align: center;
-}
-.top-bar .menu ul>li{
-  padding: 15px 10px;
-}
-
-.top-bar .menu>li:hover ul{
-  display: block;
-}
-
 /*txt*/
 
 
@@ -493,7 +628,7 @@ label[for] {
   display: block;
 }
 .animated-title > div.text-top {
-  border-bottom: .7vmin solid rgb(231, 198, 48);
+  border-bottom: .7vmin solid rgba(51, 102, 255, .8);
   top: 0;
 }
 .animated-title > div.text-top div {
@@ -840,8 +975,11 @@ label[for] {
   font-weight: bold;
   margin:10% 0;
 }
+.section3 .box3 .bottom {
+  margin-top:60px;
+}
 
-.section3 .box .bottom {
+.section3 .box2 .bottom {
   margin-top:30px;
 }
 .section3 .box .bottom .over img{
@@ -865,13 +1003,39 @@ label[for] {
 }
 
 
+.section3 .box .bottom .over-2 img{
+  padding-top: 4px;
+  padding-right: 5px;
+  width: 29px;
+  height: 19px;
+}
+.section3 .box .bottom .over-2 .tic{
+  font-size: 15px;
+}
+.section3 .box .bottom .over-2{
+  border: 1px solid white;
+  margin-left: 10px;
+  padding: 9px 19px;
+  border-radius: 25px;
+  transition: background-color .5s;
+}
+.section3 .box .bottom .over-2:hover{
+  background-color: rgba(51, 102, 255, .8);
+}
+
+
+
+
 .section3 .box .txt{
   margin-top: 50%;
   transform: translateY(-50%);
   margin-left: 60px;
   font-size: 20px;
 }
-
+.section3 .box .small .ds{
+  margin-top: 35px;
+  
+}
 .section3 .box .small{
   font-size: 15px;
 }
