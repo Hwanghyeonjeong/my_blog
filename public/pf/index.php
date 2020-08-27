@@ -32,7 +32,7 @@
     </nav>
 <h1>포트폴리오</h1>
 <ul></ul>
-    <li><a href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/7.jpg"></a></li>
+    <li><a href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/7.jpg">포트폴리오</a></li>
 </ul>
 
 <h1>프로젝트</h1>
