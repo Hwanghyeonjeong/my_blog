@@ -1,0 +1,54 @@
+.profile{
+    position: relative;
+    margin-top: 11%;
+    
+}
+.profile > .title{
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.profile > .text{
+    margin-left: 2%;
+    font-size: 15px;
+}
+.profile > .text > .two{
+    margin-top: 20%;
+}
+
+.profile > .text > .three{
+    margin-top: 20%;
+}
+
+.profile > .title > .one{
+    margin-top: -5%;
+}
+
+.profile > .title > .two{
+    margin-top: 115%;
+}
+
+.profile > .title > .three{ 
+    margin-top: 95%;
+}
+
+/*photo*/   
+.photo{
+    position: relative;
+    margin-top: -22%;
+    margin-left: 50%;
+    transform: translateX(-24%);
+}
+.photo > img{
+    width: 400px;
+}
+
+/*skill*/
+
+.skills{
+    margin-left: 63%;
+    margin-top: -2.5%;
+}
+.skills > ul > li {
+    margin:0 20px;
+}

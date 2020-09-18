@@ -1,0 +1,21 @@
+.title{
+    position: relative;
+}
+
+.title > img{
+    width: 350px;
+    margin-top: 5%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+.cover{
+    margin-top: 3%;
+}
+
+.tjs{
+    opacity: .5;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    margin-top: 45px;
+
+}
