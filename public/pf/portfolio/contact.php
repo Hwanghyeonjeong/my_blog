@@ -18,3 +18,7 @@ include "./head_body.php"
 <img class="tjs"src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png?dummy" alt="">
 <img class="tjs"src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png?dummy" alt="">
 </div>
+<div class="footer flex">
+    <img class="tjs"src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png?dummy" alt="">
+    <img class="tjs"src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png?dummy" alt="">
+</div>

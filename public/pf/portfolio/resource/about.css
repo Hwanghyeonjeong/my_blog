@@ -1,6 +1,6 @@
 .profile{
     position: relative;
-    margin-top: 11%;
+    margin-top: 7%;
     
 }
 .profile > .title{
@@ -37,7 +37,7 @@
     position: relative;
     margin-top: -22%;
     margin-left: 50%;
-    transform: translateX(-24%);
+    transform: translateX(-22%);
 }
 .photo > img{
     width: 400px;

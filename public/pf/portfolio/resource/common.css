@@ -336,12 +336,12 @@ label[for] {
   
 }
 .top-bar{
-    height: 120px;
-    padding: 0 5%;
+    height: 200px;
+    padding: 0 10%;
 }
 
 .top-bar .logo > img{
-    width: 60px;
+    width: 50px;
     position: absolute;
 }
 .top-bar .logo > img:last-child{
@@ -354,7 +354,7 @@ label[for] {
 
 .top-bar > .menu > ul > li{
     margin:0 30px;
-    font-size: 20px;
+    font-size: 17px;
 }
 
 .top-bar > .menu > ul > li:hover > a{

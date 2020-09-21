@@ -4,7 +4,6 @@
 
 .title > img{
     width: 350px;
-    margin-top: 5%;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -17,5 +16,19 @@
     margin-left: 50%;
     transform: translateX(-50%);
     margin-top: 45px;
+}
 
+.footer > .tjs{
+    margin-top: 100px;
+    width: 150px;
+    height: 8px;
+    position: absolute;
+}
+
+.footer > .tjs:last-child{
+    right: 35%;
+}
+
+.footer > .tjs:first-child{
+    right: 49%;
 }
