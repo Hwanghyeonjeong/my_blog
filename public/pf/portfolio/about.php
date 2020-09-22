@@ -2,6 +2,10 @@
 include "./head_head.php"
 ?>
 <!-- 여기에는 css js 넣어주세요 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.4.0/Chart.min.js"></script>
+
+
 <link rel="stylesheet" href="./resource/about.css">
 <script src="./resource/about.js"></script>
 
@@ -46,4 +50,8 @@ include "./head_body.php"
       <li><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/ps.png" alt=""></li>
       <li><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/ai.png" alt=""></li>
   </ul>
+</div>
+
+<div class="chart">
+    <canvas id="line-chart" width="500" height="300"></canvas>
 </div>

@@ -1,6 +1,6 @@
 .profile{
     position: relative;
-    margin-top: 7%;
+    margin-top: 5%;
     
 }
 .profile > .title{
@@ -11,6 +11,7 @@
 .profile > .text{
     margin-left: 2%;
     font-size: 15px;
+    line-height: 27px;
 }
 .profile > .text > .two{
     margin-top: 20%;
@@ -21,23 +22,23 @@
 }
 
 .profile > .title > .one{
-    margin-top: -5%;
+    margin-top: -7%;
 }
 
 .profile > .title > .two{
-    margin-top: 115%;
+    margin-top: 132%;
 }
 
 .profile > .title > .three{ 
-    margin-top: 95%;
+    margin-top: 106%;
 }
 
 /*photo*/   
 .photo{
     position: relative;
-    margin-top: -22%;
+    margin-top: -23.5%;
     margin-left: 50%;
-    transform: translateX(-22%);
+    transform: translateX(-24%);
 }
 .photo > img{
     width: 400px;
@@ -46,9 +47,18 @@
 /*skill*/
 
 .skills{
-    margin-left: 63%;
-    margin-top: -2.5%;
+    margin-left: 62%;
+    margin-top: -3.5%;
 }
 .skills > ul > li {
-    margin:0 20px;
+    margin:0 29px;
+}
+
+.skills > ul > li > img{
+    width: 50px;
+}
+
+.chart{
+    margin-top: -20%;
+    margin-left: 62%;
 }

@@ -8,27 +8,63 @@
     transform: translateX(-50%);
 }
 .cover{
-    margin-top: 3%;
+    margin-top: 2%;
 }
 
 .tjs{
     opacity: .5;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 45px;
+    margin-top: 35px;
+}
+.cov{
+    position: relative;
+    background-color: red;
 }
 
-.footer > .tjs{
-    margin-top: 100px;
+.footer  .tjs{
+    margin-top: 80px;
     width: 150px;
     height: 8px;
     position: absolute;
 }
 
-.footer > .tjs:last-child{
+
+
+.footer .cover-1 .tjs{
     right: 35%;
 }
 
-.footer > .tjs:first-child{
+.footer .cover-2 .tjs{
     right: 49%;
+}
+
+form{
+    position: absolute;  
+    margin-top: -22.3%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.name > input, .email > input, .submit > input{
+    background-color: transparent;
+    width: 500px;
+    border: none;
+    padding-top: 38px;
+    outline: none;
+    
+}
+.body {
+    margin-top: 8px;
+    width: 500px;
+    height: 300px;
+    
+}
+.body > textarea {
+    border: none;
+    resize: none;
+    outline: none;
+    line-height: 70px;
+    font-size: 20px;
+    background-color: transparent;
 }

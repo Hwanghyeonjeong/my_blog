@@ -1,8 +1,8 @@
 /* 폰트적용 */
-@import url(//fonts.googleapis.com/earlyaccess/notosanskr.css);
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Tammudu+2:wght@400;500&display=swap');
 
 html {
-  font-family: "Noto Sans KR", sans-serif;
+  font-family: 'Baloo Tammudu 2', sans-serif;
 }
 
 /* 노말라이즈 */
@@ -354,7 +354,8 @@ label[for] {
 
 .top-bar > .menu > ul > li{
     margin:0 30px;
-    font-size: 17px;
+    font-size: 19px;
+    font-weight: 500;
 }
 
 .top-bar > .menu > ul > li:hover > a{
