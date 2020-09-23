@@ -23,6 +23,7 @@ include "./head_body.php"
         <div class="one">
             <div class="a">황현정</div>
             <div class="b">2000.01.25</div>
+            <div class="f">010 3370 5680</div>
             <div class="c">E-mail : mn06150@naver.com</div>
             <div class="d">wiki : to2.kr/bk3</div>
             <div class="e">Blog : https://hyeonjeonghwang.tistory.com/ </div>

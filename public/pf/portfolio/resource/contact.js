@@ -1,4 +1,3 @@
-$(function() {
 function sendEmailFormSubmit(form) {
     if ( form.receiverName.value.length == 0 ) {
         alert('폼안에 receiverName 의 value 를 입력해주세요.');
@@ -63,4 +62,3 @@ function Email__callback(data) {
 
     alert(data.msg);
 }
-})

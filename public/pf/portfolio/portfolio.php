@@ -27,6 +27,12 @@ include "./head_body.php"
     <div class="line line-2"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png" alt=""></div>
     </div>
 </div>
+
+<div class="menu-2 flex con">
+    <div class="web"><a href="./portfolio.php">Web</a></div> 
+    <div class="design"><a href="./design.php">Design</a></div> 
+</div>
+
 <div class="center">
 <img class="computer" src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/Apple iMac.png" alt="">
 <img class="site" src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/대전아쿠아리움.PNG" alt=""></div>
