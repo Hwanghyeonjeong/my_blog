@@ -31,6 +31,7 @@
     margin-left: 31.1%;
     margin-top: 1%;
     position: absolute;
+    z-index: 10;
 }
 
 .center{
@@ -45,23 +46,51 @@
     height: 378px;
 }
 
+
 .slider-div{
     margin-left: 20%;
+    z-index: 60;
 }
 .slider-div  .sub{
     font-size: 1.5rem;
-    background-color: black;
-    color: white;
+    color: #bdbdbd;
     position: absolute;
 }
 .slider-div  .title{
     font-size: 3rem;
+    color: #bdbdbd;
     font-weight: 500;
     margin-top: 50px;
 }
-
+.slick-initialized .slick-slide {
+    position: relative;
+}
 .menu-2 {
     font-size: 2rem;
     position: relative;
 }
 
+.slick-list .slick-current .sub{
+    background-color: black;
+    color: white;
+}
+
+.slick-list .slick-current .title{
+    color: black;
+}
+
+.photo{
+    position: absolute;
+    width: 671px;
+    top: 34%;
+    left: 32.7%;
+    height: 383px;
+    overflow: hidden;
+}
+.photo .img-box {
+    width: 100%;
+    height: 100%;
+}
+.photo img{
+    position: absolute;
+}
