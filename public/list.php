@@ -2,15 +2,8 @@
 include "../part/head.php";
 
 
-// 전화번호 세팅
-$dbHost = "site9.blog.oa.gg";
-$dbPort = 3306;
-$dbId = "site9";
-$dbPw = "sbs123414";
-$dbName = 'site9';
-
 // 전화걸기
-$dbConn = mysqli_connect($dbHost, $dbId, $dbPw, $dbName, $dbPort) or die("DB CONNECTION ERROR");
+$dbConn = mysqli_connect("hyeonjeong.site", "sbsst", "sbs123414", "blog", 3306);
 
 // 전화연결이 성공했다면 이 부분 실행됨
 
