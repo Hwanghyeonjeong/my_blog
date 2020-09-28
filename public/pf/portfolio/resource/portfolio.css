@@ -59,6 +59,10 @@
     position: absolute;
 }
 
+.slider-div .slick-slide {
+    pointer-events: none;
+}
+
 .slider-div .title {
     position: relative;
     margin-top: 50px;
@@ -123,19 +127,24 @@
 
 .photo .photo-item {
     position: absolute;
+    top:0;
+    left:0;
     width: 100%;
     height: 100%;
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: 674px auto;
-    background-position: calc(31.1vw + 29px) 258px;
+    background-size: cover;
+    background-position: 0 0;
     visibility: hidden;
+    transition: background-position 2s;
 }
 
 .photo .photo-item.active {
-    top: 0;
     z-index: 10;
     visibility: visible;
+}
+
+.photo .photo-item:hover {
+    background-position: 0 100%;
 }
 
 .photo .photo-item.bg-item {
@@ -146,7 +155,7 @@
 }
 
 .photo .photo-item.right-ani {
-    animation: right-ani 1s forwards;
+    animation: right-ani .3s forwards;
 }
 
 @keyframes right-ani {
@@ -160,7 +169,7 @@
 }
 
 .photo .photo-item.left-ani {
-    animation: left-ani 1s forwards;
+    animation: left-ani .3s forwards;
 }
 
 @keyframes left-ani {

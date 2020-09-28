@@ -1,64 +1,77 @@
-.profile{
-    position: relative;
-    margin-top: 5%;
-    
+
+.back{
+    position: absolute;
+    top: 1%;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1000;
 }
+
+
 .profile > .title{
-    font-size: 1.5rem;
-    font-weight: 600;
-}
-
-.profile > .text{
-    margin-left: 2%;
-    font-size: 15px;
-    line-height: 27px;
-}
-.profile > .text > .two{
-    margin-top: 20%;
-}
-
-.profile > .text > .three{
-    margin-top: 20%;
-}
-
-.profile > .title > .one{
-    margin-top: -10%;
-}
-
-.profile > .title > .two{
-    margin-top: 158%;
-}
-
-.profile > .title > .three{ 
-    margin-top: 106%;
-}
-
-/*photo*/   
-.photo{
     position: relative;
-    margin-top: -23.5%;
-    margin-left: 50%;
-    transform: translateX(-24%);
-}
-.photo > img{
-    width: 400px;
 }
 
-/*skill*/
+.profile > .title > img{
+    width: 150px;
+}
+
+.profile > .title > .text{
+    position: absolute;
+    top:20%;
+    left: 2.5%; 
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.profile .name > .kr{
+    margin-top: -1%;
+    font-size: 5rem;
+}
+
+.profile .name > .en{
+    font-size: 1.2rem;
+    margin-top: 4%;
+    margin-left: 1%;
+}
+
+.profile .info{
+    line-height: 30px;
+    margin-top: -3.5%;
+    margin-left: 15px;
+}
 
 .skills{
-    margin-left: 62%;
-    margin-top: -3.5%;
-}
-.skills > ul > li {
-    margin:0 29px;
+    position: relative;
 }
 
-.skills > ul > li > img{
-    width: 50px;
+.skills > .title > img{
+    width: 150px;
+    margin-left: 60%;
+    margin-top: -20%;
+}
+
+.skills > .title > .text{
+    margin-top: -4.5%;
+    margin-left: 60%;
+    position: absolute;
+    top:20%;
+    left: 2.5%; 
+    font-size: 2rem;
+    font-weight: 500;
+}
+
+.skills > .photo{
+    margin-left: 60%;
+    margin-top: 9%;    
+}
+
+.skills > .photo >img:not(:nth-child(1)){
+    margin-left: 40px;
 }
 
 .chart{
-    margin-top: -20%;
-    margin-left: 62%;
+    position: absolute;
+    left: 60%;
+    top: 68%;
 }
