@@ -28,181 +28,146 @@ include "./head_body.php"
     </div>
 </div>
 
-<div class="menu-2 flex">
-    <div class="web"><a href="./portfolio.php">Web</a></div>
-    <div class="design"><a href="./design.php">Design</a></div>
-</div>
-
-<div class="center">
-    <div class="computer img-box">
-        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/Apple iMac.png" alt="">
-    </div>
-    <div class="photo">
-        <div class="photo-item active"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png');"></div>
-        <div class="photo-item"
-            style="background-image:url('https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png');"></div>
-    </div>
-</div>
-
-
-
-<div class="slider-section">
-    <div class="slider-div">
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+<div class="slider-box-1">
+    <div class="slider-box-1-nav-wrap">
+        <div class="slider-box-1-nav">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>대전아쿠아리움</span>
                 </div>
+                <ul class="color color-1 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-1 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>배달의 민족</span>
                 </div>
+                <ul class="color color-2 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-2 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>카카오페이지</span>
                 </div>
+                <ul class="color color-3 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-3 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>서브웨이</span>
                 </div>
+                <ul class="color color-4 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-4 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>카카오뱅크</span>
                 </div>
+                <ul class="color color-5 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-5 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>PUBG</span>
                 </div>
+                <ul class="color color-6 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-6 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
-        </div>
-        <div>
-            <div class="sub">Creative</div>
-            <div class="title">
-                <div class="txt-bk">
+            <div>
+                <div class="sub">Creative</div>
+                <div class="title">
                     <span>경기도박물관</span>
                 </div>
+                <ul class="color color-7 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <ul class="more flex">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </ul>
             </div>
-            <ul class="color color-7 flex">
-            <div class="txt">Color</div>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-            <ul class="more flex">
-                <li class="txt">View more</li>
-                <i class="fas fa-plus"></i>
-                <div class="circle"></div>
-            </ul>
         </div>
-        <div class="dummy"></div>
     </div>
-</div>
 
-<div class="but flex">
-    <div class="prev"><img
-            src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FcK32wf%2FbtqEBnQ2bSV%2FRUnYwxbL6CANymmbJNtVk0%2Fimg.png"
-            alt=""></div>
-    <div class="next"><img
-            src="https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fk.kakaocdn.net%2Fdn%2FTWq2J%2FbtqEBdA2ene%2FhGRW5eH7EFHllWqfIGDFr1%2Fimg.png"
-            alt=""></div>
+    <div class="nav">
+        <div class="prev">좌</div>
+        <div class="next">우</div>
+    </div>
+
+    <div class="slider-box-1-main-wrap">
+        <div class="slider-box-1-main">
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);"></div>
+        </div>
+    </div>
 </div>
