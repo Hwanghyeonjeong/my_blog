@@ -187,3 +187,133 @@
     top: 0;
     left: 0;
 }
+
+.slider-div .color{
+    opacity: 0;
+}
+
+.slick-current .color{
+    opacity: 1;
+}
+
+.slider-div .color >.txt{
+    font-size: 19px;
+    font-weight: 500;
+}
+
+.slider-div .color >li{
+    margin-top: 7px;
+    margin-left: 10px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.slider-div .color-1 >li:nth-of-type(1){
+    background-color: #2960FF;
+}
+
+.slider-div .color-1 >li:nth-of-type(2){
+    background-color: #580B9A;
+}
+
+.slider-div .color-2 >li:nth-of-type(1){
+    background-color: #2AC1BC;
+}
+
+.slider-div .color-2 >li:nth-of-type(2){
+    background-color: #4A4543;
+}
+
+.slider-div .color-2 >li:nth-of-type(3){
+    background-color: #333333;
+}
+
+.slider-div .color-3 >li:nth-of-type(1){
+    background-color: #FEE200;
+}
+
+.slider-div .color-3 >li:nth-of-type(2){
+    background-color: #787878;
+}
+
+.slider-div .color-4 >li:nth-of-type(1){
+    background-color: #009223;
+}
+
+.slider-div .color-4 >li:nth-of-type(2){
+    background-color: #FFCE32;
+}
+
+.slider-div .color-4 >li:nth-of-type(3){
+    background-color: #01A5E2;
+}
+
+.slider-div .color-5 >li:nth-of-type(1){
+    background-color: #FFDC00;
+}
+
+.slider-div .color-5 >li:nth-of-type(2){
+    background-color: #444859;
+}
+
+.slider-div .color-5 >li:nth-of-type(3){
+    background-color: #989898;
+}
+
+.slider-div .color-6 >li:nth-of-type(1){
+    background-color: #DF0024;
+}
+.slider-div .color-6 >li:nth-of-type(2){
+    background-color: #0085C7;
+}
+
+.slider-div .color-6 >li:nth-of-type(3){
+    background-color: #0DA447;
+}
+
+.slider-div .color-6 >li:nth-of-type(4){
+    background-color: #F4C300;
+}
+
+.slider-div .color-6 >li:nth-of-type(5){
+    background-color: #191D22;  
+}
+
+.slider-div .color-7 >li:nth-of-type(1){
+    background-color: #1F5153;
+}
+
+.slider-div .color-7 >li:nth-of-type(2){
+    background-color: #303233;
+}
+
+.slider-div .more{
+    opacity: 1;
+    margin-top: 6%;
+    font-weight: 500;
+    font-size: 19px;
+}
+
+.slider-div .more > .fas{
+    margin-left: 19px;
+    margin-top:7px;
+    font-size: 16px;
+   
+    color: white;
+    z-index: 1;
+}
+
+.slider-div .more .circle{
+    left: 10%;
+    width: 30px;
+    height: 30px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+    z-index: -1;
+}
+
+.slick-current .more{
+    opacity: 0;
+}

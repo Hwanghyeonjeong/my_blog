@@ -18,8 +18,8 @@ include "./head_body.php"
 </div>
 <div class="profile con">
     <div class="title">
-        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/post.png?" alt="">
-        <div class="text">profile</div>
+        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/shhh.png" alt="">
+        <div class="text">Profile</div>
     </div>
     <div class="name flex">
         <div class="kr">황현정</div>
@@ -35,7 +35,7 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
 
 <div class="skills">
 <div class="title">
-        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/post.png?" alt="">
+        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/shhh.png" alt="">
         <div class="text">Skills</div>
     </div>
     <div class="photo">
@@ -50,4 +50,12 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
 
 <div class="chart">
     <canvas id="line-chart" width="450" height="100"></canvas>
+</div>
+
+<div class="cer con">
+    <div class="title">
+        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/looo.png?dummy" alt="">
+        <div class="text">Certificate</div>
+    </div>
+    <div class="text">2020.07 웹디자인 기능사 필기</div>
 </div>

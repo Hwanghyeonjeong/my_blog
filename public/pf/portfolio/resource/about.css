@@ -1,14 +1,17 @@
 
 .back{
     position: absolute;
-    top: 1%;
+    top: -2%;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1000;
 }
+.back > img{
+    width: 1600px;
+}
 
 
-.profile > .title{
+.title{
     position: relative;
 }
 
@@ -52,7 +55,7 @@
 }
 
 .skills > .title > .text{
-    margin-top: -4.5%;
+    margin-top: -2%;
     margin-left: 60%;
     position: absolute;
     top:20%;
@@ -74,4 +77,26 @@
     position: absolute;
     left: 60%;
     top: 68%;
+}
+
+.cer > .title > img{
+    width: 200px;
+    margin-top: -20%;
+}
+
+.cer{
+    position: relative;
+    margin-top: -4.5%;
+}
+
+.cer > .title > .text{
+    position: absolute; 
+    top: -90%;
+    left: 2%;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.cer > .text{
+    margin-top: 10px;
+    margin-left: 15px;
 }

@@ -6,9 +6,9 @@ include "./head_head.php"
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <!-- Slick 불러오기 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"></script>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css">
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
 
 <link rel="stylesheet" href="./resource/portfolio.css">
 <script src="./resource/portfolio.js"></script>
@@ -66,6 +66,17 @@ include "./head_body.php"
                     <span>대전아쿠아리움</span>
                 </div>
             </div>
+            <ul class="color color-1 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -74,6 +85,17 @@ include "./head_body.php"
                     <span>배달의 민족</span>
                 </div>
             </div>
+            <ul class="color color-2 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -82,6 +104,17 @@ include "./head_body.php"
                     <span>카카오페이지</span>
                 </div>
             </div>
+            <ul class="color color-3 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -90,6 +123,17 @@ include "./head_body.php"
                     <span>서브웨이</span>
                 </div>
             </div>
+            <ul class="color color-4 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -98,6 +142,17 @@ include "./head_body.php"
                     <span>카카오뱅크</span>
                 </div>
             </div>
+            <ul class="color color-5 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -106,6 +161,19 @@ include "./head_body.php"
                     <span>PUBG</span>
                 </div>
             </div>
+            <ul class="color color-6 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div>
             <div class="sub">Creative</div>
@@ -114,6 +182,17 @@ include "./head_body.php"
                     <span>경기도박물관</span>
                 </div>
             </div>
+            <ul class="color color-7 flex">
+            <div class="txt">Color</div>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ul class="more flex">
+                <li class="txt">View more</li>
+                <i class="fas fa-plus"></i>
+                <div class="circle"></div>
+            </ul>
         </div>
         <div class="dummy"></div>
     </div>
