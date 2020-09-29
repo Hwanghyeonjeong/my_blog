@@ -1,7 +1,9 @@
-
+body{
+    overflow: hidden;
+}
 .back{
     position: absolute;
-    top: -2%;
+    top: -5%;
     left: 50%;
     transform: translateX(-50%);
     z-index: -1000;
@@ -14,7 +16,9 @@
 .title{
     position: relative;
 }
-
+.profile{
+    margin-left:15%; 
+}
 .profile > .title > img{
     width: 150px;
 }
@@ -46,6 +50,7 @@
 
 .skills{
     position: relative;
+    margin-left:11%; 
 }
 
 .skills > .title > img{
@@ -55,7 +60,7 @@
 }
 
 .skills > .title > .text{
-    margin-top: -2%;
+    margin-top: -2.4%;
     margin-left: 60%;
     position: absolute;
     top:20%;
@@ -75,11 +80,11 @@
 
 .chart{
     position: absolute;
-    left: 60%;
+    left: 64.5%;
     top: 68%;
 }
 
-.cer > .title > img{
+.cer > .title > img, .edu > .title > img{
     width: 200px;
     margin-top: -20%;
 }
@@ -87,6 +92,7 @@
 .cer{
     position: relative;
     margin-top: -4.5%;
+    margin-left:23%; 
 }
 
 .cer > .title > .text{
@@ -99,4 +105,30 @@
 .cer > .text{
     margin-top: 10px;
     margin-left: 15px;
+}
+
+.edu > .title > img{
+    width: 200px;
+    margin-left: 60%;
+    margin-top: -20%;
+}
+
+.edu > .title > .text{
+    margin-top: -2.7%;
+    margin-left: 60%;
+    position: absolute;
+    top:20%;
+    left: 2.5%; 
+    font-size: 2rem;
+    font-weight: 500;
+}
+.edu{
+    position: relative;
+    margin-left: 11%;
+    margin-top: -31.2%;
+}
+
+.edu > .text{
+    margin-top: 1%;
+    margin-left: 60.7%;
 }

@@ -59,3 +59,13 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
     </div>
     <div class="text">2020.07 웹디자인 기능사 필기</div>
 </div>
+
+<div class="edu con">
+    <div class="title">
+        <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/looo.png?dummy" alt="">
+        <div class="text">Education</div>
+    </div>
+    <div class="text">2018. 02 충남여자고등학교 졸업<br>
+2020. 02 대전보건대학교 졸업<br>
+2020. 10 대전 SBS아카데미 UX/UI 디자이너 과정 수료</div>
+</div>
