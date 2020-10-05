@@ -10,7 +10,11 @@ function SliderBox1__init() {
     centerMode: true,
     focusOnSelect: true,
     prevArrow: $('.slider-box-1 .prev'),
-    nextArrow: $('.slider-box-1 .next')
+    nextArrow: $('.slider-box-1 .next'),
+    onAfterChange: function(e){
+      alert('hi');
+      $('.slider-box-1 .slick-counter').html(e.currentSlide + 1 +' / '+e.slideCount);
+    }
   });
 
   $('.slider-box-1 .slider-box-1-main-wrap > .slider-box-1-main').slick({

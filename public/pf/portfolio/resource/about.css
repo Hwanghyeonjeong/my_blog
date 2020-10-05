@@ -25,32 +25,32 @@ body{
 
 .profile > .title > .text{
     position: absolute;
-    top:20%;
+    top:45%;
     left: 2.5%; 
     font-size: 2rem;
     font-weight: 500;
 }
 
 .profile .name > .kr{
-    margin-top: -1%;
+    margin-top: 1%;
     font-size: 5rem;
 }
 
 .profile .name > .en{
     font-size: 1.2rem;
-    margin-top: 4%;
+    margin-top: 6%;
     margin-left: 1%;
 }
 
 .profile .info{
     line-height: 30px;
-    margin-top: -3.5%;
+    margin-top: .5%;
     margin-left: 15px;
 }
 
 .skills{
     position: relative;
-    margin-left:11%; 
+    margin-left:10%; 
 }
 
 .skills > .title > img{
@@ -60,7 +60,7 @@ body{
 }
 
 .skills > .title > .text{
-    margin-top: -2.4%;
+    margin-top: -1.6%;
     margin-left: 60%;
     position: absolute;
     top:20%;
@@ -71,7 +71,7 @@ body{
 
 .skills > .photo{
     margin-left: 60%;
-    margin-top: 9%;    
+    margin-top: 10%;    
 }
 
 .skills > .photo >img:not(:nth-child(1)){
@@ -97,13 +97,13 @@ body{
 
 .cer > .title > .text{
     position: absolute; 
-    top: -90%;
+    top: -150%;
     left: 2%;
     font-size: 2rem;
     font-weight: 500;
 }
 .cer > .text{
-    margin-top: 10px;
+    margin-top: 30px;
     margin-left: 15px;
 }
 
@@ -114,7 +114,7 @@ body{
 }
 
 .edu > .title > .text{
-    margin-top: -2.7%;
+    margin-top: -2%;
     margin-left: 60%;
     position: absolute;
     top:20%;
@@ -125,10 +125,22 @@ body{
 .edu{
     position: relative;
     margin-left: 11%;
-    margin-top: -31.2%;
+    margin-top: -29%;
 }
 
 .edu > .text{
-    margin-top: 1%;
+    margin-top: 20px;
     margin-left: 60.7%;
+}
+
+.edu > .text >ul{
+    line-height: 35px;
+}
+
+.edu > .text >ul > .num{
+    font-weight: 600;
+}
+
+.edu > .text >ul > .memo{
+    margin-left: 15px;
 }

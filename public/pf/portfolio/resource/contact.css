@@ -15,33 +15,16 @@
     opacity: .5;
     margin-left: 50%;
     transform: translateX(-50%);
-    margin-top: 35px;
-}
-.cov{
-    position: relative;
-    background-color: red;
-}
-
-.footer  .tjs{
-    margin-top: 80px;
-    width: 150px;
-    height: 8px;
-    position: absolute;
+    margin-top: 50px;
 }
 
 
 
-.footer .cover-1 .tjs{
-    right: 35%;
-}
 
-.footer .cover-2 .tjs{
-    right: 49%;
-}
 
 form{
     position: absolute;  
-    margin-top: -22.3%;
+    margin-top: -22%;
     margin-left: 50%;
     transform: translateX(-50%);
 }

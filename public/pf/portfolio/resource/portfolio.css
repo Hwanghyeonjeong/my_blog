@@ -48,6 +48,7 @@
     justify-content:center;
     padding-top:37px;
     box-sizing:border-box;
+    margin-top: 4%;
   }
   
   .slider-box-1 .slider-box-1-main-wrap > .slider-box-1-main {
@@ -56,11 +57,10 @@
   }
   
   .slider-box-1 .slider-box-1-nav-wrap > .slider-box-1-nav {
-    width:3000px;
+    width:3500px;
     position:absolute;
-    position:absolute;
-    top:195px;
-    left:calc(50% - 1600px);
+    top:200px;
+    left:calc(50% - 1900px);
     color: #bdbdbd;
   }
   .slider-box-1-main-wrap{
@@ -70,7 +70,7 @@
     width: 670px;
     height: 377px;
     background-position: center 0;
-    transition: background-position 2s;
+    transition: background-position 4s;
   }
 
   .slider-box-1-main-wrap .web:hover {
@@ -78,9 +78,11 @@
   }
 
   .slider-box-1 .slider-box-1-nav .slick-current .sub{
-      padding-top:20px;
+      padding: 0 10px;
+      padding-top:10px;
+      padding-bottom:3px; 
       font-size: 2rem;
-      font-weight: 500;
+      font-weight: 400;
       line-height: 2rem;
       background-color: black;
       color: white;
@@ -90,9 +92,9 @@
   }
 
   .slider-box-1 .slider-box-1-nav .sub{
-    padding-top:20px;
+    padding-top:10px;
     font-size: 2rem;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2rem;
     color: #dbdbdb;
     display: inline-block;
@@ -102,7 +104,6 @@
 
   .slider-box-1 .slider-box-1-nav .title{
       font-size: 3rem;
-      margin-top: -20px;
       font-weight: 600;
   }
 
@@ -113,8 +114,10 @@
 
   
   .slider-box-1 .slider-box-1-nav-wrap .color{
+    margin-top: 4%;
     opacity: 0;
 }
+
 
 
 .slider-box-1 .slider-box-1-nav-wrap .slick-current .color{
@@ -147,7 +150,8 @@
 
 .slider-box-1-nav .color >li{
     margin-top: 7px;
-    margin-left: 10px;
+    margin-left: 11px;
+    margin-top: -.7px;
     width: 15px;
     height: 15px;
     border-radius: 50%;
@@ -233,31 +237,55 @@
 }
 
 
+
 .slider-box-1-nav .more{
     opacity: 1;
-    margin-top: 6%;
+    margin-top: 10%;
     font-weight: 500;
     font-size: 19px;
+    margin-left: 10px;
+    color: #dbdbdb;
+    transition: color .5s;
+    outline: 0;
+}
+
+.slider-box-1-nav .more:hover{
+    color: black;
+    transition: color .5s;
 }
 
 .slider-box-1-nav .more > .fas{
     margin-left: 19px;
-    margin-top:7px;
     font-size: 16px;
     z-index: 1;
+    color: white;
 }
 
 .slider-box-1-nav .more .circle{
-    left: 10%;
+    position: relative;
+    top: -7px;
+    left: -2%;
     width: 30px;
     height: 30px;
     background-color: black;
     border-radius: 50%;
-    position: absolute;
     z-index: -1;
 }
 
 .slider-box-1-nav .slick-current .more{
     opacity: 0;
 }
+
+.nav {
+    position: absolute;
+    left: 72%;
+    top: 15%;
+    font-size: 2rem;
+    color:#bdbdbd;
+}
+
+.nav > .next{
+    margin-left: 50px;
+}
+
 

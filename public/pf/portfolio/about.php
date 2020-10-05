@@ -65,7 +65,18 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
         <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/looo.png?dummy" alt="">
         <div class="text">Education</div>
     </div>
-    <div class="text">2018. 02 충남여자고등학교 졸업<br>
-2020. 02 대전보건대학교 졸업<br>
-2020. 10 대전 SBS아카데미 UX/UI 디자이너 과정 수료</div>
+    <div class="text">
+        <ul class="flex">
+            <li class="num">2018.02</li>
+            <li class="memo">충남여자고등학교 졸업</li>
+        </ul>
+        <ul class="flex">
+            <li class="num">2020.02</li>
+            <li class="memo">대전보건대학교 졸업</li>
+        </ul>
+        <ul class="flex">
+            <li class="num">2020.10</li>
+            <li class="memo">대전 SBS아카데미 UX/UI 디자이너 과정 수료</li>
+        </ul>
+</div>
 </div>

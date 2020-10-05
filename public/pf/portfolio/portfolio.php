@@ -29,6 +29,7 @@ include "./head_body.php"
 </div>
 
 <div class="slider-box-1">
+    <div class="slick-counter"></div>
     <div class="slider-box-1-nav-wrap">
         <div class="slider-box-1-nav">
             <div>
@@ -49,7 +50,7 @@ include "./head_body.php"
 </a>
             </div>
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Imitation</div>
                 <div class="title">
                     <span>배달의 민족</span>
                 </div>
@@ -67,7 +68,7 @@ include "./head_body.php"
             </div>
 
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Redesign</div>
                 <div class="title">
                     <span>카카오페이지</span>
                 </div>
@@ -84,7 +85,7 @@ include "./head_body.php"
 </a>
             </div>
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Imitation</div>
                 <div class="title">
                     <span>서브웨이</span>
                 </div>
@@ -101,7 +102,7 @@ include "./head_body.php"
 </a>
             </div>
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Imitation</div>
                 <div class="title">
                     <span>카카오뱅크</span>
                 </div>
@@ -118,7 +119,7 @@ include "./head_body.php"
 </a>
             </div>
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Imitation</div>
                 <div class="title">
                     <span>PUBG</span>
                 </div>
@@ -135,7 +136,7 @@ include "./head_body.php"
 </a>
             </div>
             <div>
-                <div class="sub">Creative</div>
+                <div class="sub">Imitation</div>
                 <div class="title">
                     <span>경기도박물관</span>
                 </div>
@@ -154,9 +155,9 @@ include "./head_body.php"
         </div>
     </div>
 
-    <div class="nav">
-        <div class="prev">좌</div>
-        <div class="next">우</div>
+    <div class="nav flex">
+        <div class="prev"><i class="fas fa-chevron-left"></i></div>
+        <div class="next"><i class="fas fa-chevron-right"></i></div>
     </div>
 
     <div class="slider-box-1-main-wrap">
@@ -171,3 +172,4 @@ include "./head_body.php"
         </div>
     </div>
 </div>
+
