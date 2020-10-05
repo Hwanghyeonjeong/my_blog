@@ -1,0 +1,35 @@
+.back > img{
+    width: 1400px;
+    position: absolute;
+}
+
+.text > .welcome{
+    position: absolute;
+    font-size: 4.5rem;
+    left: 15.5%;
+    top: 39%;
+}
+
+.text > .to{
+    position: absolute;
+    font-size: 3rem;
+    left: 33%;
+    top: 57%;
+}
+
+.text > .s{
+    position: absolute;
+    font-size: 3rem;
+    left: 43%;
+    top: 70.5%;
+}
+
+.text > .port{
+    position: absolute;
+    font-size: 5rem;
+    left: 52%;
+    top: 82%;
+}
+
+
+

@@ -42,11 +42,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
             <div>
                 <div class="sub">Creative</div>
@@ -59,11 +59,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
 
             <div>
@@ -77,11 +77,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
             <div>
                 <div class="sub">Creative</div>
@@ -94,11 +94,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
             <div>
                 <div class="sub">Creative</div>
@@ -111,11 +111,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/subway/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
             <div>
                 <div class="sub">Creative</div>
@@ -128,11 +128,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/kakao/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
             <div>
                 <div class="sub">Creative</div>
@@ -145,11 +145,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <ul class="more flex">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/pcs/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </ul>
+</a>
             </div>
         </div>
     </div>

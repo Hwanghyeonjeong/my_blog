@@ -77,7 +77,7 @@
     background-position: center 100%;
   }
 
-  .slider-box-1 .slider-box-1-nav .sub{
+  .slider-box-1 .slider-box-1-nav .slick-current .sub{
       padding-top:20px;
       font-size: 2rem;
       font-weight: 500;
@@ -86,7 +86,19 @@
       color: white;
       display: inline-block;
       margin-bottom: 10px;
+      
   }
+
+  .slider-box-1 .slider-box-1-nav .sub{
+    padding-top:20px;
+    font-size: 2rem;
+    font-weight: 500;
+    line-height: 2rem;
+    color: #dbdbdb;
+    display: inline-block;
+    margin-bottom: 10px;
+    transition: background-color 1s;
+}
 
   .slider-box-1 .slider-box-1-nav .title{
       font-size: 3rem;
@@ -232,8 +244,6 @@
     margin-left: 19px;
     margin-top:7px;
     font-size: 16px;
-   
-    color: white;
     z-index: 1;
 }
 
