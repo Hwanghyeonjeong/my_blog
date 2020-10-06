@@ -81,7 +81,7 @@ body{
 .chart{
     position: absolute;
     left: 64.5%;
-    top: 68%;
+    top: 65%;
 }
 
 .cer > .title > img, .edu > .title > img{
@@ -143,4 +143,43 @@ body{
 
 .edu > .text >ul > .memo{
     margin-left: 15px;
+}
+
+.white-1{
+    width: 50px;
+    height: 120px;
+    background-color: white;
+    position: absolute;
+    top: 65%;
+    left: 63%;
+    z-index: 1000;
+}
+.white-2{
+    width: 1px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 67.2%;
+    left: 66.1%;
+    z-index: 1000;
+}
+
+.white-3{
+    width: 500px;
+    height: 1px;
+    background-color: white;
+    position: absolute;
+    top: 76.4%;
+    left: 66.1%;
+    z-index: 1000;
+}
+
+.white-4{
+    width: 1px;
+    height: 10px;
+    background-color: white;
+    position: absolute;
+    top: 65.1%;
+    left: 66.1%;
+    z-index: 1000;
 }

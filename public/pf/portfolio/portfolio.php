@@ -3,7 +3,6 @@ include "./head_head.php"
 ?>
 <!-- 여기에는 css js 넣어주세요 -->
 <!-- 제이쿼리 불러오기 -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
 <!-- Slick 불러오기 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
@@ -29,10 +28,12 @@ include "./head_body.php"
 </div>
 
 <div class="slider-box-1">
-    <div class="slick-counter"></div>
+    <div class="slick-counter">
+        <span>1</span> / <span>7</span>
+    </div>
     <div class="slider-box-1-nav-wrap">
         <div class="slider-box-1-nav">
-            <div>
+            <div data-no="1">
                 <div class="sub">Creative</div>
                 <div class="title">
                     <span>대전아쿠아리움</span>
@@ -47,9 +48,12 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
-            <div>
+            <div data-no="2">
                 <div class="sub">Imitation</div>
                 <div class="title">
                     <span>배달의 민족</span>
@@ -64,10 +68,12 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
+             
+
             </div>
 
-            <div>
+            <div data-no="3">
                 <div class="sub">Redesign</div>
                 <div class="title">
                     <span>카카오페이지</span>
@@ -82,9 +88,9 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
             </div>
-            <div>
+            <div data-no="4">
                 <div class="sub">Imitation</div>
                 <div class="title">
                     <span>서브웨이</span>
@@ -99,9 +105,9 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
             </div>
-            <div>
+            <div data-no="5">
                 <div class="sub">Imitation</div>
                 <div class="title">
                     <span>카카오뱅크</span>
@@ -116,9 +122,9 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
             </div>
-            <div>
+            <div data-no="6">
                 <div class="sub">Imitation</div>
                 <div class="title">
                     <span>PUBG</span>
@@ -133,9 +139,9 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
             </div>
-            <div>
+            <div data-no="7">
                 <div class="sub">Imitation</div>
                 <div class="title">
                     <span>경기도박물관</span>
@@ -150,7 +156,7 @@ include "./head_body.php"
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-</a>
+                </a>
             </div>
         </div>
     </div>
@@ -162,14 +168,20 @@ include "./head_body.php"
 
     <div class="slider-box-1-main-wrap">
         <div class="slider-box-1-main">
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);"></div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);"></div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" data-no="1">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);" data-no="2">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);" data-no="3">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);" data-no="4">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" data-no="5">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" data-no="6">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" data-no="7">
+            </div>
         </div>
     </div>
 </div>
-

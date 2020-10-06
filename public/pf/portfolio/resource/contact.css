@@ -24,7 +24,7 @@
 
 form{
     position: absolute;  
-    margin-top: -22%;
+    margin-top: -22.5%;
     margin-left: 50%;
     transform: translateX(-50%);
 }
@@ -33,12 +33,12 @@ form{
     background-color: transparent;
     width: 500px;
     border: none;
-    padding-top: 38px;
+    padding-top: 50px;
     outline: none;
     
 }
 .body {
-    margin-top: 8px;
+    margin-top: 20px;
     width: 500px;
     height: 300px;
     
@@ -55,19 +55,19 @@ form{
 .submit > input{
     font-size: 1.2rem;    
     opacity: .6;
+    cursor: pointer;
 }
 
 .submit img{
     position: absolute;
     width: 100px;
     height: 4px;
-    margin-top: 12%;
-    margin-left: -60%;
+    margin-top: 14.5%;
+    margin-left: -59.5%;
 }
 
 .number {
     margin-left: 15%;
-    margin-top: -25px; 
     font-size: 15px; 
     font-weight: 500;
 }

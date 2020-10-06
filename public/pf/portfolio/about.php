@@ -49,8 +49,9 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
 
 
 <div class="chart">
-    <canvas id="line-chart" width="450" height="100"></canvas>
+    <canvas id="line-chart" width="450" height="120"></canvas>
 </div>
+
 
 <div class="cer con">
     <div class="title">
@@ -80,3 +81,9 @@ Blog : https://hyeonjeonghwang.tistory.com/</div>
         </ul>
 </div>
 </div>
+
+
+<div class="white-1"></div>
+<div class="white-2"></div>
+<div class="white-3"></div>
+<div class="white-4"></div>

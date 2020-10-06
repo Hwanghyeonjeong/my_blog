@@ -22,7 +22,7 @@ $(function() {
                     backgroundColor: "transparent",
                     fill: false,
                     borderWidth: 2,
-                    data: [90, 90, 65, 80, 85]
+                    data: [84, 84, 72, 80, 85]
                 }
             ]
         },
