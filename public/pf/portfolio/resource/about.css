@@ -17,7 +17,7 @@ body{
     position: relative;
 }
 .profile{
-    margin-left:15%; 
+    margin-left:15%;
 }
 .profile > .title > img{
     width: 150px;
@@ -29,6 +29,7 @@ body{
     left: 2.5%; 
     font-size: 2rem;
     font-weight: 500;
+    
 }
 
 .profile .name > .kr{

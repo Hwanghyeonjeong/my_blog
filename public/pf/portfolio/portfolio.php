@@ -44,7 +44,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -69,10 +69,10 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-             
-
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
-
             <div data-no="3">
                 <div class="sub">Redesign</div>
                 <div class="title">
@@ -89,6 +89,9 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
             <div data-no="4">
                 <div class="sub">Imitation</div>
@@ -106,6 +109,9 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
             <div data-no="5">
                 <div class="sub">Imitation</div>
@@ -123,6 +129,9 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
             <div data-no="6">
                 <div class="sub">Imitation</div>
@@ -140,6 +149,9 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
             </div>
             <div data-no="7">
                 <div class="sub">Imitation</div>
@@ -157,6 +169,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+              
             </div>
         </div>
     </div>
