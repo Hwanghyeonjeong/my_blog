@@ -7,4 +7,8 @@ include "./head_head.php"
 include "./head_body.php"
 ?>
 <!-- 여기부터 작성하시면 됩니다. -->
-<div class="back"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/ekffur.png?" alt=""></div>
+<div class="main">
+<div class="name"></div>
+<video autoplay muted src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/d.m4v" loop="10"></video>
+
+</div>

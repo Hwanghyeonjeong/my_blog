@@ -2,6 +2,13 @@
 include "./head_head.php"
 ?>
 <!-- 여기에는 css js 넣어주세요 -->
+<!-- 제이쿼리 불러오기 -->
+
+<!-- Slick 불러오기 -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css">
+
 <link rel="stylesheet" href="./resource/design.css">
 <script src="./resource/design.js"></script>
 
@@ -9,254 +16,129 @@ include "./head_head.php"
 include "./head_body.php"
 ?>
 
-<div class='pages'>
-  <input id='one' name='trigger' type='radio'>
-  <input id='two' name='trigger' type='radio'>
-  <input id='three' name='trigger' type='radio'>
-  <input id='four' name='trigger' type='radio'>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='logo'>Fashion</div>
-      <div class='pagenumber'>1 2</div>
-      <div class='content'>
-        <div class='content_center'>
-          <h4>The latest in fashion &amp; fashion design</h4>
-        </div>
-      </div>
+<div class="back">
+    <div class="tpfh flex">
+        <div class="line line-1"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjs.png" alt=""></div>
+        <div class="line line-2"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjs.png" alt=""></div>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='content'>
-        <div class='content_center right'>
-          <h4>The latest in fashion &amp; fashion design</h4>
-        </div>
-        <div class='overlay'></div>
-      </div>
-      <div class='control next'>
-        <label for='two'></label>
-      </div>
+    <div class="rkfh">
+        <div class="line line-1"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png" alt=""></div>
+        <div class="line line-2"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/tjstjs.png" alt=""></div>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='logo'>Fashion</div>
-      <div class='pagenumber'>2 3</div>
-      <div class='control'>
-        <label for='one'></label>
-      </div>
-      <div class='content'>
-        <div class='content_picture'>
-          <img src='https://news.broncolor.swiss/wp-content/uploads/2017/03/Bild01.jpg'>
-        </div>
-        <div class='content_offset'>
-          <h2>Subtitle</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a imperdiet sapien. Nunc vehicula lorem neque, eu rutrum sapien posuere ut. Nunc eget ullamcorper turpis. Sed in vehicula magna, vitae eleifend velit. Donec dui turpis, viverra vitae lobortis commodo, lobortis et ex.</p>
-        </div>
-        <h1>
-          <span>L</span>
-          <span>o</span>
-          <span>o</span>
-          <span>k</span>
-          <span>&nbsp;</span>
-          <span>a</span>
-          <span>t</span>
-          <span>&nbsp;</span>
-          <span>t</span>
-          <span>h</span>
-          <span>i</span>
-          <span>s</span>
-          <span>&nbsp;</span>
-          <span>a</span>
-          <span>w</span>
-          <span>e</span>
-          <span>s</span>
-          <span>o</span>
-          <span>m</span>
-          <span>e</span>
-          <br>
-          <span>h</span>
-          <span>e</span>
-          <span>a</span>
-          <span>d</span>
-          <span>l</span>
-          <span>i</span>
-          <span>n</span>
-          <span>e</span>
-          <span>&nbsp;</span>
-          <span>r</span>
-          <span>i</span>
-          <span>g</span>
-          <span>h</span>
-          <span>t</span>
-          <span>&nbsp;</span>
-          <span>h</span>
-          <span>e</span>
-          <span>r</span>
-          <span>e</span>
-        </h1>
-      </div>
+</div>
+
+<div class="btn">
+    <a href="./portfolio.php">Web</a>
+    /
+    <a href="./design.php">Design</a>
+</div>
+
+<div class="slider-box-1">
+    <div class="slick-counter">
+        <span>1</span> / <span>4</span>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='hamburger'>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-      </div>
-      <div class='control next'>
-        <label for='three'></label>
-      </div>
-      <div class='bg'></div>
-      <div class='footer'>
-        <i class="fab fa-google-plus-g"></i>
-        <i class="fas fa-retweet"></i>
-        <i class="far fa-heart"></i>
-        <i class="far fa-share-square"></i>
-      </div>
-      <div class='content'>
-        <div class='content_quote'>
-          <h5>
-            <span class='quo'>
-              <i>"</i>
-            </span>
-            <span>This is a quote</span>
-            <span>from someone</span>
-            <span class='name'>Jamie Coulter</span>
-            <span class='auth'>- Jcoulterdesign</span>
-            <span class='quo'>"</span>
-          </h5>
+    <div class="slider-box-1-nav-wrap">
+        <div class="slider-box-1-nav">
+            <div data-no="1">
+                <div class="sub">Creative</div>
+                <div class="title">
+                    <span>대전아쿠아리움</span>
+                </div>
+                <ul class="color color-1 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
+            </div>
+            <div data-no="2">
+                <div class="sub">Imitation</div>
+                <div class="title">
+                    <span>인구감소</span>
+                </div>
+                <ul class="color color-2 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
+            </div>
+            <div data-no="3">
+                <div class="sub">Redesign</div>
+                <div class="title">
+                    <span>손소독</span>
+                </div>
+                <ul class="color color-3 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
+            </div>
+            <div data-no="4">
+                <div class="sub">Imitation</div>
+                <div class="title">
+                    <span>서브웨이</span>
+                </div>
+                <ul class="color color-4 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/">
+                    <li class="txt">View more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </a>
+                <div class="info">
+                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
+                </div>
+            </div>
+          
         </div>
-        <div class='content_picture'>
-          <img src='https://news.broncolor.swiss/wp-content/uploads/2017/03/Bild01.jpg'>
-        </div>
-        <h1>
-          <span>L</span>
-          <span>o</span>
-          <span>o</span>
-          <span>k</span>
-          <span>&nbsp;</span>
-          <span>a</span>
-          <span>t</span>
-          <span>&nbsp;</span>
-          <span>t</span>
-          <span>h</span>
-          <span>i</span>
-          <span>s</span>
-          <span>&nbsp;</span>
-          <span>a</span>
-          <span>w</span>
-          <span>e</span>
-          <span>s</span>
-          <span>o</span>
-          <span>m</span>
-          <span>e</span>
-          <br>
-          <span>h</span>
-          <span>e</span>
-          <span>a</span>
-          <span>d</span>
-          <span>l</span>
-          <span>i</span>
-          <span>n</span>
-          <span>e</span>
-          <span>&nbsp;</span>
-          <span>r</span>
-          <span>i</span>
-          <span>g</span>
-          <span>h</span>
-          <span>t</span>
-          <span>&nbsp;</span>
-          <span>h</span>
-          <span>e</span>
-          <span>r</span>
-          <span>e</span>
-        </h1>
-      </div>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='logo'>Fashion</div>
-      <div class='pagenumber'>4 5</div>
-      <div class='content'>
-        <div class='content_center'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-          <h6>Lorem ipsum dolor sit amet</h6>
-        </div>
-      </div>
-      <div class='control'>
-        <label for='two'></label>
-      </div>
+
+    <div class="nav flex">
+        <div class="prev"><i class="fas fa-chevron-left"></i></div>
+        <div class="next"><i class="fas fa-chevron-right"></i></div>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='hamburger'>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-      </div>
-      <div class='control next'>
-        <label for='four'></label>
-      </div>
-      <div class='bg'></div>
-      <div class='content_centerimage'>
-        <img src='https://profoto.azureedge.net/cdn/049e042/contentassets/f00fdbc1a7764964bd7f6c48f288cb05/profoto-collapsible-reflectors-rossella-vanon-fashion-photography-img_2013-600x900.jpg?width=1280&amp;quality=75&amp;format=jpg'>
-      </div>
-      <div class='content'>
-        <div class='content_center right'>
-          <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit</h4>
-          <h6>Lorem ipsum dolor sit amet</h6>
+
+    <div class="slider-box-1-main-wrap">
+        <div class="slider-box-1-main">
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" data-no="1">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/7.jpg);" data-no="2">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/9.jpg);" data-no="3">
+            </div>
+            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/8.jpg);" data-no="4">
+            </div>
+          
         </div>
-      </div>
-      <div class='footer'>
-        <i class="fab fa-google-plus-g"></i>
-        <i class="fas fa-retweet"></i>
-        <i class="far fa-heart"></i>
-        <i class="far fa-share-square"></i>
-      </div>
     </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='logo'>Fashion</div>
-      <div class='pagenumber'>6 7</div>
-      <div class='content'>
-        <div class='content_section'>
-          <h2>Super</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a imperdiet sapien. Nunc vehicula lorem neque, eu rutrum sapien posuere ut. Nunc eget ullamcorper turpis. Sed in vehicula magna, vitae eleifend velit.</p>
-        </div>
-        <div class='content_section'>
-          <h2>Awesome</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a imperdiet sapien. Nunc vehicula lorem neque, eu rutrum sapien posuere ut. Nunc eget ullamcorper turpis. Sed in vehicula magna, vitae eleifend velit.</p>
-        </div>
-        <div class='content_section'>
-          <h2>Great</h2>
-          <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec a imperdiet sapien. Nunc vehicula lorem neque, eu rutrum sapien posuere ut. Nunc eget ullamcorper turpis. Sed in vehicula magna.</p>
-        </div>
-      </div>
-      <div class='control'>
-        <label for='three'></label>
-      </div>
-    </div>
-  </div>
-  <div class='pages_page'>
-    <div class='pages_page__inner'>
-      <div class='hamburger'>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-        <div class='hamburger_part'></div>
-      </div>
-      <div class='bg'></div>
-      <div class='content'></div>
-      <div class='footer'>
-        <i class="fab fa-google-plus-g"></i>
-        <i class="fas fa-retweet"></i>
-        <i class="far fa-heart"></i>
-        <i class="far fa-share-square"></i>
-      </div>
-    </div>
-  </div>
 </div>

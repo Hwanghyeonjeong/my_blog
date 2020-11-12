@@ -271,6 +271,7 @@
     opacity: 0;   
     visibility: hidden;
     transition: opacity .5s;
+    
 }
 
 .nav {
@@ -307,6 +308,16 @@
     transition: opacity .5s;
 }
 
+.btn{
+    position: absolute;
+    font-size: 1.7rem;
+    left: 10%;
+    z-index: 5;
+}
+
+.btn > a{
+    cursor: pointer;
+}
 
 
 /* media */
@@ -458,7 +469,7 @@
     margin-left: 10px;
     color: #dbdbdb;
     opacity: 1;
-    transition: color .5s;
+    transition: color 1s;
     outline: 0;
 }
 
@@ -489,7 +500,7 @@
 .slider-box-1 .slider-box-1-nav-wrap .slick-current .more{
     opacity: 0;   
     visibility: hidden;
-    transition: opacity .5s;
+    
 }
 
 .nav {

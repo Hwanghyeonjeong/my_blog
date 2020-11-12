@@ -148,6 +148,7 @@
             </div>
             <div class="section six pho">
             <div class="wrap con">
+                <div class="group">
                 <div class="title">
                     <h1>
                         <img src="https://hwanghyeonjeong.github.io/img1/pf/baemin/txt-slogan@2x.png" alt="">
@@ -192,6 +193,7 @@
 							<a href="mailto:help@woowahan.com">대표메일 : help@woowahan.com</a>
 						</span>
                     </p>
+                </div>
                 </div>
 </div>
 </div>

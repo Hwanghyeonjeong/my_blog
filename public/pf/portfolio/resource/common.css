@@ -338,17 +338,18 @@ label[for] {
 .top-bar{
     height: 200px;
     padding: 0 10%;
+    
 }
 
-.top-bar .logo > img{
+.top-bar .logo  img{
     width: 50px;
     position: absolute;
 }
-.top-bar .logo > img:last-child{
+.top-bar .logo  img:last-child{
   display: none;
 }
 
-.top-bar .logo:hover > img:last-child{
+.top-bar .logo:hover  img:last-child{
   display: block;
 }
 

@@ -27,6 +27,12 @@ include "./head_body.php"
     </div>
 </div>
 
+<div class="btn">
+    <a href="./portfolio.php">Web</a>
+    /
+    <a href="./design.php">Design</a>
+</div>
+
 <div class="slider-box-1">
     <div class="slick-counter">
         <span>1</span> / <span>7</span>
@@ -49,9 +55,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+             
             </div>
             <div data-no="2">
                 <div class="sub">Imitation</div>
@@ -69,9 +73,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+               
             </div>
             <div data-no="3">
                 <div class="sub">Redesign</div>
@@ -89,9 +91,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+               
             </div>
             <div data-no="4">
                 <div class="sub">Imitation</div>
@@ -109,9 +109,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+              
             </div>
             <div data-no="5">
                 <div class="sub">Imitation</div>
@@ -129,14 +127,12 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+             
             </div>
             <div data-no="6">
                 <div class="sub">Imitation</div>
                 <div class="title">
-                    <span>PUBG</span>
+                    <span>PCS</span>
                 </div>
                 <ul class="color color-6 flex">
                     <div class="txt">Color</div>
@@ -149,9 +145,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
+              
             </div>
             <div data-no="7">
                 <div class="sub">Imitation</div>
@@ -169,6 +163,7 @@ include "./head_body.php"
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+               
               
             </div>
         </div>
@@ -181,20 +176,14 @@ include "./head_body.php"
 
     <div class="slider-box-1-main-wrap">
         <div class="slider-box-1-main">
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" data-no="1">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);" data-no="2">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);" data-no="3">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);" data-no="4">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" data-no="5">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" data-no="6">
-            </div>
-            <div class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" data-no="7">
-            </div>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" href="https://blog.hyeonjeong.site/pf/aquarium/" data-no="1"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);" href="https://blog.hyeonjeong.site/pf/baemin/" data-no="2"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);" href="https://blog.hyeonjeong.site/pf/page/" data-no="3"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);" href="https://blog.hyeonjeong.site/pf/subway/" data-no="4"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" href="https://blog.hyeonjeong.site/pf/kakao/" data-no="5"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" href="https://blog.hyeonjeong.site/pf/pcs/"data-no="6"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" href="https://blog.hyeonjeong.site/pf/mu/" data-no="7"></a>
+            
         </div>
     </div>
 </div>
