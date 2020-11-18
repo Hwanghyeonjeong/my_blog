@@ -50,7 +50,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -68,7 +68,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -86,7 +86,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -104,7 +104,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -122,7 +122,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/subway/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/subway/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -140,7 +140,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/kakao/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/kakao/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -158,7 +158,7 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/pcs/">
+                <a class="more flex" href="https://blog.hyeonjeong.site/pf/pcs/" target="_blank">
                     <li class="txt">View more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
@@ -176,13 +176,13 @@ include "./head_body.php"
 
     <div class="slider-box-1-main-wrap">
         <div class="slider-box-1-main">
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" href="https://blog.hyeonjeong.site/pf/aquarium/" data-no="1"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);" href="https://blog.hyeonjeong.site/pf/baemin/" data-no="2"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);" href="https://blog.hyeonjeong.site/pf/page/" data-no="3"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);" href="https://blog.hyeonjeong.site/pf/subway/" data-no="4"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" href="https://blog.hyeonjeong.site/pf/kakao/" data-no="5"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" href="https://blog.hyeonjeong.site/pf/pcs/"data-no="6"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" href="https://blog.hyeonjeong.site/pf/mu/" data-no="7"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png);" href="https://blog.hyeonjeong.site/pf/aquarium/" target="_blank" data-no="1"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/2.png);" href="https://blog.hyeonjeong.site/pf/baemin/" target="_blank" data-no="2"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/3.png);" href="https://blog.hyeonjeong.site/pf/page/" target="_blank" data-no="3"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/4.png);" href="https://blog.hyeonjeong.site/pf/subway/" target="_blank" data-no="4"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" href="https://blog.hyeonjeong.site/pf/kakao/" target="_blank" data-no="5"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" href="https://blog.hyeonjeong.site/pf/pcs/" target="_blank" data-no="6"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" href="https://blog.hyeonjeong.site/pf/mu/" target="_blank" data-no="7"></a>
             
         </div>
     </div>

@@ -342,7 +342,7 @@ label[for] {
 }
 
 .top-bar .logo  img{
-    width: 120px;
+    width: 150px;
     position: absolute;
     transform: translateY(-50%);
 }
@@ -362,17 +362,17 @@ label[for] {
 }
 
 .top-bar > .menu > ul > li:nth-child(1):hover > a{
-  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/home3.png");
+  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/home1.png");
 }
 
 .top-bar > .menu > ul > li:nth-child(2):hover > a{
-  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/about5.png");
+  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/about1.png");
 }
 .top-bar > .menu > ul > li:nth-child(3):hover > a{
-  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/port3.png");
+  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/port5.png");
 }
 .top-bar > .menu > ul > li:nth-child(4):hover > a{
-  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/contact5.png");
+  background-image: url("https://hwanghyeonjeong.github.io/img1/pf/portfolio/contact1.png");
 }
 
 
