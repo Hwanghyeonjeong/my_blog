@@ -342,16 +342,11 @@ label[for] {
 }
 
 .top-bar .logo  img{
-    width: 50px;
+    width: 120px;
     position: absolute;
-}
-.top-bar .logo  img:last-child{
-  display: none;
+    transform: translateY(-50%);
 }
 
-.top-bar .logo:hover  img:last-child{
-  display: block;
-}
 
 .top-bar > .menu > ul > li{
     margin:0 30px;
