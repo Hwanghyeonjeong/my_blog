@@ -14,7 +14,7 @@ include "./head_body.php"
 ?>
 <!-- 여기부터 작성하시면 됩니다. -->
 <div class="back">
-<img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/meme.png?" alt="">
+<img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/mememe.png?" alt="">
 </div>
 <div class="profile con">
     <div class="title">

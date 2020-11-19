@@ -2,7 +2,8 @@
 
 <body>
     <div class="top-bar flex">
-        <div class="logo flex-ai-c"><a href="./index.php"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/01.png?" alt=""></a>
+        <div class="logo flex-ai-c"><a href="./index.php"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/01.png?" alt="">
+    <img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/logo.gif" alt=""></a>
     
     </div>
         <div class="menu flex-1-0-0 flex-jc-end">

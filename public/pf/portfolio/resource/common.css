@@ -341,10 +341,20 @@ label[for] {
     
 }
 
+.top-bar .logo:hover img:first-child{
+  display: none;
+}
+.top-bar .logo:hover img:last-child{
+  display: block;
+}
+
 .top-bar .logo  img{
     width: 150px;
     position: absolute;
     transform: translateY(-50%);
+}
+.top-bar .logo  img:last-child{
+  display: none;
 }
 
 

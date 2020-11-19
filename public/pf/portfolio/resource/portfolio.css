@@ -104,6 +104,11 @@
 
 }
 
+.slider-box-1 .slider-box-1-nav:not(.slider-box-1-nav.slick-current):hover .sub{
+    color:#F5DF4D;
+    transition: color .5s;
+}
+
   .slider-box-1 .slider-box-1-nav .title{
       font-size: 3rem;
       font-weight: 600;
@@ -286,7 +291,7 @@
 }
 
 .nav:hover{
-    color: rgb(250, 189, 58);
+    color: rgb(243, 170, 13);
     transition: color .5s;
 }
 
