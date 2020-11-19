@@ -183,7 +183,6 @@ include "./head_body.php"
             <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/5.png);" href="https://blog.hyeonjeong.site/pf/kakao/" target="_blank" data-no="5"></a>
             <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/6.png);" href="https://blog.hyeonjeong.site/pf/pcs/" target="_blank" data-no="6"></a>
             <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/7.png);" href="https://blog.hyeonjeong.site/pf/mu/" target="_blank" data-no="7"></a>
-            
         </div>
     </div>
 </div>

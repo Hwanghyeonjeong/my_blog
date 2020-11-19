@@ -101,6 +101,7 @@
     display: inline-block;
     margin-bottom: 10px;
     transition: background-color 1s;
+
 }
 
   .slider-box-1 .slider-box-1-nav .title{
@@ -285,7 +286,7 @@
 }
 
 .nav:hover{
-    color: red;
+    color: rgb(250, 189, 58);
     transition: color .5s;
 }
 

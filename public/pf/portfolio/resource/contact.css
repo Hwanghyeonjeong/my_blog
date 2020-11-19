@@ -58,12 +58,19 @@ form{
     cursor: pointer;
 }
 
+.submit{
+    
+    position: relative;
+}
+
 .submit img{
     position: absolute;
     width: 100px;
     height: 4px;
     margin-top: 14.5%;
-    margin-left: -59.5%;
+    left: 50%;
+    transform: translateX(-50%);
+    
 }
 
 .number {

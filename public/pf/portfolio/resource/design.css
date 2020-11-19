@@ -38,7 +38,7 @@
 }
 
 .slider-box-1 .slider-box-1-main-wrap {
-  background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/Apple%20iMac.png);
+  background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/Apple-iMac2.png);
   background-size:730px auto;
   background-repeat:no-repeat;
   background-position:center;
@@ -70,14 +70,9 @@
 .slider-box-1-main-wrap .web {
   width: 670px;
   height: 377px;
-  background-position: center 0;
-  transition: background-position 4s;
-}
-
-
-
-.slider-box-1-main-wrap .web:hover {
-  background-position: center 100%;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .slider-box-1 .slider-box-1-nav .slick-current .sub{
@@ -319,6 +314,55 @@
 
 .btn > a{
   cursor: pointer;
+}
+
+.img-box > img {
+  width:100%;
+  display:block;
+}
+
+.btn-toggle {
+  width:100px;
+}
+
+
+.popup1-actived .btn-toggle > div{
+  display:block;
+}
+
+
+.popup1 {
+  position:fixed;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+  background-color:rgba(0,0,0,0.6);
+  visibility:hidden;
+  opacity:0;
+  transition: visibility 0.3s, opacity 0.3s;
+  z-index:10;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.popup1-actived .popup1 {
+  visibility:visible;
+  opacity:1;
+}
+
+.popup1 > .box {
+  width:300px;
+  height:300px;
+  background-color:white;
+  border-radius:10px;
+  transform:translateY(-100vh); .3s;
+  transition:transform .3s 0s;
+}
+.popup1-actived .popup1 > .box {
+  transform:translateY(0);
+  transition:transform .3s .4s;
 }
 
 
