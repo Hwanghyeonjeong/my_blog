@@ -50,11 +50,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                    기존의 대전아쿠아리움 홈페이지보다 다채로운 색의 활용, 여러 사진 활용, 다양한 효과로 시각적 재미를 주었고 풀페이지로 기본정보들을 나누어 한 눈에 볼 수 있게 제작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+               
              
             </div>
             <div data-no="2">
@@ -68,8 +72,12 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+               
+                <div class="info">
+                    기존의 배달의 민족 홈페이지와 같이 반응형 풀페이지와 다양한 효과를 적용시켜 모작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
@@ -86,11 +94,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                기존의 카카오페이지 홈페이지와는 다르게 흰색을 바탕으로하여 안의 내용들에 더욱 집중할 수 있도록 하였고 상단 메뉴바에 메뉴들 사이의 간격을 넓히고 하단 footer에 메뉴들을 재배치하여 여유로워 보이는 홈페이지로 리디자인하여 제작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+               
                
             </div>
             <div data-no="4">
@@ -104,11 +116,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                기존의 서브웨이 홈페이지와 같이 메뉴 슬라이더와 hover시 이미지의 변화효과, 탭박스를 사용하여 모작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+              
               
             </div>
             <div data-no="5">
@@ -122,11 +138,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                기존의 카카오뱅크 홈페이지와 같이 보여질 때 움직이는 이미지들과 별빛효과, 카드의 슬라이더를 적용시켜 모작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/subway/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+               
              
             </div>
             <div data-no="6">
@@ -140,11 +160,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                기존의 PCS 홈페이지와 같이 메인페이지의 베너 슬라이더와 hover시 효과를 적용하여 모작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/kakao/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>
+              
               
             </div>
             <div data-no="7">
@@ -158,8 +182,11 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
+                <div class="info">
+                기존의 경기도 박물관 홈페이지와 같이 한장씩 넘어가는 슬라이더와 hover시 효과를 적용시켜 모작하였습니다.
+                </div>
                 <a class="more flex" href="https://blog.hyeonjeong.site/pf/pcs/" target="_blank">
-                    <li class="txt">View more</li>
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
                 </a>

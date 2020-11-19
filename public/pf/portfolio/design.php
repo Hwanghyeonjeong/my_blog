@@ -50,18 +50,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/mu/">
-                    <li class="txt">View more</li>
-                    <i class="fas fa-plus"></i>
-                    <div class="circle"></div>
-                </a>
                 <div class="info">
                     기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
                 </div>
- 
-                <div class="btn-toggle img-box">
-  <div>view more</div>
-</div>
+
+                <div class="btn-toggle img-box more flex">
+                    <div class="txt">view more</div>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </div>
             </div>
             <div data-no="2">
                 <div class="sub">Redesign</div>
@@ -74,17 +71,14 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/aquarium/">
-                    <li class="txt">View more</li>
-                    <i class="fas fa-plus"></i>
-                    <div class="circle"></div>
-                </a>
                 <div class="info">
                     인구감소에 대한 인포그래픽을 일러스트로 제작하였습니다.
                 </div>
-                <div class="btn-toggle img-box">
-  <div>view more</div>
-</div>
+                <div class="btn-toggle img-box more flex">
+                    <div class="txt">view more</div>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </div>
             </div>
             <div data-no="3">
                 <div class="sub">Redesign</div>
@@ -97,17 +91,14 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/baemin/">
-                    <li class="txt">View more</li>
-                    <i class="fas fa-plus"></i>
-                    <div class="circle"></div>
-                </a>
                 <div class="info">
                     손소독의 배너를 일러스트를 사용하여 제작하였습니다.
                 </div>
-                <div class="btn-toggle img-box">
-  <div>view more</div>
-</div>
+                <div class="btn-toggle img-box more flex">
+                    <div class="txt">view more</div>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </div>
             </div>
             <div data-no="4">
                 <div class="sub">Imitation</div>
@@ -120,17 +111,15 @@ include "./head_body.php"
                     <li></li>
                     <li></li>
                 </ul>
-                <a class="more flex" href="https://blog.hyeonjeong.site/pf/page/">
-                    <li class="txt">View more</li>
-                    <i class="fas fa-plus"></i>
-                    <div class="circle"></div>
-                </a>
+             
                 <div class="info">
                     기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
                 </div>
-                <div class="btn-toggle img-box">
-  <div>view more</div>
-</div>
+                <div class="btn-toggle img-box more flex">
+                    <div class="txt">view more</div>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </div>
             </div>
           
         </div>

@@ -36,6 +36,9 @@
   position:relative;
   overflow:hidden;
 }
+.slick-track{
+  height: 400px;
+}
 
 .slider-box-1 .slider-box-1-main-wrap {
   background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/Apple-iMac2.png);
@@ -160,23 +163,29 @@
 }
 
 .slider-box-1-nav .color-2 >li:nth-of-type(1){
-  background-color: #2AC1BC;
+  background-color: #71f1a7;
 }
 
 .slider-box-1-nav .color-2 >li:nth-of-type(2){
-  background-color: #4A4543;
+  background-color: #3d4099;
 }
 
 .slider-box-1-nav .color-2 >li:nth-of-type(3){
-  background-color: #333333;
+  background-color: #ffd1ed;
+}
+
+.slider-box-1-nav .color-2 >li:nth-of-type(4){
+  background-color: #f7f7f7;
 }
 
 .slider-box-1-nav .color-3 >li:nth-of-type(1){
-  background-color: #FEE200;
+  background-color: #2ac2e7;
 }
-
 .slider-box-1-nav .color-3 >li:nth-of-type(2){
-  background-color: #787878;
+  background-color: #f0f0f0;
+}
+.slider-box-1-nav .color-3 >li:nth-of-type(3){
+  background-color: #000000;
 }
 
 .slider-box-1-nav .color-4 >li:nth-of-type(1){
@@ -231,18 +240,24 @@
 }
 
 .slider-box-1-nav .more{
-  margin-top: 10%;
+  position: relative;
+  top: 25%;
   font-weight: 500;
-  font-size: 19px;
-  margin-left: 10px;
+  font-size: 1.8rem;
+  left: 10px;
   color: #dbdbdb;
   opacity: 1;
-  transition: color .5s;
+  transition: color .3s;
   outline: 0;
 }
 
+.slider-box-1-nav .more .txt{
+  margin-top:-5px;
+}
+
+
 .slider-box-1-nav .more:hover{
-  color: black;
+  color: #F5DF4D;
   transition: color .5s;
 }
 
@@ -269,6 +284,7 @@
   opacity: 0;   
   visibility: hidden;
   transition: opacity .5s;
+  
 }
 
 .nav {
@@ -278,6 +294,12 @@
   font-size: 2rem;
   color:#bdbdbd;
   cursor: pointer;
+  transition: color .3s;
+}
+
+.nav:hover{
+  color: #F5DF4D;
+  transition: color .5s;
 }
 
 .nav > .next{
@@ -285,7 +307,8 @@
 }
 
 .info{
-  margin-top: -8%;
+  position: relative;
+  margin-top: 5%;
   width: 340px;
   font-size: 12px;
   font-weight: 700;
@@ -319,10 +342,6 @@
 .img-box > img {
   width:100%;
   display:block;
-}
-
-.btn-toggle {
-  width:100px;
 }
 
 
@@ -360,6 +379,7 @@
   transform:translateY(-100vh); .3s;
   transition:transform .3s 0s;
 }
+
 .popup1-actived .popup1 > .box {
   transform:translateY(0);
   transition:transform .3s .4s;

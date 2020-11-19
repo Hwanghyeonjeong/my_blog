@@ -58,6 +58,7 @@
   
   .slider-box-1 .slider-box-1-nav-wrap > .slider-box-1-nav {
     width:3500px;
+    height: 400px;
     position:absolute;
     top:200px;
     left:calc(50% - 1900px);
@@ -65,6 +66,9 @@
   }
   .slider-box-1-main-wrap{
       overflow: hidden;
+  }
+  .slick-track{
+      height: 400px;
   }
   .slider-box-1-main-wrap .web {
     width: 670px;
@@ -104,10 +108,7 @@
 
 }
 
-.slider-box-1 .slider-box-1-nav:not(.slider-box-1-nav.slick-current):hover .sub{
-    color:#F5DF4D;
-    transition: color .5s;
-}
+
 
   .slider-box-1 .slider-box-1-nav .title{
       font-size: 3rem;
@@ -118,6 +119,7 @@
       color: black;
       transition: color 1s;
   }
+
 
   
   .slider-box-1 .slider-box-1-nav-wrap .color{
@@ -239,18 +241,24 @@
 }
 
 .slider-box-1-nav .more{
-    margin-top: 10%;
+    position: relative;
+    top: 15%;
     font-weight: 500;
-    font-size: 19px;
-    margin-left: 10px;
+    font-size: 1.8rem;
+    left: 10px;
     color: #dbdbdb;
     opacity: 1;
-    transition: color .5s;
+    transition: color .3s;
     outline: 0;
 }
 
+.slider-box-1-nav .more .txt{
+    margin-top:-5px;
+}
+
+
 .slider-box-1-nav .more:hover{
-    color: black;
+    color: #F5DF4D;
     transition: color .5s;
 }
 
@@ -291,7 +299,7 @@
 }
 
 .nav:hover{
-    color: rgb(243, 170, 13);
+    color: #F5DF4D;
     transition: color .5s;
 }
 
@@ -300,7 +308,8 @@
 }
 
 .info{
-    margin-top: -8%;
+    position: relative;
+    margin-top: 5%;
     width: 340px;
     font-size: 12px;
     font-weight: 700;
