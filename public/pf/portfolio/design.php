@@ -39,7 +39,28 @@ include "./head_body.php"
     </div>
     <div class="slider-box-1-nav-wrap">
         <div class="slider-box-1-nav">
-            <div data-no="1">
+        <div data-no="1">
+                <div class="sub">Creative</div>
+                <div class="title">
+                    <span>My Portfolio</span>
+                </div>
+                <ul class="color color-4 flex">
+                    <div class="txt">Color</div>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </ul>
+             
+                <div class="info">
+                    직접 쓴 듯한 다이어리 느낌으로 손으로 하나하나 만든 듯한 느낌을 주고 포인트 컬러를 주어 심심하지 않은 포트폴리오를 제작하였습니다.
+                </div>
+                <a class="more flex" href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/2.jpg" target="_blank">
+                    <li class="txt">view more</li>
+                    <i class="fas fa-plus"></i>
+                    <div class="circle"></div>
+                </a>
+            </div>
+            <div data-no="2">
                 <div class="sub">Creative</div>
                 <div class="title">
                     <span>대전아쿠아리움</span>
@@ -54,13 +75,13 @@ include "./head_body.php"
                     기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
                 </div>
 
-                <div class="btn-toggle img-box more flex">
-                    <div class="txt">view more</div>
+                <a class="more flex" href="https://hwanghyeonjeong.github.io/img1/pf/portfolio/portfolio.png?dummy_123" target="_blank">
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </div>
+                </a>
             </div>
-            <div data-no="2">
+            <div data-no="3">
                 <div class="sub">Redesign</div>
                 <div class="title">
                     <span>인구감소</span>
@@ -74,13 +95,13 @@ include "./head_body.php"
                 <div class="info">
                     인구감소에 대한 인포그래픽을 일러스트로 제작하였습니다.
                 </div>
-                <div class="btn-toggle img-box more flex">
-                    <div class="txt">view more</div>
+                <a class="more flex" href="https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png" target="_blank">
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </div>
+                </a>
             </div>
-            <div data-no="3">
+            <div data-no="4">
                 <div class="sub">Redesign</div>
                 <div class="title">
                     <span>손소독</span>
@@ -94,33 +115,13 @@ include "./head_body.php"
                 <div class="info">
                     손소독의 배너를 일러스트를 사용하여 제작하였습니다.
                 </div>
-                <div class="btn-toggle img-box more flex">
-                    <div class="txt">view more</div>
+                <a class="more flex" href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/1.jpg" target="_blank">
+                    <li class="txt">view more</li>
                     <i class="fas fa-plus"></i>
                     <div class="circle"></div>
-                </div>
+                </a>
             </div>
-            <div data-no="4">
-                <div class="sub">Imitation</div>
-                <div class="title">
-                    <span>서브웨이</span>
-                </div>
-                <ul class="color color-4 flex">
-                    <div class="txt">Color</div>
-                    <li></li>
-                    <li></li>
-                    <li></li>
-                </ul>
-             
-                <div class="info">
-                    기존의 대전아쿠아리움 페이지에서 더욱 아쿠아리움의 느낌을 살릴 수 있도록 색과 이미지를 사용하여 제작했습니다. 
-                </div>
-                <div class="btn-toggle img-box more flex">
-                    <div class="txt">view more</div>
-                    <i class="fas fa-plus"></i>
-                    <div class="circle"></div>
-                </div>
-            </div>
+           
           
         </div>
     </div>
@@ -132,30 +133,13 @@ include "./head_body.php"
 
     <div class="slider-box-1-main-wrap">
         <div class="slider-box-1-main">
-        <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/12.png?);" href="https://blog.hyeonjeong.site/pf/aquarium/" data-no="1"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/11.png?);" href="https://blog.hyeonjeong.site/pf/baemin/" data-no="2"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/10.png);" href="https://blog.hyeonjeong.site/pf/page/" data-no="3"></a>
-            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/8.jpg);" href="https://blog.hyeonjeong.site/pf/subway/" data-no="4"></a>
+        <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/portfolio/portfolio2.png);" href="https://hwanghyeonjeong.github.io/img1/pf/portfolio/portfolio.png?dummy_123" target="_blank" data-no="1"></a>
+        <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/12.png?);" href="https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png" target="_blank" data-no="2"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/11.png?);" href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/1.jpg" target="_blank" data-no="3"></a>
+            <a class="web" style="background-image:url(https://hwanghyeonjeong.github.io/img1/pf/artworks/1/10.png);" href="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/2.jpg" target="_blank" data-no="4"></a>
+           
           
         </div>
     </div>
 </div>
 
-
-
-
-<div class="popup1">
-  <div class="box"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png" alt=""></div>
-</div>
-
-<div class="popup1">
-  <div class="box"><img src="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/1.jpg" alt=""></div>
-</div>
-
-<div class="popup1">
-  <div class="box"><img src="https://hwanghyeonjeong.github.io/img1/pf/artworks/1/2.jpg" alt=""></div>
-</div>
-
-<div class="popup1">
-  <div class="box"><img src="https://hwanghyeonjeong.github.io/img1/pf/portfolio/1.png" alt=""></div>
-</div>

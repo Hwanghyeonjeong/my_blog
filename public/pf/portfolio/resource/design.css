@@ -189,55 +189,20 @@
 }
 
 .slider-box-1-nav .color-4 >li:nth-of-type(1){
-  background-color: #009223;
+  background-color: #000000;
 }
 
 .slider-box-1-nav .color-4 >li:nth-of-type(2){
-  background-color: #FFCE32;
+  background-color: #dbdbdb;
 }
 
 .slider-box-1-nav .color-4 >li:nth-of-type(3){
-  background-color: #01A5E2;
+  background-color: #F5DF4D;
 }
 
-.slider-box-1-nav .color-5 >li:nth-of-type(1){
-  background-color: #FFDC00;
-}
 
-.slider-box-1-nav .color-5 >li:nth-of-type(2){
-  background-color: #444859;
-}
 
-.slider-box-1-nav .color-5 >li:nth-of-type(3){
-  background-color: #989898;
-}
 
-.slider-box-1-nav .color-6 >li:nth-of-type(1){
-  background-color: #DF0024;
-}
-.slider-box-1-nav .color-6 >li:nth-of-type(2){
-  background-color: #0085C7;
-}
-
-.slider-box-1-nav .color-6 >li:nth-of-type(3){
-  background-color: #0DA447;
-}
-
-.slider-box-1-nav .color-6 >li:nth-of-type(4){
-  background-color: #F4C300;
-}
-
-.slider-box-1-nav .color-6 >li:nth-of-type(5){
-  background-color: #191D22;  
-}
-
-.slider-box-1-nav .color-7 >li:nth-of-type(1){
-  background-color: #1F5153;
-}
-
-.slider-box-1-nav .color-7 >li:nth-of-type(2){
-  background-color: #303233;
-}
 
 .slider-box-1-nav .more{
   position: relative;
@@ -330,59 +295,13 @@
 
 .btn{
   position: absolute;
-  font-size: 1.7rem;
-  left: 10%;
+  top: 26%;
+  font-size: 2rem;
+  left: 13%;
   z-index: 5;
 }
 
 .btn > a{
   cursor: pointer;
 }
-
-.img-box > img {
-  width:100%;
-  display:block;
-}
-
-
-.popup1-actived .btn-toggle > div{
-  display:block;
-}
-
-
-.popup1 {
-  position:fixed;
-  top:0;
-  left:0;
-  width:100%;
-  height:100%;
-  background-color:rgba(0,0,0,0.6);
-  visibility:hidden;
-  opacity:0;
-  transition: visibility 0.3s, opacity 0.3s;
-  z-index:10;
-  display:flex;
-  justify-content:center;
-  align-items:center;
-}
-
-.popup1-actived .popup1 {
-  visibility:visible;
-  opacity:1;
-}
-
-.popup1 > .box {
-  width:300px;
-  height:300px;
-  background-color:white;
-  border-radius:10px;
-  transform:translateY(-100vh); .3s;
-  transition:transform .3s 0s;
-}
-
-.popup1-actived .popup1 > .box {
-  transform:translateY(0);
-  transition:transform .3s .4s;
-}
-
 
